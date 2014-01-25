@@ -304,14 +304,14 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
