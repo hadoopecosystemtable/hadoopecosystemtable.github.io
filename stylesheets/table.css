@@ -1,1 +1,15 @@
-a
+table.example3 {background-color:transparent;
+                border-collapse:collapse;
+                width:100%;}
+
+table.example3 th, table.example3 td {border:1px solid black;
+                                      padding:5px;
+                                      vertical-align:text-top;}
+                                                       
+table.example3 th {background-color:#0033FF;
+                            color:white; 
+                            font-weight:bold;
+                            text-transform:capitalize;}
+                            
+table.example3 td:first-child {width:20%;
+                               font-weight:bold;}
