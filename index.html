@@ -107,6 +107,11 @@ the parallel file system used by many of the world's fastest supercomputers</td>
 <br><a href="http://wiki.lustre.org/index.php/Running_Hadoop_with_Lustre">2. Hadoop with Lustre</a>
 <br><a href="http://hadoop.intel.com/products/distribution">3. Intel HPC Hadoop</a></td>
 </tr>
+<tr>
+<td width="30%">Tachyon</td>
+<td>Tachyon is an memory distributed file system. By storing the file-system contents in the main memory of all cluster nodes, the system achieves higher throughput than traditional disk-based storage systems like HDFS.</td>
+<td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
+</tr>
 
 <tr>
 <th colspan="3">Distributed Programming</th>
@@ -142,6 +147,15 @@ To make programming faster, Spark provides clean, concise APIs in Scala, Java an
 <td width="20%"><a href="http://spark.incubator.apache.org/">1. Apache Incubator Spark</a></td>
 </tr>
 <tr>
+<td width="20%">Stratosphere</td>
+<td>Stratosphere is a general purpose cluster computing framework. It is compatible to the Hadoop ecosystem: Stratosphere can access data stored in HDFS and runs with Hadoop's new cluster manager YARN. The common input formats of Hadoop are supported as well.
+Stratosphere does not use Hadoop's MapReduce implementation: it is a completely new system that brings its own runtime. The new runtime allows to define more advanced operations that include more transformations than just map and reduce. Additionally, Stratosphere allows to express analysis jobs using advanced data flow graphs, which are able to resemble common data analysis task more naturally.<br> 
+Users can program their analysis programs using a Scala and a Java programming interfaces. Graph processing can be done using its Giraph-inspired graph processing abstraction. Stratosphere is available under the Apache 2.0 License and is being developed actively by an open-source community. <br>
+Some of the more advanced features are its optimizer that chooses the optimal execution strategy behind the scenes. Tasks that need to go over the data multiple times can use a feature called "Iterations". It allows to express machine learning or graph processing algorithms more naturally within the system and achieve higher performance.
+</td>
+<td width="20%"><a href="http://stratosphere.eu/">1. Stratosphere site</a></td>
+</tr>
+<tr>
 <td width="20%">Netflix PigPen</td>
 <td>PigPen is map-reduce for Clojure whiche compiles to Apache Pig. Clojure is dialect of the Lisp programming language created by Rich Hickey, so is a functional general-purpose language, and runs on the Java Virtual Machine, Common Language Runtime, and JavaScript engines. In PigPen there are no special user defined functions (UDFs). Define Clojure functions, anonymously or named, and use them like you would in any Clojure program. This tool is open sourced by Netflix, Inc. the American provider of on-demand Internet streaming media.</td>
 <td width="20%"><a href="https://github.com/Netflix/PigPen">1. PigPen on GitHub</a></td>
@@ -172,7 +186,7 @@ Twill functions as a scaled-out proxy. Twill is a middleware layer in between YA
 <tr>
 <td width="20%">Apache Hama</td>
 <td>Apache Top-Level open source project, allowing you to do advanced analytics beyond MapReduce. Many data analysis techniques such as machine learning and graph algorithms require iterative computations, this is where Bulk Synchronous Parallel model can be more effective than "plain" MapReduce.</td>
-<td width="20%">TODO</td>
+<td width="20%"><a href="http://hama.apache.org/">1. Hama site</a></td>
 </tr>
 <tr>
 <td width="20%">Datasalt Pangool</td>
@@ -229,7 +243,7 @@ Pipes and the C libhdfs APIs, that allows to write full-fledged  MapReduce appli
 <tr>
 <td width="20%">MongoDB</td>
 <td>Document-oriented database system. It is part of the NoSQL family of database systems. Instead of storing data in tables as is done in a "classical" relational database, MongoDB stores structured data as JSON-like documents</td>
-<td width="20%">TODO</td>
+<td width="20%"><a href="http://www.mongodb.org/">1. Mongodb site</a></td>
 </tr>
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Key-value Data Model</th>
