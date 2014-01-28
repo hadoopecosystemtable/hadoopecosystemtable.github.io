@@ -16,7 +16,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-
+          <a id="forkme_banner" href="https://github.com/hadoopecosystemtable/hadoopecosystemtable.github.io">Fork Me on GitHub</a>
           <h1 id="project_title">The Hadoop Ecosystem Table</h1>
           <h2 id="project_tagline">This page is a summary to keep the track of Hadoop related projects, focused on FLOSS environment.</h2>
 
@@ -112,7 +112,11 @@ the parallel file system used by many of the world's fastest supercomputers</td>
 <td>Tachyon is an memory distributed file system. By storing the file-system contents in the main memory of all cluster nodes, the system achieves higher throughput than traditional disk-based storage systems like HDFS.</td>
 <td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
 </tr>
-
+<tr>
+<td width="30%">Ori</td>
+<td>Ori is a distributed secure peer-to-peer file system built for offline operation and empowers the user with control over synchronization operations and conflict resolution.</td>
+<td width="20%"><a href="http://ori.scs.stanford.edu/">1. Ori site</a>
+</tr>
 <tr>
 <th colspan="3">Distributed Programming</th>
 </tr>
@@ -246,6 +250,11 @@ Pipes and the C libhdfs APIs, that allows to write full-fledged  MapReduce appli
 <td width="20%"><a href="http://www.mongodb.org/">1. Mongodb site</a></td>
 </tr>
 <tr>
+<td width="20%">RethinkDB</td>
+<td>RethinkDB is built to store JSON documents, and scale to multiple machines with very little effort. It has a pleasant query language that supports really useful queries like table joins and group by, and is easy to setup and learn.</td>
+<td width="20%"><a href="http://www.rethinkdb.com/">1. RethinkDB site</a></td>
+</tr>
+<tr>
 <th colspan="3" style="background-color:#0099FF;">Key-value Data Model</th>
 </tr>
 <tr>
@@ -258,6 +267,11 @@ In its outer layer, the Redis data model is a dictionary which maps keys to valu
 <td width="20%">Linkedin Voldemort</td>
 <td>Distributed data store that is designed as a key-value store used by LinkedIn for high-scalability storage.</td>
 <td width="20%">TODO</td>
+</tr>
+<tr>
+<td width="20%">RocksDB</td>
+<td>RocksDB is an embeddable persistent key-value store for fast storage. RocksDB can also be the foundation for a client-server database but our current focus is on embedded workloads.</td>
+<td width="20%"><a href="http://rocksdb.org/">1. RocksDB site</a></td>
 </tr>
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Graph Data Model</th>
@@ -292,7 +306,26 @@ HandlerSocket can be much faster than mysqld/libmysql in some cases because it h
 <td>Haeinsa is linearly scalable multi-row, multi-table transaction library for HBase. Use Haeinsa if you need strong ACID semantics on your HBase cluster. Is based on Google Perlocator concept.</td>
 <td width="20%">TODO</td>
 </tr>
-
+<tr>
+<td width="20%">SenseiDB</td>
+<td>Open-source, distributed, realtime, semi-structured database. Some Features: Full-text search, Fast realtime updates, Structured and faceted search, BQL: SQL-like query language, Fast key-value lookup, High performance under concurrent heavy update and query volumes, Hadoop integration</td>
+<td width="20%"><a href="http://senseidb.com/">1. SenseiDB site</a></td>
+</tr>
+<tr>
+<td width="20%">ArangoDB</td>
+<td>An open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient sql-like query language or JavaScript extensions.</td>
+<td width="20%"><a href="https://www.arangodb.org/">1. ArangoDB site</a></td>
+</tr>
+<tr>
+<td width="20%">Sky</td>
+<td>Sky is an open source database used for flexible, high performance analysis of behavioral data. For certain kinds of data such as clickstream data and log data, it can be several orders of magnitude faster than traditional approaches such as SQL databases or Hadoop.</td>
+<td width="20%"><a href="http://skydb.io/">1. SkyDB site</a></td>
+</tr>
+<tr>
+<td width="20%">BayesDB</td>
+<td>BayesDB, a Bayesian database table, lets users query the probable implications of their tabular data as easily as an SQL database lets them query the data itself. Using the built-in Bayesian Query Language (BQL), users with no statistics training can solve basic data science problems, such as detecting predictive relationships between variables, inferring missing values, simulating probable observations, and identifying statistically similar database entries.</td>
+<td width="20%"><a href="http://probcomp.csail.mit.edu/bayesdb/index.html">1. BayesDB site</a></td>
+</tr>
 <tr>
 <th colspan="3">SQL-on-Hadoop</th>
 </tr>
@@ -331,7 +364,11 @@ HandlerSocket can be much faster than mysqld/libmysql in some cases because it h
 <td>Splout allows serving an arbitrarily big dataset with high QPS rates and at the same time provides full SQL query syntax.</td>
 <td width="20%">TODO</td>
 </tr>
-
+<tr>
+<td width="20%">Tajo</td>
+<td>Tajo is a distributed data warehouse system on Hadoop that provides low-latency and scalable ad-hoc queries and ETL on large-data sets stored on HDFS and other data sources.</td>
+<td width="20%"><a href="http://tajo.incubator.apache.org/">1. Tajo site</a></td>
+</tr>
 <tr>
 <th colspan="3">Data Ingestion</th>
 </tr>
