@@ -30,17 +30,19 @@
     
 <!-- THE TABLE -->
 <table class="example3">
-<% @categories.each do |category| %>
+<% categories.each do |category| %>
   <tr><th colspan="3"><%= category["name"] %></th></tr>
-  <% category["items"].each do |item| %>
-  <tr>
-    <td width="20%"><%= item["name"] %></td>
-    <td><%= item["description"] %></td>
-    <td width="20%">
-    <% item["links"].each_with_index do |link, index| %>
-      <a href="<%= link["url"] %>"><%= index + 1 %>. <%= link["text"] %></a><br>
+  <% unless category["items"].nil? %>
+    <% category["items"].each do |item| %>
+    <tr>
+      <td width="20%"><%= item["name"] %></td>
+      <td><%= item["description"] %></td>
+      <td width="20%">
+      <% item["links"].each_with_index do |link, index| %>
+        <a href="<%= link["url"] %>"><%= index + 1 %>. <%= link["text"] %></a><br>
+      <% end %>
+    </tr>
     <% end %>
-  </tr>
   <% end %>
 <% end %>
 </table>

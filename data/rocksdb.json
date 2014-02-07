@@ -1,0 +1,1 @@
+{"name":"RocksDB","description":"RocksDB is an embeddable persistent key-value store for fast storage. RocksDB can also be the foundation for a client-server database but our current focus is on embedded workloads.","abstract":"","category":"Key-value Data Model","tags":[],"links":[{"text":"RocksDB site","url":"http://rocksdb.org/"}]}

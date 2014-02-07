@@ -1,9 +1,7 @@
 require 'erb'
 require 'json'
 require "maruku"
-
-# load template
-erb = ERB.new(File.read("templates/table.html"))
+require "pp"
 
 # load ordered category list
 table_config = JSON.parse(File.read("config/table.json"))
@@ -25,10 +23,10 @@ Dir.glob('data/*.json').sort.each do |file|
 end
 
 # create table content
-@categories = []
+categories = []
 table_config["categories"].each do |c|
-	@categories << {"name" => c, "items" => data_grouped_by_category[c]}
+	categories << {"name" => c, "items" => data_grouped_by_category[c]}
 end
 
 # write result
-File.open("table.html", 'w') { |file| file.write(erb.result) } 
+File.open("table.html", 'w') { |file| file.write(ERB.new(File.read("templates/table.html")).result(binding)) } 
