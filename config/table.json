@@ -2,7 +2,6 @@
 	"categories": [
 		"Distributed Filesystem",
 		"Distributed Programming",
-		"NoSQL Databases",
 		"Column Data Model",
 		"Document Data Model",
 		"Key-value Data Model",
@@ -16,8 +15,9 @@
 		"Bechmarking",
 		"Security",
 		"System Deployment",
+		"Search engine and framework",
 		"Applications",
 		"Development Frameworks",
-		"Categorize Pending ... "
+		"Uncategorized"
 	]
 }

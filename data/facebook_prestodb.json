@@ -1,0 +1,1 @@
+{"name":"Facebook PrestoDB","description":"Facebook has open sourced Presto, a SQL engine it says is on average 10 times faster than Hive for running queries across large data sets stored in Hadoop and elsewhere.","abstract":"distributed SQL query engine","category":"SQL-on-Hadoop","tags":[],"links":[{"text":"Facebook PrestoDB","url":"http://prestodb.io/"}]}

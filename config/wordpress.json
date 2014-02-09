@@ -1,3 +1,25 @@
 {
-	
+	"categories": [
+		"Distributed Filesystem",
+		"Distributed Programming",
+		"NoSQL Databases",
+		"Column Data Model",
+		"Document Data Model",
+		"Key-value Data Model",
+		"Graph Data Model",
+		"NewSQL Databases",
+		"SQL-on-Hadoop",
+		"Data Ingestion",
+		"Service Programming",
+		"Scheduling",
+		"Machine Learning",
+		"Bechmarking",
+		"Security",
+		"System Deployment",
+		"Applications",
+		"Development Frameworks",
+		"MySQL forks and evolutions",
+		"Search engine and framework",
+		"Uncategorized"
+	]
 }
