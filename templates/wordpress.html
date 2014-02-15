@@ -1,14 +1,14 @@
 <% categories.each do |category| %>
 <strong><%= category["name"] %></strong>
 <ul>
-	<% unless category["items"].nil? %>
-		<% category["items"].each do |item| %>
-			<% if item["link"].any? %>
-				<li><a href="<%= item["link"][0]["url"] rescue "" %>"><strong><%= item["name"] %></strong></a>: <%= item["abstract"] %></li>
-			<% else %>
-				<li><strong><%= item["name"] %></strong>: <%= item["abstract"] %></li>
-			<% end %>
-		<% end %>
-	<% end %>
+<% unless category["items"].nil? %>
+<% category["items"].each do |item| %>
+<% if item["links"].any? %>
+<li><a href="<%= item["links"][0]["url"] %>"><strong><%= item["name"] %></strong></a>: <%= item["abstract"] %></li>
+<% else %>
+<li><strong><%= item["name"] %></strong>: <%= item["abstract"] %></li>
+<% end %>
+<% end %>
+<% end %>
 </ul>
 <% end %>
