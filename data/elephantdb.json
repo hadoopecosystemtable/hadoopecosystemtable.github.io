@@ -1,1 +1,15 @@
-{"name":"ElephantDB","description":"Â Distributed database specialized in exporting data from Hadoop","abstract":"Â Distributed database specialized in exporting data from Hadoop","category":"Uncategorized","tags":[],"links":[{"text":"ElephantDB","url":"https://github.com/nathanmarz/elephantdb"}]}
+{
+  "name": "ElephantDB",
+  "description": "Â Distributed database specialized in exporting data from Hadoop",
+  "abstract": "Â Distributed database specialized in exporting data from Hadoop",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "ElephantDB",
+      "url": "https://github.com/nathanmarz/elephantdb"
+    }
+  ]
+}

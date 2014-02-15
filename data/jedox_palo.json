@@ -1,1 +1,12 @@
-{"name":"Jedox Palo","description":"Palo Suite combines all core applications — OLAP Server, Palo Web, Palo ETL Server and Palo for Excel — into one comprehensive and customisable Business Intelligence platform. The platform is completely based on Open Source products representing a high-end Business Intelligence solution which is available entirely free of any license fees.","abstract":"","category":"Uncategorized","tags":[],"links":[]}
+{
+  "name": "Jedox Palo",
+  "description": "Palo Suite combines all core applications — OLAP Server, Palo Web, Palo ETL Server and Palo for Excel — into one comprehensive and customisable Business Intelligence platform. The platform is completely based on Open Source products representing a high-end Business Intelligence solution which is available entirely free of any license fees.",
+  "abstract": "",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

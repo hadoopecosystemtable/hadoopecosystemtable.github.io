@@ -1,1 +1,12 @@
-{"name":"Apache Nutch","description":"Highly extensible and scalable open source web crawler software project. A search engine based on Lucene: A Web crawler is an Internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing. Web crawlers can copy all the pages they visit for later processing by a search engine that indexes the downloaded pages so that users can search them much more quickly.","abstract":"","category":"Applications","tags":[],"links":[]}
+{
+  "name": "Apache Nutch",
+  "description": "Highly extensible and scalable open source web crawler software project. A search engine based on Lucene: A Web crawler is an Internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing. Web crawlers can copy all the pages they visit for later processing by a search engine that indexes the downloaded pages so that users can search them much more quickly.",
+  "abstract": "",
+  "category": "Applications",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

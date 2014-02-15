@@ -1,1 +1,15 @@
-{"name":"Apache HCatalog","description":"HCatalog’s table abstraction presents users with a relational view of data in the Hadoop Distributed File System (HDFS) and ensures that users need not worry about where or in what format their data is stored. Right now HCatalog is part of Hive. Only old versions are separated for download.","abstract":"table and storage management layer for Hadoop","category":"SQL-on-Hadoop","tags":[],"links":[{"text":"Apache HCatalog","url":"http://hive.apache.org/docs/hcat_r0.5.0/"}]}
+{
+  "name": "Apache HCatalog",
+  "description": "HCatalog’s table abstraction presents users with a relational view of data in the Hadoop Distributed File System (HDFS) and ensures that users need not worry about where or in what format their data is stored. Right now HCatalog is part of Hive. Only old versions are separated for download.",
+  "abstract": "table and storage management layer for Hadoop",
+  "category": "SQL-on-Hadoop",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache HCatalog",
+      "url": "http://hive.apache.org/docs/hcat_r0.5.0/"
+    }
+  ]
+}

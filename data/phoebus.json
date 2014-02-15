@@ -1,1 +1,15 @@
-{"name":"Phoebus","description":"framework for large scale graph processing","abstract":"framework for large scale graph processing","category":"Uncategorized","tags":[],"links":[{"text":"Phoebus","url":"https://github.com/xslogic/phoebus"}]}
+{
+  "name": "Phoebus",
+  "description": "framework for large scale graph processing",
+  "abstract": "framework for large scale graph processing",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Phoebus",
+      "url": "https://github.com/xslogic/phoebus"
+    }
+  ]
+}

@@ -1,1 +1,12 @@
-{"name":"Netflix Suro","description":"Suro has its roots in Apache Chukwa, which was initially adopted by Netflix. Is a log agregattor like Storm, Samza.","abstract":"","category":"Data Ingestion","tags":[],"links":[]}
+{
+  "name": "Netflix Suro",
+  "description": "Suro has its roots in Apache Chukwa, which was initially adopted by Netflix. Is a log agregattor like Storm, Samza.",
+  "abstract": "",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

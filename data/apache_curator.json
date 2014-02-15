@@ -1,1 +1,12 @@
-{"name":"Apache Curator","description":"Curator is a set of Java libraries that make using Apache ZooKeeper much easier.","abstract":"","category":"Service Programming","tags":[],"links":[]}
+{
+  "name": "Apache Curator",
+  "description": "Curator is a set of Java libraries that make using Apache ZooKeeper much easier.",
+  "abstract": "",
+  "category": "Service Programming",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

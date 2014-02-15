@@ -1,1 +1,12 @@
-{"name":"Haeinsa","description":"Haeinsa is linearly scalable multi-row, multi-table transaction library for HBase. Use Haeinsa if you need strong ACID semantics on your HBase cluster. Is based on Google Perlocator concept.","abstract":"","category":"NewSQL Databases","tags":[],"links":[]}
+{
+  "name": "Haeinsa",
+  "description": "Haeinsa is linearly scalable multi-row, multi-table transaction library for HBase. Use Haeinsa if you need strong ACID semantics on your HBase cluster. Is based on Google Perlocator concept.",
+  "abstract": "",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

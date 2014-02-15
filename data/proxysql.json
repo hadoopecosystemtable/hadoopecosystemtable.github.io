@@ -1,1 +1,15 @@
-{"name":"ProxySQL","description":"Â High Performance Proxy for MySQL","abstract":"Â High Performance Proxy for MySQL","category":"MySQL forks and evolutions","tags":[],"links":[{"text":"ProxySQL","url":"https://github.com/renecannao/proxysql"}]}
+{
+  "name": "ProxySQL",
+  "description": "Â High Performance Proxy for MySQL",
+  "abstract": "Â High Performance Proxy for MySQL",
+  "category": "MySQL forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "ProxySQL",
+      "url": "https://github.com/renecannao/proxysql"
+    }
+  ]
+}

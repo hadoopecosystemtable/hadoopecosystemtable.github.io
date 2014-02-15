@@ -1,1 +1,15 @@
-{"name":"Pivotal HAWQ","description":"Â SQL-like data warehouse system forÂ Hadoop","abstract":"Â SQL-like data warehouse system forÂ Hadoop","category":"Uncategorized","tags":[],"links":[{"text":"Pivotal HAWQ","url":"http://www.gopivotal.com/pivotal-products/data/pivotal-hd"}]}
+{
+  "name": "Pivotal HAWQ",
+  "description": "Â SQL-like data warehouse system forÂ Hadoop",
+  "abstract": "Â SQL-like data warehouse system forÂ Hadoop",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Pivotal HAWQ",
+      "url": "http://www.gopivotal.com/pivotal-products/data/pivotal-hd"
+    }
+  ]
+}

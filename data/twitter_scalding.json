@@ -1,1 +1,15 @@
-{"name":"Twitter Scalding","description":"Scala library for Map Reduce jobs, built on Cascading","abstract":"Scala library for Map Reduce jobs, built on Cascading","category":"Uncategorized","tags":[],"links":[{"text":"Twitter Scalding","url":"https://github.com/twitter/scalding"}]}
+{
+  "name": "Twitter Scalding",
+  "description": "Scala library for Map Reduce jobs, built on Cascading",
+  "abstract": "Scala library for Map Reduce jobs, built on Cascading",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Twitter Scalding",
+      "url": "https://github.com/twitter/scalding"
+    }
+  ]
+}

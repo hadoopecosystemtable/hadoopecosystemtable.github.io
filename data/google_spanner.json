@@ -1,1 +1,12 @@
-{"name":"Google Spanner","description":"globally distributed database","abstract":"globally distributed database","category":"Uncategorized","tags":[],"links":[]}
+{
+  "name": "Google Spanner",
+  "description": "globally distributed database",
+  "abstract": "globally distributed database",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

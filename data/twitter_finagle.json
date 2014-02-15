@@ -1,1 +1,12 @@
-{"name":"Twitter Finagle","description":"Finagle is an asynchronous network stack for the JVM that you can use to build asynchronous Remote Procedure Call (RPC) clients and servers in Java, Scala, or any JVM-hosted language.","abstract":"","category":"Uncategorized","tags":[],"links":[]}
+{
+  "name": "Twitter Finagle",
+  "description": "Finagle is an asynchronous network stack for the JVM that you can use to build asynchronous Remote Procedure Call (RPC) clients and servers in Java, Scala, or any JVM-hosted language.",
+  "abstract": "",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

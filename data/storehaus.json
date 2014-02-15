@@ -1,1 +1,15 @@
-{"name":"Storehaus","description":"library to work with asynchronous key value stores, by Twitter","abstract":"library to work with asynchronous key value stores, by Twitter","category":"Uncategorized","tags":[],"links":[{"text":"Storehaus","url":"https://github.com/twitter/storehaus"}]}
+{
+  "name": "Storehaus",
+  "description": "library to work with asynchronous key value stores, by Twitter",
+  "abstract": "library to work with asynchronous key value stores, by Twitter",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Storehaus",
+      "url": "https://github.com/twitter/storehaus"
+    }
+  ]
+}

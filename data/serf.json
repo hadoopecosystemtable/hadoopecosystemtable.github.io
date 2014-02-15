@@ -1,1 +1,15 @@
-{"name":"Serf","description":"Â decentralized solution for service discovery and orchestration","abstract":"Â decentralized solution for service discovery and orchestration","category":"Uncategorized","tags":[],"links":[{"text":"Serf","url":"http://www.serfdom.io/"}]}
+{
+  "name": "Serf",
+  "description": "Â decentralized solution for service discovery and orchestration",
+  "abstract": "Â decentralized solution for service discovery and orchestration",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Serf",
+      "url": "http://www.serfdom.io/"
+    }
+  ]
+}

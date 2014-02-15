@@ -1,1 +1,12 @@
-{"name":"Talend","description":"Talend is an open source software vendor that provides data integration, data management, enterprise application integration and big data software and solutions.","abstract":"","category":"Uncategorized","tags":[],"links":[]}
+{
+  "name": "Talend",
+  "description": "Talend is an open source software vendor that provides data integration, data management, enterprise application integration and big data software and solutions.",
+  "abstract": "",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

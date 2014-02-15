@@ -1,1 +1,15 @@
-{"name":"GraphX","description":"A Resilient Distributed Graph System on Spark","abstract":"A Resilient Distributed Graph System on Spark","category":"Uncategorized","tags":[],"links":[{"text":"GraphX","url":"https://amplab.cs.berkeley.edu/publication/graphx-grades/"}]}
+{
+  "name": "GraphX",
+  "description": "A Resilient Distributed Graph System on Spark",
+  "abstract": "A Resilient Distributed Graph System on Spark",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "GraphX",
+      "url": "https://amplab.cs.berkeley.edu/publication/graphx-grades/"
+    }
+  ]
+}

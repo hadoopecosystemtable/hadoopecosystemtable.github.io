@@ -1,1 +1,12 @@
-{"name":"Google Megastore","description":"scalable, highly available storage","abstract":"scalable, highly available storage","category":"Uncategorized","tags":[],"links":[]}
+{
+  "name": "Google Megastore",
+  "description": "scalable, highly available storage",
+  "abstract": "scalable, highly available storage",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

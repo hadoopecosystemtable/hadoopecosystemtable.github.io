@@ -1,1 +1,12 @@
-{"name":"Brooklyn","description":"brooklyn is a library that simplifies application deployment and management.\nFor deployment, it is designed to tie in with other tools, giving single-click deploy and adding the concepts of manageable clusters and fabrics:\nMany common software entities available out-of-the-box.\nIntegrates with Apache Whirr -- and thereby Chef and Puppet -- to deploy well-known services such as Hadoop and elasticsearch (or use POBS, plain-old-bash-scripts)\nUse PaaS's such as OpenShift, alongside self-built clusters, for maximum flexibility","abstract":"","category":"System Deployment","tags":[],"links":[]}
+{
+  "name": "Brooklyn",
+  "description": "brooklyn is a library that simplifies application deployment and management.\nFor deployment, it is designed to tie in with other tools, giving single-click deploy and adding the concepts of manageable clusters and fabrics:\nMany common software entities available out-of-the-box.\nIntegrates with Apache Whirr -- and thereby Chef and Puppet -- to deploy well-known services such as Hadoop and elasticsearch (or use POBS, plain-old-bash-scripts)\nUse PaaS's such as OpenShift, alongside self-built clusters, for maximum flexibility",
+  "abstract": "",
+  "category": "System Deployment",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

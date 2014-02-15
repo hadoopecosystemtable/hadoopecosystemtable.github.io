@@ -1,1 +1,12 @@
-{"name":"Apache Sentry","description":"Sentry is the next step in enterprise-grade big data security and delivers fine-grained authorization to data stored in Apache Hadoop™. An independent security module that integrates with open source SQL query engines Apache Hive and Cloudera Impala, Sentry delivers advanced authorization controls to enable multi-user applications and cross-functional processes for enterprise data sets. Sentry was a Cloudera development.","abstract":"","category":"Security","tags":[],"links":[]}
+{
+  "name": "Apache Sentry",
+  "description": "Sentry is the next step in enterprise-grade big data security and delivers fine-grained authorization to data stored in Apache Hadoop™. An independent security module that integrates with open source SQL query engines Apache Hive and Cloudera Impala, Sentry delivers advanced authorization controls to enable multi-user applications and cross-functional processes for enterprise data sets. Sentry was a Cloudera development.",
+  "abstract": "",
+  "category": "Security",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

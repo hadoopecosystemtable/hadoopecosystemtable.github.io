@@ -1,0 +1,15 @@
+{
+  "name": "OpenTSDB",
+  "description": "OpenTSDB is a distributed, scalable Time Series Database (TSDB) written on top of HBase. OpenTSDB was written to address a common need: store, index and serve metrics collected from computer systems (network gear, operating systems, applications) at a large scale, and make this data easily accessible and graphable.",
+  "abstract": "distributed time series database on top of HBase",
+  "category": "Key-value Data Model",
+  "tags": [
+    ""
+  ],
+  "links": [
+    {
+      "text": "OpenTSDB site",
+      "url": "http://opentsdb.net"
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"name":"Stinger","description":"interactive query for Hive","abstract":"interactive query for Hive","category":"Uncategorized","tags":[],"links":[{"text":"Stinger","url":"http://hortonworks.com/labs/stinger/"}]}
+{
+  "name": "Stinger",
+  "description": "interactive query for Hive",
+  "abstract": "interactive query for Hive",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Stinger",
+      "url": "http://hortonworks.com/labs/stinger/"
+    }
+  ]
+}

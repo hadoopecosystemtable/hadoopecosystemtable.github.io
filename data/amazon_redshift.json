@@ -1,1 +1,15 @@
-{"name":"Amazon RedShift","description":"Â data warehouse service, based on PostgreSQL","abstract":"Â data warehouse service, based on PostgreSQL","category":"NewSQL Databases","tags":[],"links":[{"text":"Amazon RedShift","url":"http://aws.amazon.com/redshift/"}]}
+{
+  "name": "Amazon RedShift",
+  "description": "Â data warehouse service, based on PostgreSQL",
+  "abstract": "Â data warehouse service, based on PostgreSQL",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Amazon RedShift",
+      "url": "http://aws.amazon.com/redshift/"
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"name":"LinkedIn White Elephant","description":"Â log aggregator and dashboard","abstract":"Â log aggregator and dashboard","category":"Uncategorized","tags":[],"links":[{"text":"LinkedIn White Elephant","url":"https://github.com/linkedin/white-elephant"}]}
+{
+  "name": "LinkedIn White Elephant",
+  "description": "Â log aggregator and dashboard",
+  "abstract": "Â log aggregator and dashboard",
+  "category": "Uncategorized",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "LinkedIn White Elephant",
+      "url": "https://github.com/linkedin/white-elephant"
+    }
+  ]
+}

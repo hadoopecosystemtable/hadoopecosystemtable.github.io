@@ -1,1 +1,15 @@
-{"name":"AMPLAB Shark","description":"Shark is a large-scale data warehouse system for Spark designed to be compatible with Apache Hive. It can execute Hive QL queries up to 100 times faster than Hive without any modification to the existing data or queries. Shark supports Hive's query language, metastore, serialization formats, and user-defined functions, providing seamless integration with existing Hive deployments and a familiar, more powerful option for new ones. Shark is built on top of Spark","abstract":"data warehouse system for Spark","category":"SQL-on-Hadoop","tags":[],"links":[{"text":"AMPLAB on GitHub Shark","url":"https://github.com/amplab/shark/"}]}
+{
+  "name": "AMPLAB Shark",
+  "description": "Shark is a large-scale data warehouse system for Spark designed to be compatible with Apache Hive. It can execute Hive QL queries up to 100 times faster than Hive without any modification to the existing data or queries. Shark supports Hive's query language, metastore, serialization formats, and user-defined functions, providing seamless integration with existing Hive deployments and a familiar, more powerful option for new ones. Shark is built on top of Spark",
+  "abstract": "data warehouse system for Spark",
+  "category": "SQL-on-Hadoop",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "AMPLAB on GitHub Shark",
+      "url": "https://github.com/amplab/shark/"
+    }
+  ]
+}
