@@ -1,0 +1,15 @@
+{
+  "name": "OrientDB",
+  "description": "It is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs. Written in Java, it is incredibly fast: it can store up to 150,000 records per second on common hardware. ",
+  "abstract": "document and graph database",
+  "category": "Graph Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "OrientDB site",
+      "url": "http://www.orientechnologies.com/"
+    }
+  ]
+}

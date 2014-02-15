@@ -1,7 +1,7 @@
 {
   "name": "Redis DataBase",
   "description": "Redis is an open-source, networked, in-memory, key-value data store with optional durability. It is written in ANSI C.\nIn its outer layer, the Redis data model is a dictionary which maps keys to values. One of the main differences between Redis and other structured storage systems is that Redis supports not only strings, but also abstract data types. Sponsored by Pivotal and VMWare. It’s BSD licensed.",
-  "abstract": "",
+  "abstract": "in memory key value datastore",
   "category": "Key-value Data Model",
   "tags": [
 
