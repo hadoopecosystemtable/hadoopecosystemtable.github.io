@@ -1,14 +1,33 @@
 
+<strong>Framework</strong>
+<ul>
+
+
+
+<li><a href="http://hadoop.apache.org/"><strong>Apache Hadoop</strong></a>: framework for distributed processing. IntegratesÂ MapReduce (parallel processing), YARN (job scheduling) and HDFS (distributed file system)</li>
+
+
+
+</ul>
+
 <strong>Distributed Filesystem</strong>
 <ul>
 
 
 
-<li><a href="http://hadoop.apache.org/"><strong>Apache HDFS</strong></a>: </li>
+<li><a href="http://hadoop.apache.org/"><strong>Apache HDFS</strong></a>: a way to store large files across multiple machines</li>
 
 
 
 <li><a href="http://ceph.com/ceph-storage/file-system/"><strong>Ceph Filesystem</strong></a>: </li>
+
+
+
+<li><strong>Google Colossus</strong>: distributed filesystem (GFS2)</li>
+
+
+
+<li><strong>Google GFS</strong>: distributed filesystem</li>
 
 
 
@@ -35,27 +54,23 @@
 
 
 
-<li><a href="http://aws.amazon.com/kinesis/"><strong>Amazon Kinesis</strong></a>: real-time processing of streaming data at massive scale</li>
+<li><a href="http://databricks.github.io/simr/"><strong>AMPLab SIMR</strong></a>: run Spark on Hadoop MapReduce v1</li>
 
 
 
-<li><a href="http://databricks.github.io/simr/"><strong>AMPLab SIMR</strong></a>: </li>
+<li><a href="http://incubator.apache.org/projects/datafu.html"><strong>Apache DataFu</strong></a>: collection of user-defined functions for Hadoop and Pig developed by LinkedIn</li>
 
 
 
-<li><a href="http://incubator.apache.org/projects/datafu.html"><strong>Apache DataFu</strong></a>: </li>
+<li><a href="http://gora.apache.org/"><strong>Apache Gora</strong></a>: framework for in-memory data model and persistence</li>
 
 
 
-<li><a href="http://gora.apache.org/"><strong>Apache Gora</strong></a>: Â framework for in-memory data model and persistence</li>
+<li><a href="http://hama.apache.org/"><strong>Apache Hama</strong></a>: BSP (Bulk Synchronous Parallel) computing framework</li>
 
 
 
-<li><a href="http://hama.apache.org/"><strong>Apache Hama</strong></a>: Â BSP (Bulk Synchronous Parallel) computing framework</li>
-
-
-
-<li><a href="http://wiki.apache.org/hadoop/MapReduce/"><strong>Apache MapReduce</strong></a>: </li>
+<li><a href="http://wiki.apache.org/hadoop/MapReduce/"><strong>Apache MapReduce</strong></a>: programming model for processing large data sets with a parallel, distributed algorithm on a cluster</li>
 
 
 
@@ -63,19 +78,27 @@
 
 
 
-<li><a href="http://spark.incubator.apache.org/"><strong>Apache Spark</strong></a>: framework forÂ in-memory cluster computing</li>
+<li><a href="http://incubator.apache.org/s4/"><strong>Apache S4</strong></a>: framework for stream processing, implementation of S4</li>
 
 
 
-<li><a href="http://tez.incubator.apache.org/"><strong>Apache Tez</strong></a>: Â application frameworkÂ for executing a complex DAG (directed acyclic graph) of tasks, built onÂ YARN</li>
+<li><a href="http://spark.incubator.apache.org/"><strong>Apache Spark</strong></a>: framework for in-memory cluster computing</li>
 
 
 
-<li><a href="https://incubator.apache.org/projects/twill.html"><strong>Apache Twill</strong></a>: </li>
+<li><a href="http://spark.incubator.apache.org/docs/0.7.3/streaming-programming-guide.html"><strong>Apache Spark Streaming</strong></a>: framework for stream processing, part of Spark</li>
 
 
 
-<li><a href="http://hadoop.apache.org/"><strong>Apache YARN</strong></a>: </li>
+<li><a href="http://storm-project.net/"><strong>Apache Storm</strong></a>: framework for stream processing by Twitter also on YARN</li>
+
+
+
+<li><a href="http://tez.incubator.apache.org/"><strong>Apache Tez</strong></a>: application framework for executing a complex DAG (directed acyclic graph) of tasks, built onÂ YARN</li>
+
+
+
+<li><a href="https://incubator.apache.org/projects/twill.html"><strong>Apache Twill</strong></a>: abstraction over YARN that reduces the complexity of developing distributed applications</li>
 
 
 
@@ -121,16 +144,21 @@
 
 </ul>
 
+<strong>NoSQL Databases</strong>
+<ul>
+
+</ul>
+
 <strong>Column Data Model</strong>
 <ul>
 
 
 
-<li><a href="http://accumulo.apache.org/"><strong>Apache Accumulo</strong></a>: distribuited key/value store, built onÂ Hadoop</li>
+<li><a href="http://accumulo.apache.org/"><strong>Apache Accumulo</strong></a>: distribuited key/value store, built on Hadoop</li>
 
 
 
-<li><a href="http://cassandra.apache.org/"><strong>Apache Cassandra</strong></a>: Â column-oriented distribuited datastore, inspired byÂ BigTable</li>
+<li><a href="http://cassandra.apache.org/"><strong>Apache Cassandra</strong></a>: column-oriented distribuited datastore, inspired by BigTable</li>
 
 
 
@@ -168,7 +196,7 @@
 
 
 
-<li><a href="http://aws.amazon.com/dynamodb/"><strong>Amazon DynamoDB</strong></a>: distributed key/value store, implementation ofÂ Dynamo</li>
+<li><a href="http://aws.amazon.com/dynamodb/"><strong>Amazon DynamoDB</strong></a>: distributed key/value store, implementation of Dynamo paper</li>
 
 
 
@@ -199,7 +227,15 @@
 
 
 
+<li><a href="http://spark.incubator.apache.org/docs/0.7.3/bagel-programming-guide.html"><strong>Apache Spark Bagel</strong></a>: implementation of Pregel, part of Spark</li>
+
+
+
 <li><a href="https://www.arangodb.org/"><strong>ArangoDB</strong></a>: </li>
+
+
+
+<li><strong>Google Pregel</strong>: graph processing framework</li>
 
 
 
@@ -211,6 +247,10 @@
 
 
 
+<li><a href="http://thinkaurelius.github.io/titan/"><strong>Titan</strong></a>: distributed graph database, built over Cassandra</li>
+
+
+
 </ul>
 
 <strong>NewSQL Databases</strong>
@@ -218,11 +258,7 @@
 
 
 
-<li><strong>Akiban Server</strong>: </li>
-
-
-
-<li><a href="http://aws.amazon.com/redshift/"><strong>Amazon RedShift</strong></a>: Â data warehouse service, based on PostgreSQL</li>
+<li><a href="http://aws.amazon.com/redshift/"><strong>Amazon RedShift</strong></a>: data warehouse service, based on PostgreSQL</li>
 
 
 
@@ -231,6 +267,14 @@
 
 
 <li><strong>Drizzle</strong>: </li>
+
+
+
+<li><a href="https://foundationdb.com/"><strong>FoundationDB</strong></a>: distributed database, inspired by F1</li>
+
+
+
+<li><strong>Google F1</strong>: distributed SQL database</li>
 
 
 
@@ -247,6 +291,10 @@
 
 
 <li><a href="http://www.memsql.com/"><strong>MemSQL</strong></a>: in memory SQL database witho optimized columnar storage on flash</li>
+
+
+
+<li><a href="http://www.nuodb.com/"><strong>NuoDB</strong></a>: SQL/ACID compliant distributed database</li>
 
 
 
@@ -285,7 +333,7 @@
 
 
 
-<li><a href="http://phoenix.incubator.apache.org/index.html"><strong>Apache Phoenix</strong></a>: </li>
+<li><a href="http://phoenix.incubator.apache.org/index.html"><strong>Apache Phoenix</strong></a>: SQL skin over HBase</li>
 
 
 
@@ -316,6 +364,10 @@
 
 
 
+<li><a href="http://aws.amazon.com/kinesis/"><strong>Amazon Kinesis</strong></a>: real-time processing of streaming data at massive scale</li>
+
+
+
 <li><a href="http://incubator.apache.org/chukwa/"><strong>Apache Chukwa</strong></a>: data collection system</li>
 
 
@@ -333,10 +385,6 @@
 
 
 <li><a href="http://sqoop.apache.org/"><strong>Apache Sqoop</strong></a>: tool to transfer data between Hadoop and a structured datastore</li>
-
-
-
-<li><a href="http://storm-project.net/"><strong>Apache Storm</strong></a>: framework for stream processing by Twitter also on YARN</li>
 
 
 
@@ -371,11 +419,11 @@
 
 
 
-<li><strong>Apache Curator</strong>: </li>
+<li><strong>Apache Curator</strong>: Java libaries for Apache ZooKeeper</li>
 
 
 
-<li><strong>Apache Karaf</strong>: </li>
+<li><strong>Apache Karaf</strong>: OSGi runtime that runs on top of any OSGi framework</li>
 
 
 
@@ -444,7 +492,7 @@
 
 
 
-<li><a href="https://issues.apache.org/jira/browse/MAPREDUCE-3561"><strong>Apache Hadoop Benchmarking</strong></a>: </li>
+<li><a href="https://issues.apache.org/jira/browse/MAPREDUCE-3561"><strong>Apache Hadoop Benchmarking</strong></a>: micro-benchmarks for testing Hadoop performances</li>
 
 
 
@@ -475,7 +523,7 @@
 
 
 
-<li><strong>Apache Sentry</strong>: </li>
+<li><strong>Apache Sentry</strong>: security module for data stored in Hadoop</li>
 
 
 
@@ -490,7 +538,7 @@
 
 
 
-<li><a href="http://bigtop.apache.org//"><strong>Apache Bigtop</strong></a>: </li>
+<li><a href="http://bigtop.apache.org//"><strong>Apache Bigtop</strong></a>: system deployment framework for the Hadoop ecosystem</li>
 
 
 
@@ -502,7 +550,7 @@
 
 
 
-<li><a href="http://whirr.apache.org/"><strong>Apache Whirr</strong></a>: Â set of libraries for running cloud services</li>
+<li><a href="http://whirr.apache.org/"><strong>Apache Whirr</strong></a>: set of libraries for running cloud services</li>
 
 
 
@@ -519,6 +567,40 @@
 
 
 <li><strong>Marathon</strong>: </li>
+
+
+
+</ul>
+
+<strong>Applications</strong>
+<ul>
+
+
+
+<li><strong>Apache Kiji</strong>: build Real-time Big Data Applications on Apache HBase.</li>
+
+
+
+<li><strong>Apache Nutch</strong>: open source web crawler</li>
+
+
+
+<li><strong>Apache OODT</strong>: capturing, processing and sharing of data for NASA's scientific archives</li>
+
+
+
+<li><strong>HIPI Library</strong>: </li>
+
+
+
+</ul>
+
+<strong>Development Frameworks</strong>
+<ul>
+
+
+
+<li><a href="https://github.com/spring-projects/spring-xd"><strong>Spring XD</strong></a>: </li>
 
 
 
@@ -551,31 +633,32 @@
 
 </ul>
 
-<strong>Applications</strong>
+<strong>MySQL forks and evolutions</strong>
 <ul>
 
 
 
-<li><strong>Apache Nutch</strong>: </li>
+<li><a href="http://aws.amazon.com/rds/"><strong>Amazon RDS</strong></a>: MySQL databases in Amazon's cloud</li>
 
 
 
-<li><strong>Apache OODT</strong>: </li>
+<li><a href="https://developers.google.com/cloud-sql/"><strong>Google Cloud SQL</strong></a>: Â MySQL databases in Google's cloud</li>
 
 
 
-<li><strong>HIPI Library</strong>: </li>
+<li><a href="https://mariadb.org/"><strong>MariaDB</strong></a>: Â enhanced, drop-in replacement for MySQL</li>
 
 
 
-</ul>
-
-<strong>Development Frameworks</strong>
-<ul>
+<li><a href="http://www.mysql.com/products/cluster/"><strong>MySQL Cluster</strong></a>: MySQL implementation using NDB Cluster storage engine</li>
 
 
 
-<li><a href="https://github.com/spring-projects/spring-xd"><strong>Spring XD</strong></a>: </li>
+<li><a href="http://www.percona.com/software/percona-server"><strong>Percona Server</strong></a>: enhanced, drop-in replacement for MySQL</li>
+
+
+
+<li><a href="https://github.com/renecannao/proxysql"><strong>ProxySQL</strong></a>: Â High Performance Proxy for MySQL</li>
 
 
 
@@ -590,27 +673,7 @@
 
 
 
-<li><a href="http://hadoop.apache.org/"><strong>Apache Hadoop</strong></a>: Â framework for distributed processing. IntegratesÂ MapReduce (parallel processing), YARN (job scheduling) and HDFS (distributed file system)</li>
-
-
-
-<li><strong>Apache Kiji</strong>: </li>
-
-
-
-<li><a href="http://incubator.apache.org/s4/"><strong>Apache S4</strong></a>: framework for stream processing, implementation of S4</li>
-
-
-
-<li><a href="http://spark.incubator.apache.org/docs/0.7.3/bagel-programming-guide.html"><strong>Apache Spark Bagel</strong></a>: implementation of Pregel, part of Spark</li>
-
-
-
-<li><a href="http://spark.incubator.apache.org/docs/0.7.3/streaming-programming-guide.html"><strong>Apache Spark Streaming</strong></a>: Â framework for stream processing, part of Spark</li>
-
-
-
-<li><strong>Apache Tika</strong>: </li>
+<li><a href="https://tika.apache.org/"><strong>Apache Tika</strong></a>: content analysis toolkit</li>
 
 
 
@@ -666,10 +729,6 @@
 
 
 
-<li><a href="https://foundationdb.com/"><strong>FoundationDB</strong></a>: distributed database, inspired byÂ F1</li>
-
-
-
 <li><a href="https://developers.google.com/appengine/docs/python/datastore/"><strong>Google App Engine Datastore</strong></a>: Â schemaless object datastore</li>
 
 
@@ -682,18 +741,6 @@
 
 
 
-<li><strong>Google Colossus</strong>: distributed filesystem (GFS2)</li>
-
-
-
-<li><strong>Google F1</strong>: distributed SQL database</li>
-
-
-
-<li><strong>Google GFS</strong>: distributed filesystem</li>
-
-
-
 <li><strong>Google MapReduce</strong>: map reduce framework</li>
 
 
@@ -703,10 +750,6 @@
 
 
 <li><strong>Google MillWheel</strong>: fault tolerant stream processing framework</li>
-
-
-
-<li><strong>Google Pregel</strong>: graph processing framework</li>
 
 
 
@@ -758,10 +801,6 @@
 
 
 
-<li><a href="https://github.com/linkedin/datafu"><strong>LinkedIn DataFu</strong></a>: Â collection of user-defined functions forÂ HadoopÂ and Pig</li>
-
-
-
 <li><a href="http://data.linkedin.com/projects/espresso"><strong>LinkedIn Espresso</strong></a>: Â horizontally scalable document-oriented NoSQL data store</li>
 
 
@@ -779,10 +818,6 @@
 
 
 <li><a href="http://www.mlbase.org/"><strong>MLbase</strong></a>: Â distributed machine learning libraries for the BDAS stack</li>
-
-
-
-<li><a href="http://www.nuodb.com/"><strong>NuoDB</strong></a>: Â SQL/ACID compliant distributed database</li>
 
 
 
@@ -827,10 +862,6 @@
 
 
 <li><strong>Talend</strong>: </li>
-
-
-
-<li><a href="http://thinkaurelius.github.io/titan/"><strong>Titan</strong></a>: distributed graph database, built over Cassandra</li>
 
 
 

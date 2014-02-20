@@ -2,7 +2,7 @@
   "name": "Titan",
   "description": "distributed graph database, built over Cassandra",
   "abstract": "distributed graph database, built over Cassandra",
-  "category": "Uncategorized",
+  "category": "Graph Data Model",
   "tags": [
 
   ],

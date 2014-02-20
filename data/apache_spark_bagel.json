@@ -2,7 +2,7 @@
   "name": "Apache Spark Bagel",
   "description": "implementation of Pregel, part of Spark",
   "abstract": "implementation of Pregel, part of Spark",
-  "category": "Uncategorized",
+  "category": "Graph Data Model",
   "tags": [
 
   ],

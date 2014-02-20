@@ -1,7 +1,7 @@
 {
   "name": "Amazon RedShift",
-  "description": "Â data warehouse service, based on PostgreSQL",
-  "abstract": "Â data warehouse service, based on PostgreSQL",
+  "description": "data warehouse service, based on PostgreSQL",
+  "abstract": "data warehouse service, based on PostgreSQL",
   "category": "NewSQL Databases",
   "tags": [
 

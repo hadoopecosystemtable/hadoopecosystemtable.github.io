@@ -2,7 +2,7 @@
   "name": "Amazon Kinesis",
   "description": "Real-time processing of streaming data at massive scale",
   "abstract": "real-time processing of streaming data at massive scale",
-  "category": "Distributed Programming",
+  "category": "Data Ingestion",
   "tags": [
 
   ],

@@ -2,7 +2,7 @@
   "name": "Google GFS",
   "description": "distributed filesystem",
   "abstract": "distributed filesystem",
-  "category": "Uncategorized",
+  "category": "Distributed Filesystem",
   "tags": [
 
   ],

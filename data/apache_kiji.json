@@ -1,8 +1,8 @@
 {
   "name": "Apache Kiji",
   "description": "Build Real-time Big Data Applications on Apache HBase.",
-  "abstract": "",
-  "category": "Uncategorized",
+  "abstract": "build Real-time Big Data Applications on Apache HBase.",
+  "category": "Applications",
   "tags": [
 
   ],

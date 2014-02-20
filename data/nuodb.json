@@ -1,8 +1,8 @@
 {
   "name": "NuoDB",
-  "description": "Â SQL/ACID compliant distributed database",
-  "abstract": "Â SQL/ACID compliant distributed database",
-  "category": "Uncategorized",
+  "description": "SQL/ACID compliant distributed database",
+  "abstract": "SQL/ACID compliant distributed database",
+  "category": "NewSQL Databases",
   "tags": [
 
   ],

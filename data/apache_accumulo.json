@@ -1,7 +1,7 @@
 {
   "name": "Apache Accumulo",
   "description": "Distributed key/value store is a robust, scalable, high performance data storage and retrieval system. Apache Accumulo is based on Google's BigTable design and is built on top of Apache Hadoop, Zookeeper, and Thrift.  Accumulo is software created by the NSA with security features.",
-  "abstract": "distribuited key/value store, built onÂ Hadoop",
+  "abstract": "distribuited key/value store, built on Hadoop",
   "category": "Column Data Model",
   "tags": [
 

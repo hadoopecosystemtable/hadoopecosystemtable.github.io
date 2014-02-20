@@ -2,7 +2,7 @@
   "name": "Google Pregel",
   "description": "graph processing framework",
   "abstract": "graph processing framework",
-  "category": "Uncategorized",
+  "category": "Graph Data Model",
   "tags": [
 
   ],

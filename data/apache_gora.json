@@ -1,7 +1,7 @@
 {
   "name": "Apache Gora",
-  "description": "Â framework for in-memory data model and persistence",
-  "abstract": "Â framework for in-memory data model and persistence",
+  "description": "framework for in-memory data model and persistence",
+  "abstract": "framework for in-memory data model and persistence",
   "category": "Distributed Programming",
   "tags": [
 

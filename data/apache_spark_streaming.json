@@ -1,8 +1,8 @@
 {
   "name": "Apache Spark Streaming",
-  "description": "Â framework for stream processing, part of Spark",
-  "abstract": "Â framework for stream processing, part of Spark",
-  "category": "Uncategorized",
+  "description": "framework for stream processing, part of Spark",
+  "abstract": "framework for stream processing, part of Spark",
+  "category": "Distributed Programming",
   "tags": [
 
   ],

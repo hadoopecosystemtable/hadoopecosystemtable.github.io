@@ -4,7 +4,7 @@ require "maruku"
 require "pp"
 
 # load ordered category list
-table_config = JSON.parse(File.read("config/table.json"))
+table_config = JSON.parse(File.read("config/wordpress.json"))
 
 data_grouped_by_category = {}
 
