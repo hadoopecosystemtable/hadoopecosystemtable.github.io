@@ -2,7 +2,7 @@
   "name": "Twitter Fatcache",
   "description": "key/value cache for flash storage",
   "abstract": "key/value cache for flash storage",
-  "category": "Uncategorized",
+  "category": "Memcached forks and evolutions",
   "tags": [
 
   ],

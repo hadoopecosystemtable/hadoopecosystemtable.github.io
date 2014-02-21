@@ -1,7 +1,7 @@
 {
   "name": "Tajo",
   "description": "Tajo is a distributed data warehouse system on Hadoop that provides low-latency and scalable ad-hoc queries and ETL on large-data sets stored on HDFS and other data sources.",
-  "abstract": "",
+  "abstract": "distributed data warehouse system on Hadoop",
   "category": "SQL-on-Hadoop",
   "tags": [
 

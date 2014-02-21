@@ -1,7 +1,7 @@
 {
   "name": "Yahoo Gridmix3",
   "description": "Hadoop cluster benchmarking from Yahoo engineer team.",
-  "abstract": "",
+  "abstract": "Hadoop cluster benchmarking from Yahoo engineer team",
   "category": "Bechmarking",
   "tags": [
 

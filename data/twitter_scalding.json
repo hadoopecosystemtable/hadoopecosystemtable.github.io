@@ -2,7 +2,7 @@
   "name": "Twitter Scalding",
   "description": "Scala library for Map Reduce jobs, built on Cascading",
   "abstract": "Scala library for Map Reduce jobs, built on Cascading",
-  "category": "Uncategorized",
+  "category": "Distributed Programming",
   "tags": [
 
   ],

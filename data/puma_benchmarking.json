@@ -1,7 +1,7 @@
 {
   "name": "PUMA Benchmarking",
   "description": "Benchmark suite which represents a broad range of MapReduce applications exhibiting application characteristics with high/low computation and high/low shuffle volumes. There are a total of 13 benchmarks, out of which Tera-Sort, Word-Count, and Grep are from Hadoop distribution. The rest of the benchmarks were developed in-house and are currently not part of the Hadoop distribution. The three benchmarks from Hadoop distribution are also slightly modified to take number of reduce tasks as input from the user and generate final time completion statistics of jobs.",
-  "abstract": "",
+  "abstract": "benchmark suite for MapReduce applications",
   "category": "Bechmarking",
   "tags": [
 

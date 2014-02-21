@@ -1,8 +1,8 @@
 {
   "name": "Pivotal HAWQ",
-  "description": "Â SQL-like data warehouse system forÂ Hadoop",
-  "abstract": "Â SQL-like data warehouse system forÂ Hadoop",
-  "category": "Uncategorized",
+  "description": "SQL-like data warehouse system for Hadoop",
+  "abstract": "SQL-like data warehouse system for Hadoop",
+  "category": "SQL-on-Hadoop",
   "tags": [
 
   ],

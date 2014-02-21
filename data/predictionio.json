@@ -2,7 +2,7 @@
   "name": "PredictionIO",
   "description": "machine learning server buit on Hadoop, Mahout and Cascading",
   "abstract": "machine learning server buit on Hadoop, Mahout and Cascading",
-  "category": "Uncategorized",
+  "category": "Machine Learning",
   "tags": [
 
   ],

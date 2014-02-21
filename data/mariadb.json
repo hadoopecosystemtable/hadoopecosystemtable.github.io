@@ -1,7 +1,7 @@
 {
   "name": "MariaDB",
-  "description": "Â enhanced, drop-in replacement for MySQL",
-  "abstract": "Â enhanced, drop-in replacement for MySQL",
+  "description": "enhanced, drop-in replacement for MySQL",
+  "abstract": "enhanced, drop-in replacement for MySQL",
   "category": "MySQL forks and evolutions",
   "tags": [
 

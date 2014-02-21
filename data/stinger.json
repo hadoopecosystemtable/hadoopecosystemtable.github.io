@@ -2,7 +2,7 @@
   "name": "Stinger",
   "description": "interactive query for Hive",
   "abstract": "interactive query for Hive",
-  "category": "Uncategorized",
+  "category": "SQL-on-Hadoop",
   "tags": [
 
   ],

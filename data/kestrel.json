@@ -2,7 +2,7 @@
   "name": "Kestrel",
   "description": "distributed message queue system",
   "abstract": "distributed message queue system",
-  "category": "Uncategorized",
+  "category": "Data Ingestion",
   "tags": [
 
   ],

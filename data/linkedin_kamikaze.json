@@ -1,8 +1,8 @@
 {
   "name": "LinkedIn Kamikaze",
-  "description": "Â utility package for compressing sorted integer arrays",
-  "abstract": "Â utility package for compressing sorted integer arrays",
-  "category": "Uncategorized",
+  "description": "utility package for compressing sorted integer arrays",
+  "abstract": "utility package for compressing sorted integer arrays",
+  "category": "Data Ingestion",
   "tags": [
 
   ],

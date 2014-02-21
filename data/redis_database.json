@@ -7,6 +7,9 @@
 
   ],
   "links": [
-
+    {
+      "text": "Redis.io",
+      "url": "http://redis.io"
+    }
   ]
 }

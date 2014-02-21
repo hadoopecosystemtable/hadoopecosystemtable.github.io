@@ -1,8 +1,8 @@
 {
   "name": "LinkedIn White Elephant",
-  "description": "Â log aggregator and dashboard",
-  "abstract": "Â log aggregator and dashboard",
-  "category": "Uncategorized",
+  "description": "log aggregator and dashboard",
+  "abstract": "log aggregator and dashboard",
+  "category": "Data Ingestion",
   "tags": [
 
   ],

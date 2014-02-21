@@ -1,7 +1,7 @@
 {
   "name": "Marathon",
   "description": "Marathon is a Mesos framework for long-running services. Given that you have Mesos running as the kernel for your datacenter, Marathon is the init or upstart daemon.",
-  "abstract": "",
+  "abstract": "Mesos framework for long-running services",
   "category": "System Deployment",
   "tags": [
 

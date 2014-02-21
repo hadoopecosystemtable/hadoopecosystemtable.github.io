@@ -348,17 +348,6 @@
 </tr>
 
 <tr>
-<td width="20%">Druid</td>
-<td>
-<p>framework for real-time analysis of large datasets</p>
-</td>
-<td width="20%">
-
-<a href="http://druid.io/">1. Druid</a><br>
-
-</tr>
-
-<tr>
 <td width="20%">Facebook Corona</td>
 <td>
 <p>“The next version of Map-Reduce” from Facebook, based in own fork of Hadoop. The current Hadoop implementation of the MapReduce technique uses a single job tracker, which causes scaling issues for very large data sets. The Apache Hadoop developers have been creating their own next-generation MapReduce, called YARN, which Facebook engineers looked at but discounted because of the highly-customised nature of the company’s deployment of Hadoop and HDFS. Corona, like YARN, spawns multiple job trackers (one for each job, in Corona’s case).</p>
@@ -430,6 +419,17 @@
 </tr>
 
 <tr>
+<td width="20%">Metamarkers Druid</td>
+<td>
+<p>Realtime analytical data store.</p>
+</td>
+<td width="20%">
+
+<a href="http://druid.io/">1. Druid</a><br>
+
+</tr>
+
+<tr>
 <td width="20%">Netflix PigPen</td>
 <td>
 <p>PigPen is map-reduce for Clojure whiche compiles to Apache Pig. Clojure is dialect of the Lisp programming language created by Rich Hickey, so is a functional general-purpose language, and runs on the Java Virtual Machine, Common Language Runtime, and JavaScript engines. In PigPen there are no special user defined functions (UDFs). Define Clojure functions, anonymously or named, and use them like you would in any Clojure program. This tool is open sourced by Netflix, Inc. the American provider of on-demand Internet streaming media.</p>
@@ -472,6 +472,28 @@
 <td width="20%">
 
 <a href="http://stratosphere.eu/">1. Stratosphere site</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Twitter Scalding</td>
+<td>
+<p>Scala library for Map Reduce jobs, built on Cascading</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/twitter/scalding">1. Twitter Scalding</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Twitter Summingbird</td>
+<td>
+<p>a system that aims to mitigate the tradeoffs between batch processing and stream processing by combining them into a hybrid system. In the case of Twitter, Hadoop handles batch processing, Storm handles stream processing, and the hybrid system is called Summingbird.</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/twitter/summingbird">1. Summingbird</a><br>
 
 </tr>
 
@@ -550,10 +572,43 @@
 
 </tr>
 
+<tr>
+<td width="20%">Parquet</td>
+<td>
+<p>columnar storage format for Hadoop.</p>
+</td>
+<td width="20%">
+
+<a href="http://parquet.io/">1. Parquet</a><br>
+
+</tr>
+
 
 
 <tr><th colspan="3">Document Data Model</th></tr>
 
+
+<tr>
+<td width="20%">jumboDB</td>
+<td>
+<p>document oriented datastore over Hadoop</p>
+</td>
+<td width="20%">
+
+<a href="http://comsysto.github.io/jumbodb/">1. jumboDB</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">LinkedIn Espresso</td>
+<td>
+<p>horizontally scalable document-oriented NoSQL data store</p>
+</td>
+<td width="20%">
+
+<a href="http://data.linkedin.com/projects/espresso">1. LinkedIn Espresso</a><br>
+
+</tr>
 
 <tr>
 <td width="20%">MongoDB</td>
@@ -644,6 +699,8 @@
 </td>
 <td width="20%">
 
+<a href="http://redis.io">1. Redis.io</a><br>
+
 </tr>
 
 <tr>
@@ -654,6 +711,17 @@
 <td width="20%">
 
 <a href="http://rocksdb.org/">1. RocksDB site</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Storehaus</td>
+<td>
+<p>library to work with asynchronous key value stores, by Twitter</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/twitter/storehaus">1. Storehaus</a><br>
 
 </tr>
 
@@ -747,6 +815,17 @@
 </tr>
 
 <tr>
+<td width="20%">Phoebus</td>
+<td>
+<p>framework for large scale graph processing</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/xslogic/phoebus">1. Phoebus</a><br>
+
+</tr>
+
+<tr>
 <td width="20%">Titan</td>
 <td>
 <p>distributed graph database, built over Cassandra</p>
@@ -754,6 +833,17 @@
 <td width="20%">
 
 <a href="http://thinkaurelius.github.io/titan/">1. Titan</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Twitter FlockDB</td>
+<td>
+<p>distribuited graph database</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/twitter/flockdb">1. Twitter FlockDB</a><br>
 
 </tr>
 
@@ -897,15 +987,6 @@
 
 </tr>
 
-<tr>
-<td width="20%">TokuDB</td>
-<td>
-<p>TokuDB is a storage engine for MySQL and MariaDB that is specifically designed for high performance on write-intensive workloads. It achieves this via Fractal Tree indexing. TokuDB is a scalable, ACID and MVCC compliant storage engine. TokuDB is one of the technologies that enable Big Data in MySQL.</p>
-</td>
-<td width="20%">
-
-</tr>
-
 
 
 <tr><th colspan="3">SQL-on-Hadoop</th></tr>
@@ -1027,6 +1108,28 @@
 <td width="20%">
 
 <a href="http://research.google.com/pubs/pub36632.html">1. Google BigQuery</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Pivotal HAWQ</td>
+<td>
+<p>SQL-like data warehouse system for Hadoop</p>
+</td>
+<td width="20%">
+
+<a href="http://www.gopivotal.com/pivotal-products/data/pivotal-hd">1. Pivotal HAWQ</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Stinger</td>
+<td>
+<p>interactive query for Hive</p>
+</td>
+<td width="20%">
+
+<a href="http://hortonworks.com/labs/stinger/">1. Stinger</a><br>
 
 </tr>
 
@@ -1153,6 +1256,50 @@
 </tr>
 
 <tr>
+<td width="20%">Kestrel</td>
+<td>
+<p>distributed message queue system</p>
+</td>
+<td width="20%">
+
+<a href="http://robey.github.io/kestrel/">1. Kestrel</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">LinkedIn Databus</td>
+<td>
+<p>stream of change capture events for a database</p>
+</td>
+<td width="20%">
+
+<a href="http://data.linkedin.com/projects/databus">1. LinkedIn Databus</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">LinkedIn Kamikaze</td>
+<td>
+<p>utility package for compressing sorted integer arrays</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/linkedin/kamikaze">1. LinkedIn Kamikaze</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">LinkedIn White Elephant</td>
+<td>
+<p>log aggregator and dashboard</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/linkedin/white-elephant">1. LinkedIn White Elephant</a><br>
+
+</tr>
+
+<tr>
 <td width="20%">Netflix Suro</td>
 <td>
 <p>Suro has its roots in Apache Chukwa, which was initially adopted by Netflix. Is a log agregattor like Storm, Samza.</p>
@@ -1165,6 +1312,15 @@
 
 <tr><th colspan="3">Service Programming</th></tr>
 
+
+<tr>
+<td width="20%">Akka Toolkit</td>
+<td>
+<p>Akka is an open-source toolkit and runtime simplifying the construction of concurrent applications on the Java platform.</p>
+</td>
+<td width="20%">
+
+</tr>
 
 <tr>
 <td width="20%">Apache Avro</td>
@@ -1233,6 +1389,39 @@
 </tr>
 
 <tr>
+<td width="20%">OpenMPI</td>
+<td>
+<p>message passing framework</p>
+</td>
+<td width="20%">
+
+<a href="http://www.open-mpi.org/">1. OpenMPI</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Serf</td>
+<td>
+<p>decentralized solution for service discovery and orchestration</p>
+</td>
+<td width="20%">
+
+<a href="http://www.serfdom.io/">1. Serf</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Spring XD</td>
+<td>
+<p>Spring XD (Xtreme Data) is a evolution of Spring Java application development framework to help Big Data Applications by Pivotal. SpringSource was the company created by the founders of the Spring Framework. SpringSource was purchased by VMware where it was maintained for some time as a separate division within VMware. Later VMware, and its parent company EMC Corporation, formally created a joint venture called Pivotal. Spring XD is more than development framework library, is a distributed, and extensible system for data ingestion, real time analytics, batch processing, and data export. It could be considered as alternative to Apache Flume/Sqoop/Oozie in some scenarios. Spring XD is part of Pivotal Spring for Apache Hadoop (SHDP). SHDP, integrated with Spring, Spring Batch and Spring Data are part of the Spring IO Platform as foundational libraries. Building on top of, and extending this foundation, the Spring IO platform provides Spring XD as big data runtime. Spring for Apache Hadoop (SHDP) aims to help simplify the development of Hadoop based applications by providing a consistent configuration and API across a wide range of Hadoop ecosystem projects such as Pig, Hive, and Cascading in addition to providing extensions to Spring Batch for orchestrating Hadoop based workflows.</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/spring-projects/spring-xd">1. Spring XD on GitHub</a><br>
+
+</tr>
+
+<tr>
 <td width="20%">Twitter Elephant Bird</td>
 <td>
 <p>Elephant Bird is a project that provides utilities (libraries) for working with LZOP-compressed data. It also provides a container format that supports working with Protocol Buffers, Thrift in MapReduce, Writables, Pig LoadFuncs, Hive SerDe, HBase miscellanea. This open source library is massively used in Twitter.</p>
@@ -1240,6 +1429,15 @@
 <td width="20%">
 
 <a href="https://github.com/kevinweil/elephant-bird">1. Elephant Bird GitHub</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Twitter Finagle</td>
+<td>
+<p>Finagle is an asynchronous network stack for the JVM that you can use to build asynchronous Remote Procedure Call (RPC) clients and servers in Java, Scala, or any JVM-hosted language.</p>
+</td>
+<td width="20%">
 
 </tr>
 
@@ -1340,6 +1538,39 @@
 <td width="20%">
 
 <a href="http://0xdata.github.io/h2o/">1. H2O</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">MLbase</td>
+<td>
+<p>distributed machine learning libraries for the BDAS stack</p>
+</td>
+<td width="20%">
+
+<a href="http://www.mlbase.org/">1. MLbase</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">PredictionIO</td>
+<td>
+<p>machine learning server buit on Hadoop, Mahout and Cascading</p>
+</td>
+<td width="20%">
+
+<a href="http://prediction.io/">1. PredictionIO</a><br>
+
+</tr>
+
+<tr>
+<td width="20%">Vowpal Wabbit</td>
+<td>
+<p>learning system sponsored by Microsoft and Yahoo!</p>
+</td>
+<td width="20%">
+
+<a href="https://github.com/JohnLangford/vowpal_wabbit/wiki">1. Vowpal Wabbit</a><br>
 
 </tr>
 
@@ -1644,6 +1875,17 @@
 </tr>
 
 <tr>
+<td width="20%">Apache Tika</td>
+<td>
+<p>Toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.</p>
+</td>
+<td width="20%">
+
+<a href="https://tika.apache.org/">1. Apache Tika</a><br>
+
+</tr>
+
+<tr>
 <td width="20%">Eclipse BIRT</td>
 <td>
 <p>BIRT is an open source Eclipse-based reporting system that integrates with your Java/Java EE application to produce compelling reports.</p>
@@ -1672,205 +1914,12 @@
 
 </tr>
 
-
-
-<tr><th colspan="3">Development Frameworks</th></tr>
-
-
-<tr>
-<td width="20%">Spring XD</td>
-<td>
-<p>Spring XD (Xtreme Data) is a evolution of Spring Java application development framework to help Big Data Applications by Pivotal. SpringSource was the company created by the founders of the Spring Framework. SpringSource was purchased by VMware where it was maintained for some time as a separate division within VMware. Later VMware, and its parent company EMC Corporation, formally created a joint venture called Pivotal. Spring XD is more than development framework library, is a distributed, and extensible system for data ingestion, real time analytics, batch processing, and data export. It could be considered as alternative to Apache Flume/Sqoop/Oozie in some scenarios. Spring XD is part of Pivotal Spring for Apache Hadoop (SHDP). SHDP, integrated with Spring, Spring Batch and Spring Data are part of the Spring IO Platform as foundational libraries. Building on top of, and extending this foundation, the Spring IO platform provides Spring XD as big data runtime. Spring for Apache Hadoop (SHDP) aims to help simplify the development of Hadoop based applications by providing a consistent configuration and API across a wide range of Hadoop ecosystem projects such as Pig, Hive, and Cascading in addition to providing extensions to Spring Batch for orchestrating Hadoop based workflows.</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/spring-projects/spring-xd">1. Spring XD on GitHub</a><br>
-
-</tr>
-
-
-
-<tr><th colspan="3">Uncategorized</th></tr>
-
-
-<tr>
-<td width="20%">Akka Toolkit</td>
-<td>
-<p>Akka is an open-source toolkit and runtime simplifying the construction of concurrent applications on the Java platform.</p>
-</td>
-<td width="20%">
-
-</tr>
-
-<tr>
-<td width="20%">Apache Tika</td>
-<td>
-<p>Toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.</p>
-</td>
-<td width="20%">
-
-<a href="https://tika.apache.org/">1. Apache Tika</a><br>
-
-</tr>
-
 <tr>
 <td width="20%">Jedox Palo</td>
 <td>
 <p>Palo Suite combines all core applications — OLAP Server, Palo Web, Palo ETL Server and Palo for Excel — into one comprehensive and customisable Business Intelligence platform. The platform is completely based on Open Source products representing a high-end Business Intelligence solution which is available entirely free of any license fees.</p>
 </td>
 <td width="20%">
-
-</tr>
-
-<tr>
-<td width="20%">jumboDB</td>
-<td>
-<p>document oriented datastore over Hadoop</p>
-</td>
-<td width="20%">
-
-<a href="http://comsysto.github.io/jumbodb/">1. jumboDB</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Kestrel</td>
-<td>
-<p>distributed message queue system</p>
-</td>
-<td width="20%">
-
-<a href="http://robey.github.io/kestrel/">1. Kestrel</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">LinkedIn Databus</td>
-<td>
-<p>Â stream of change capture events for a database</p>
-</td>
-<td width="20%">
-
-<a href="http://data.linkedin.com/projects/databus">1. LinkedIn Databus</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">LinkedIn Espresso</td>
-<td>
-<p>Â horizontally scalable document-oriented NoSQL data store</p>
-</td>
-<td width="20%">
-
-<a href="http://data.linkedin.com/projects/espresso">1. LinkedIn Espresso</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">LinkedIn Kamikaze</td>
-<td>
-<p>Â utility package for compressing sorted integer arrays</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/linkedin/kamikaze">1. LinkedIn Kamikaze</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">LinkedIn White Elephant</td>
-<td>
-<p>Â log aggregator and dashboard</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/linkedin/white-elephant">1. LinkedIn White Elephant</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Metamarkers Druid</td>
-<td>
-<p>Realtime analytical data store.</p>
-</td>
-<td width="20%">
-
-</tr>
-
-<tr>
-<td width="20%">MLbase</td>
-<td>
-<p>Â distributed machine learning libraries for the BDAS stack</p>
-</td>
-<td width="20%">
-
-<a href="http://www.mlbase.org/">1. MLbase</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">OpenMPI</td>
-<td>
-<p>message passing framework</p>
-</td>
-<td width="20%">
-
-<a href="http://www.open-mpi.org/">1. OpenMPI</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Parquet</td>
-<td>
-<p>columnar storage format for Hadoop.</p>
-</td>
-<td width="20%">
-
-<a href="http://parquet.io/">1. Parquet</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Phoebus</td>
-<td>
-<p>framework for large scale graph processing</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/xslogic/phoebus">1. Phoebus</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Pivotal HAWQ</td>
-<td>
-<p>Â SQL-like data warehouse system forÂ Hadoop</p>
-</td>
-<td width="20%">
-
-<a href="http://www.gopivotal.com/pivotal-products/data/pivotal-hd">1. Pivotal HAWQ</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">PredictionIO</td>
-<td>
-<p>machine learning server buit on Hadoop, Mahout and Cascading</p>
-</td>
-<td width="20%">
-
-<a href="http://prediction.io/">1. PredictionIO</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Serf</td>
-<td>
-<p>Â decentralized solution for service discovery and orchestration</p>
-</td>
-<td width="20%">
-
-<a href="http://www.serfdom.io/">1. Serf</a><br>
 
 </tr>
 
@@ -1895,28 +1944,6 @@
 </tr>
 
 <tr>
-<td width="20%">Stinger</td>
-<td>
-<p>interactive query for Hive</p>
-</td>
-<td width="20%">
-
-<a href="http://hortonworks.com/labs/stinger/">1. Stinger</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Storehaus</td>
-<td>
-<p>library to work with asynchronous key value stores, by Twitter</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/twitter/storehaus">1. Storehaus</a><br>
-
-</tr>
-
-<tr>
 <td width="20%">Talend</td>
 <td>
 <p>Talend is an open source software vendor that provides data integration, data management, enterprise application integration and big data software and solutions.</p>
@@ -1925,81 +1952,12 @@
 
 </tr>
 
-<tr>
-<td width="20%">Twitter Fatcache</td>
-<td>
-<p>key/value cache for flash storage</p>
-</td>
-<td width="20%">
 
-<a href="https://github.com/twitter/fatcache">1. Twitter Fatcache</a><br>
 
-</tr>
+<tr><th colspan="3">Development Frameworks</th></tr>
 
-<tr>
-<td width="20%">Twitter Finagle</td>
-<td>
-<p>Finagle is an asynchronous network stack for the JVM that you can use to build asynchronous Remote Procedure Call (RPC) clients and servers in Java, Scala, or any JVM-hosted language.</p>
-</td>
-<td width="20%">
 
-</tr>
-
-<tr>
-<td width="20%">Twitter FlockDB</td>
-<td>
-<p>distribuited graph database</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/twitter/flockdb">1. Twitter FlockDB</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Twitter Scalding</td>
-<td>
-<p>Scala library for Map Reduce jobs, built on Cascading</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/twitter/scalding">1. Twitter Scalding</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Twitter Summingbird</td>
-<td>
-<p>a system that aims to mitigate the tradeoffs between batch processing and stream processing by combining them into a hybrid system. In the case of Twitter, Hadoop handles batch processing, Storm handles stream processing, and the hybrid system is called Summingbird.</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/twitter/summingbird">1. Summingbird</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Twitter Twemcache</td>
-<td>
-<p>fork of Memcache</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/twitter/twemcache">1. Twitter Twemcache</a><br>
-
-</tr>
-
-<tr>
-<td width="20%">Vowpal Wabbit</td>
-<td>
-<p>learning system sponsored by Microsoft and Yahoo!</p>
-</td>
-<td width="20%">
-
-<a href="https://github.com/JohnLangford/vowpal_wabbit/wiki">1. Vowpal Wabbit</a><br>
-
-</tr>
-
+<tr><th colspan="3">Uncategorized</th></tr>
 
 
 </table>

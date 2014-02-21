@@ -1,7 +1,7 @@
 {
   "name": "ProxySQL",
-  "description": "Â High Performance Proxy for MySQL",
-  "abstract": "Â High Performance Proxy for MySQL",
+  "description": "High Performance Proxy for MySQL",
+  "abstract": "High Performance Proxy for MySQL",
   "category": "MySQL forks and evolutions",
   "tags": [
 
