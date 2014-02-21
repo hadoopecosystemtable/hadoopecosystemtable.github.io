@@ -1,8 +1,8 @@
 {
   "name": "GraphX",
   "description": "A Resilient Distributed Graph System on Spark",
-  "abstract": "A Resilient Distributed Graph System on Spark",
-  "category": "Uncategorized",
+  "abstract": "resilient Distributed Graph System on Spark",
+  "category": "Graph Data Model",
   "tags": [
 
   ],

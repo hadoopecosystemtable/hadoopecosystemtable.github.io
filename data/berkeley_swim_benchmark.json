@@ -1,7 +1,7 @@
 {
   "name": "Berkeley SWIM Benchmark",
-  "description": "The SWIM benchmark (Statistical Workload Injector for MapReduce), is a benchmark representing a real-world big data workload developed by University of California at Berkley in close cooperation with Facebook. This test provides rigorous measurements of the performance of MapReduce systems comprised of real industry workloads..",
-  "abstract": "",
+  "description": "The SWIM benchmark (Statistical Workload Injector for MapReduce), is a benchmark representing a real-world big data workload developed by University of California at Berkley in close cooperation with Facebook. This test provides rigorous measurements of the performance of MapReduce systems comprised of real industry workloads.",
+  "abstract": "real-world big data workload benchmark",
   "category": "Bechmarking",
   "tags": [
 

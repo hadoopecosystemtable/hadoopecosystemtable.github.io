@@ -1,7 +1,7 @@
 {
   "name": "Ceph Filesystem",
   "description": "Ceph is a free software storage platform designed to present object, block, \nand file storage from a single distributed computer cluster. Ceph's main \ngoals are to be completely distributed without a single point of failure, \nscalable to the exabyte level, and freely-available. The data is replicated, \nmaking it fault tolerant. The problem right now is Ceph currently requires Hadoop 1.1.X stable series.",
-  "abstract": "",
+  "abstract": "software storage platform designed",
   "category": "Distributed Filesystem",
   "tags": [
 

@@ -1,8 +1,8 @@
 {
   "name": "Google BigQuery",
-  "description": "Â framework for interactive analysis, implementation of Dremel",
-  "abstract": "Â framework for interactive analysis, implementation of Dremel",
-  "category": "Uncategorized",
+  "description": "framework for interactive analysis, implementation of Dremel",
+  "abstract": "framework for interactive analysis, implementation of Dremel",
+  "category": "SQL-on-Hadoop",
   "tags": [
 
   ],

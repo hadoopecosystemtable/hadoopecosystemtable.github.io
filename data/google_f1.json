@@ -1,7 +1,7 @@
 {
   "name": "Google F1",
-  "description": "distributed SQL database",
-  "abstract": "distributed SQL database",
+  "description": "distributed SQL database built on Spanner",
+  "abstract": "distributed SQL database built on Spanner",
   "category": "NewSQL Databases",
   "tags": [
 

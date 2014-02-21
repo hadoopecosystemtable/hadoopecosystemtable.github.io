@@ -2,7 +2,7 @@
   "name": "HadoopDB",
   "description": "hybrid of MapReduce and DBMS",
   "abstract": "hybrid of MapReduce and DBMS",
-  "category": "Uncategorized",
+  "category": "Distributed Programming",
   "tags": [
 
   ],

@@ -1,7 +1,7 @@
 {
   "name": "ArangoDB",
   "description": "An open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient sql-like query language or JavaScript extensions.",
-  "abstract": "",
+  "abstract": "multi model distribuited database",
   "category": "Graph Data Model",
   "tags": [
 

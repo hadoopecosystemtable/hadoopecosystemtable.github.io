@@ -1,7 +1,7 @@
 {
   "name": "HBase Comprocessor",
-  "description": "implementation ofÂ Percolator, part ofÂ HBase",
-  "abstract": "implementation ofÂ Percolator, part ofÂ HBase",
+  "description": "implementation of Percolator, part of HBase",
+  "abstract": "implementation of Percolator, part of HBase",
   "category": "Search engine and framework",
   "tags": [
 

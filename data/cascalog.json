@@ -1,8 +1,8 @@
 {
   "name": "Cascalog",
-  "description": "Â data processing and querying library",
-  "abstract": "Â data processing and querying library",
-  "category": "Uncategorized",
+  "description": "data processing and querying library",
+  "abstract": "data processing and querying library",
+  "category": "Distributed Programming",
   "tags": [
 
   ],

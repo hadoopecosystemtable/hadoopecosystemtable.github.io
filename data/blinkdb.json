@@ -1,8 +1,8 @@
 {
   "name": "BlinkDB",
-  "description": "Â massively parallel, approximate query engine",
-  "abstract": "Â massively parallel, approximate query engine",
-  "category": "Uncategorized",
+  "description": "massively parallel, approximate query engine",
+  "abstract": "massively parallel, approximate query engine",
+  "category": "SQL-on-Hadoop",
   "tags": [
 
   ],

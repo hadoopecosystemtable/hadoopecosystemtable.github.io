@@ -1,7 +1,7 @@
 {
   "name": "Google Cloud SQL",
-  "description": "Â MySQL databases in Google's cloud",
-  "abstract": "Â MySQL databases in Google's cloud",
+  "description": "MySQL databases in Google's cloud",
+  "abstract": "MySQL databases in Google's cloud",
   "category": "MySQL forks and evolutions",
   "tags": [
 

@@ -1,8 +1,8 @@
 {
   "name": "Google BigTable",
-  "description": "Â column-oriented distributed datastore",
-  "abstract": "Â column-oriented distributed datastore",
-  "category": "Uncategorized",
+  "description": "column-oriented distributed datastore",
+  "abstract": "column-oriented distributed datastore",
+  "category": "Column Data Model",
   "tags": [
 
   ],

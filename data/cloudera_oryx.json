@@ -1,7 +1,7 @@
 {
   "name": "Cloudera Oryx",
   "description": "The Oryx open source project provides simple, real-time large-scale machine learning / predictive analytics infrastructure. It implements a few classes of algorithm commonly used in business applications: collaborative filtering / recommendation, classification / regression, and clustering.",
-  "abstract": "",
+  "abstract": "real-time large-scale machine learning",
   "category": "Machine Learning",
   "tags": [
 

@@ -1,7 +1,7 @@
 {
   "name": "Cloudera Impala",
   "description": "The Apache-licensed Impala project brings scalable parallel database technology to Hadoop, enabling users to issue low-latency SQL queries to data stored in HDFS and Apache HBase without requiring data movement or transformation. It's a Google Dremel clone (Big Query google).",
-  "abstract": "Â framework for interactive analysis, Inspired by Dremel",
+  "abstract": "framework for interactive analysis, Inspired by Dremel",
   "category": "SQL-on-Hadoop",
   "tags": [
 

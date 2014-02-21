@@ -1,7 +1,7 @@
 {
   "name": "HIPI Library",
   "description": "HIPI is a library for Hadoop's MapReduce framework that provides an API for performing image processing tasks in a distributed computing environment.",
-  "abstract": "",
+  "abstract": "API for performing image processing tasks on Hadoop's MapReduce",
   "category": "Applications",
   "tags": [
 

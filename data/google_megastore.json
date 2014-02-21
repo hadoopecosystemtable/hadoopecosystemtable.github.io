@@ -2,7 +2,7 @@
   "name": "Google Megastore",
   "description": "scalable, highly available storage",
   "abstract": "scalable, highly available storage",
-  "category": "Uncategorized",
+  "category": "Distributed Filesystem",
   "tags": [
 
   ],

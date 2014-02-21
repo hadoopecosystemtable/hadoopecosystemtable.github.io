@@ -1,8 +1,8 @@
 {
 	"categories": [
 		"Framework",
-		"Distributed Filesystem",
 		"Distributed Programming",
+		"Distributed Filesystem",
 		"Column Data Model",
 		"Document Data Model",
 		"Key-value Data Model",
@@ -20,6 +20,7 @@
 		"Development Frameworks",
 		"Search engine and framework",
 		"MySQL forks and evolutions",
+		"Memcached forks and evolutions",
 		"Uncategorized"
 	]
 }

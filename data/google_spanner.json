@@ -1,8 +1,8 @@
 {
   "name": "Google Spanner",
-  "description": "globally distributed database",
-  "abstract": "globally distributed database",
-  "category": "Uncategorized",
+  "description": "globally distributed semi-relational database",
+  "abstract": "globally distributed semi-relational database",
+  "category": "NewSQL Databases",
   "tags": [
 
   ],

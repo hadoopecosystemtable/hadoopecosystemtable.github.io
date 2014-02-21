@@ -1,8 +1,8 @@
 {
   "name": "Chronos",
-  "description": "Â distributed and fault-tolerant scheduler",
-  "abstract": "Â distributed and fault-tolerant scheduler",
-  "category": "Uncategorized",
+  "description": "distributed and fault-tolerant scheduler",
+  "abstract": "distributed and fault-tolerant scheduler",
+  "category": "Scheduling",
   "tags": [
 
   ],

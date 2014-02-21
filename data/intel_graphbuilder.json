@@ -1,8 +1,8 @@
 {
   "name": "Intel GraphBuilder",
   "description": "library which provides tools to construct large-scale graphs on top of Apache Hadoop",
-  "abstract": "",
-  "category": "Uncategorized",
+  "abstract": "tools to construct large-scale graphs on top of Hadoop",
+  "category": "Graph Data Model",
   "tags": [
 
   ],
