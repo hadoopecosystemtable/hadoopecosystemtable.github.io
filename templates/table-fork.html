@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <title>The Big-Data Ecosystem Table</title>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-25296671-2', 'andreamostosi.name');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+
+    <section class="container">
+
+    <header class="inner">
+    <h1>The Big-Data Ecosystem Table</h1>
+    <blockquote>This page is built merging the <a href="http://hadoopecosystemtable.github.io/">Hadoop Ecosystem Table</a> (by <a href="http://es.linkedin.com/in/javiroman/">Javi Roman</a> and
+     <a href="https://github.com/hadoopecosystemtable/hadoopecosystemtable.github.io/graphs/contributors">other contributors</a>) and <a href="http://blog.andreamostosi.name/big-data/">projects list collected on my blog</a>. Result is an incomplete-but-useful list of big-data related projects. If you like you can contribute to the <a href="https://github.com/hadoopecosystemtable/hadoopecosystemtable.github.io">original project</a> or to <a href="https://github.com/zenkay/hest">my fork</a>.</blockquote>
+    </header>
+     
+    <table class="table table-striped table-condensed table-bordered">
+    <% categories.each do |category| %>
+      <tr class="success"><th colspan="3"><%= category["name"] %></th></tr>
+      <% unless category["items"].nil? %>
+      <% category["items"].each do |item| %>
+      <tr>
+        <td width="20%"><%= item["name"] %></td>
+        <td><%= item["description"] %></td>
+        <td width="20%">
+        <% item["links"].each_with_index do |link, index| %>
+          <a href="<%= link["url"] %>"><%= index + 1 %>. <%= link["text"] %></a><br>
+        <% end %>
+      </tr>
+    <% end %>
+    <% end %>
+    <% end %>
+    </table>
+
+    <footer class="inner">
+    <p>Published with <a href="http://pages.github.com">GitHub Pages</a>
+    </footer>
+
+    </section>
+
+  </body>
+</html>
