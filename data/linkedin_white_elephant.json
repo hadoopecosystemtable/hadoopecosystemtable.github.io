@@ -1,0 +1,15 @@
+{
+  "name": "LinkedIn White Elephant",
+  "description": "log aggregator and dashboard",
+  "abstract": "log aggregator and dashboard",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "LinkedIn White Elephant",
+      "url": "https://github.com/linkedin/white-elephant"
+    }
+  ]
+}

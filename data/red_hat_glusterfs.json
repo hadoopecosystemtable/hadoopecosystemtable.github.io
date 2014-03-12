@@ -1,0 +1,19 @@
+{
+  "name": "Red Hat GlusterFS",
+  "description": "GlusterFS is a scale-out network-attached storage file system. GlusterFS was \ndeveloped originally by Gluster, Inc., then by Red Hat, Inc., after their \npurchase of Gluster in 2011. In June 2012, Red Hat Storage Server was \nannounced as a commercially-supported integration of GlusterFS with \nRed Hat Enterprise Linux. Gluster File System, known now as Red Hat Storage Server. ",
+  "abstract": "cale-out network-attached storage file system",
+  "category": "Distributed Filesystem",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "www.gluster.org",
+      "url": "http://www.gluster.org/"
+    },
+    {
+      "text": "Red Hat Hadoop Plugin",
+      "url": "http://www.redhat.com/about/news/archive/2013/10/red-hat-contributes-apache-hadoop-plug-in-to-the-gluster-community"
+    }
+  ]
+}

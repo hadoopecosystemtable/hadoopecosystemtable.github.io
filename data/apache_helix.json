@@ -1,0 +1,15 @@
+{
+  "name": "Apache Helix",
+  "description": "Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Originally developed by Linkedin, now is in an incubator project at Apache. Helix is developed on top of Zookeeper for coordination tasks. .",
+  "abstract": "cluster management framework",
+  "category": "System Deployment",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Helix",
+      "url": "http://helix.apache.org/"
+    }
+  ]
+}

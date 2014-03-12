@@ -1,0 +1,15 @@
+{
+  "name": "Twitter Fatcache",
+  "description": "key/value cache for flash storage",
+  "abstract": "key/value cache for flash storage",
+  "category": "Memcached forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Twitter Fatcache",
+      "url": "https://github.com/twitter/fatcache"
+    }
+  ]
+}

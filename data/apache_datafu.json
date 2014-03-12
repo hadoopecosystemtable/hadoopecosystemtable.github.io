@@ -1,0 +1,19 @@
+{
+  "name": "Apache DataFu",
+  "description": "DataFu provides a collection of Hadoop MapReduce jobs and functions in higher level languages based on it to perform data analysis. It provides functions for common statistics tasks (e.g. quantiles, sampling), PageRank, stream sessionization, and set and bag operations. DataFu also provides Hadoop jobs for incremental data processing in MapReduce. DataFu is a collection of Pig UDFs (including PageRank, sessionization, set operations, sampling, and much more) that were originally developed at LinkedIn.",
+  "abstract": "collection of user-defined functions for Hadoop and Pig developed by LinkedIn",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "DataFu Apache Incubator",
+      "url": "http://incubator.apache.org/projects/datafu.html"
+    },
+    {
+      "text": "LinkedIn DataFu",
+      "url": "https://github.com/linkedin/datafu"
+    }
+  ]
+} 

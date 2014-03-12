@@ -1,0 +1,15 @@
+{
+  "name": "InfiniSQL",
+  "description": "infinity scalable RDBMS",
+  "abstract": "infinity scalable RDBMS",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "InfiniSQL",
+      "url": "http://www.infinisql.org/"
+    }
+  ]
+}

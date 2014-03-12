@@ -1,0 +1,15 @@
+{
+  "name": "jumboDB",
+  "description": "document oriented datastore over Hadoop",
+  "abstract": "document oriented datastore over Hadoop",
+  "category": "Document Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "jumboDB",
+      "url": "http://comsysto.github.io/jumbodb/"
+    }
+  ]
+}

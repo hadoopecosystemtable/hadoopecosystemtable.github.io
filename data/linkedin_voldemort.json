@@ -1,0 +1,15 @@
+{
+  "name": "Linkedin Voldemort",
+  "description": "Distributed data store that is designed as a key-value store used by LinkedIn for high-scalability storage.",
+  "abstract": "distributed key/value storage system",
+  "category": "Key-value Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "LinkedIn Voldemort",
+      "url": "http://www.project-voldemort.com/voldemort/"
+    }
+  ]
+}

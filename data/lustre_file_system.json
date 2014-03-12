@@ -1,0 +1,23 @@
+{
+  "name": "Lustre file system",
+  "description": "The Lustre filesystem is a high-performance distributed filesystem \nintended for larger network and high-availability environments. \nTraditionally, Lustre is configured to manage remote data storage \ndisk devices within a Storage Area Network (SAN), which is two or \nmore remotely attached disk devices communicating via a Small Computer \nSystem Interface (SCSI) protocol. This includes Fibre Channel, Fibre \nChannel over Ethernet (FCoE), Serial Attached SCSI (SAS) and even iSCSI. ",
+  "abstract": "high-performance distributed filesystem",
+  "category": "Distributed Filesystem",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "wiki.lustre.org/",
+      "url": "http://wiki.lustre.org/"
+    },
+    {
+      "text": "Hadoop with Lustre",
+      "url": "http://wiki.lustre.org/index.php/Running_Hadoop_with_Lustre"
+    },
+    {
+      "text": "Intel HPC Hadoop",
+      "url": "http://hadoop.intel.com/products/distribution"
+    }
+  ]
+}

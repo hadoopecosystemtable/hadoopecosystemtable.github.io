@@ -1,0 +1,15 @@
+{
+  "name": "Chronos",
+  "description": "distributed and fault-tolerant scheduler",
+  "abstract": "distributed and fault-tolerant scheduler",
+  "category": "Scheduling",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Chronos",
+      "url": "http://airbnb.github.io/chronos/"
+    }
+  ]
+}

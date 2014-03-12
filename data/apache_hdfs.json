@@ -1,0 +1,27 @@
+{
+  "name": "Apache HDFS",
+  "description": "The Hadoop Distributed File System (HDFS) offers a way to store large files across \nmultiple machines. Hadoop and HDFS was derived from Google File System (GFS) paper. \nPrior to Hadoop 2.0.0, the NameNode was a single point of failure (SPOF) in an HDFS cluster. \nWith Zookeeper the HDFS High Availability feature addresses this problem by providing \nthe option of running two redundant NameNodes in the same cluster in an Active/Passive \nconfiguration with a hot standby. ",
+  "abstract": "a way to store large files across multiple machines",
+  "category": "Distributed Filesystem",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "hadoop.apache.org",
+      "url": "http://hadoop.apache.org/"
+    },
+    {
+      "text": "Google FileSystem - GFS Paper",
+      "url": "http://research.google.com/archive/gfs.html"
+    },
+    {
+      "text": "Cloudera Why HDFS",
+      "url": "http://blog.cloudera.com/blog/2012/07/why-we-build-our-platform-on-hdfs/"
+    },
+    {
+      "text": "Hortonworks Why HDFS",
+      "url": "http://hortonworks.com/blog/thinking-about-the-hdfs-vs-other-storage-technologies/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Facebook McDipper",
+  "description": "key/value cache for flash storage",
+  "abstract": "key/value cache for flash storage",
+  "category": "Memcached forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Facebook McDipper",
+      "url": "https://www.facebook.com/notes/facebook-engineering/mcdipper-a-key-value-cache-for-flash-storage/10151347090423920"
+    }
+  ]
+}

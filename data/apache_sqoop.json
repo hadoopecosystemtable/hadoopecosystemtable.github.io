@@ -1,0 +1,15 @@
+{
+  "name": "Apache Sqoop",
+  "description": "System for bulk data transfer between HDFS and structured datastores as RDBMS. Like Flume but from HDFS to RDBMS.",
+  "abstract": "tool to transfer data between Hadoop and a structured datastore",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Sqoop",
+      "url": "http://sqoop.apache.org/"
+    }
+  ]
+}

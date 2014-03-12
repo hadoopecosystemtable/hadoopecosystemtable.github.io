@@ -1,0 +1,15 @@
+{
+  "name": "ProxySQL",
+  "description": "High Performance Proxy for MySQL",
+  "abstract": "High Performance Proxy for MySQL",
+  "category": "MySQL forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "ProxySQL",
+      "url": "https://github.com/renecannao/proxysql"
+    }
+  ]
+}

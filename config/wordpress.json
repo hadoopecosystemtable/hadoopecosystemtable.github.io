@@ -1,0 +1,24 @@
+{
+	"categories": [
+		"Framework",
+		"Distributed Programming",
+		"Distributed Filesystem",
+		"Column Data Model",
+		"Document Data Model",
+		"Key-value Data Model",
+		"Graph Data Model",
+		"NewSQL Databases",
+		"SQL-on-Hadoop",
+		"Data Ingestion",
+		"Service Programming",
+		"Scheduling",
+		"Machine Learning",
+		"Bechmarking",
+		"Security",
+		"System Deployment",
+		"Applications",
+		"Search engine and framework",
+		"MySQL forks and evolutions",
+		"Memcached forks and evolutions"
+	]
+}

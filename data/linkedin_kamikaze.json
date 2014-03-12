@@ -1,0 +1,15 @@
+{
+  "name": "LinkedIn Kamikaze",
+  "description": "utility package for compressing sorted integer arrays",
+  "abstract": "utility package for compressing sorted integer arrays",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "LinkedIn Kamikaze",
+      "url": "https://github.com/linkedin/kamikaze"
+    }
+  ]
+}

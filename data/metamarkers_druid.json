@@ -1,0 +1,15 @@
+{
+  "name": "Metamarkers Druid",
+  "description": "Realtime analytical data store.",
+  "abstract": "framework for real-time analysis of large datasets",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Druid",
+      "url": "http://druid.io/"
+    }
+  ]
+}

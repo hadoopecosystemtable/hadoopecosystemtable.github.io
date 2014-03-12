@@ -1,0 +1,16 @@
+{
+  "name": "Apache Tika",
+  "description": "Toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.",
+  "abstract": "content analysis toolkit",
+  "category": "Applications",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Tika",
+      "url": "https://tika.apache.org/"
+    }
+
+  ]
+}

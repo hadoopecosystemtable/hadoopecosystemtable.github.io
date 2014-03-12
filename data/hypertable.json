@@ -1,0 +1,15 @@
+{
+  "name": "Hypertable",
+  "description": "Database system inspired by publications on the design of Google's BigTable. The project is based on experience of engineers who were solving large-scale data-intensive tasks for many years. Hypertable runs on top of a distributed file system such as the Apache Hadoop DFS, GlusterFS, or the Kosmos File System (KFS). It is written almost entirely in C++. Sposored by Baidu the Chinese search engine.",
+  "abstract": "column-oriented distribuited datastore, inspired byÂ BigTable",
+  "category": "Column Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "HyperTable",
+      "url": "http://hypertable.org/"
+    }
+  ]
+}

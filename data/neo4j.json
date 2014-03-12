@@ -1,0 +1,15 @@
+{
+  "name": "Neo4j",
+  "description": "An open-source graph database writting entirely in Java. It is an embedded, disk-based, fully transactional Java persistence engine that stores data structured in graphs rather than in tables.",
+  "abstract": "graph database writting entirely in Java",
+  "category": "Graph Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Neo4j site",
+      "url": "http://www.neo4j.org/"
+    }
+  ]
+}

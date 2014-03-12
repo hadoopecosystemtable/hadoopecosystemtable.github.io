@@ -1,0 +1,15 @@
+{
+  "name": "Nokia Disco",
+  "description": "MapReduce framework developed by Nokia",
+  "abstract": "MapReduce framework developed by Nokia",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Nokia Disco",
+      "url": "http://discoproject.org/"
+    }
+  ]
+}

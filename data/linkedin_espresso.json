@@ -1,0 +1,15 @@
+{
+  "name": "LinkedIn Espresso",
+  "description": "horizontally scalable document-oriented NoSQL data store",
+  "abstract": "horizontally scalable document-oriented NoSQL data store",
+  "category": "Document Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "LinkedIn Espresso",
+      "url": "http://data.linkedin.com/projects/espresso"
+    }
+  ]
+}

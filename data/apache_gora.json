@@ -1,0 +1,15 @@
+{
+  "name": "Apache Gora",
+  "description": "framework for in-memory data model and persistence",
+  "abstract": "framework for in-memory data model and persistence",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Gora",
+      "url": "http://gora.apache.org/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ElasticSearch",
+  "description": "Search and analytics engine based on Apache Lucene",
+  "abstract": "Search and analytics engine based on Apache Lucene",
+  "category": "Search engine and framework",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "ElasticSearch",
+      "url": "http://www.elasticsearch.org/"
+    }
+  ]
+}

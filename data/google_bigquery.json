@@ -1,0 +1,15 @@
+{
+  "name": "Google BigQuery",
+  "description": "framework for interactive analysis, implementation of Dremel",
+  "abstract": "framework for interactive analysis, implementation of Dremel",
+  "category": "SQL-on-Hadoop",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Google BigQuery",
+      "url": "http://research.google.com/pubs/pub36632.html"
+    }
+  ]
+}

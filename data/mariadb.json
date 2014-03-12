@@ -1,0 +1,15 @@
+{
+  "name": "MariaDB",
+  "description": "enhanced, drop-in replacement for MySQL",
+  "abstract": "enhanced, drop-in replacement for MySQL",
+  "category": "MySQL forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "MariaDB",
+      "url": "https://mariadb.org/"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Hadoopecosystemtable.github.io : This page is a summary to keep the track of Hadoop related project, and relevant projects around Big Data scene focused on the open source, free software enviroment." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>The Hadoop Ecosystem Table</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/hadoopecosystemtable/hadoopecosystemtable.github.io">Fork Me on GitHub</a>
+          <h1 id="project_title">The Hadoop Ecosystem Table</h1>
+          <h2 id="project_tagline">This page is a summary to keep the track of Hadoop related projects, focused on FLOSS environment.</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+
+<section id="main_content" class="inner">
+    
+<!-- THE TABLE -->
+<table class="example3">
+<% categories.each do |category| %>
+<tr><th colspan="3"><%= category["name"] %></th></tr>
+<% unless category["items"].nil? %>
+<% category["items"].each do |item| %>
+<tr>
+<td width="20%"><%= item["name"] %></td>
+<td><%= item["description"] %></td>
+<td width="20%">
+<% item["links"].each_with_index do |link, index| %>
+<a href="<%= link["url"] %>"><%= index + 1 %>. <%= link["text"] %></a><br>
+<% end %>
+</tr>
+<% end %>
+<% end %>
+<% end %>
+</table>
+
+</section>
+    
+    </div>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a>
+           by <a href="http://es.linkedin.com/in/javiroman/">Javi Roman</a>, and
+           <a href="https://github.com/hadoopecosystemtable/hadoopecosystemtable.github.io/graphs/contributors">contributors</a>
+        </p>
+      </footer>
+    </div>
+
+  </body>
+</html>

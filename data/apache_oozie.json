@@ -1,0 +1,15 @@
+{
+  "name": "Apache Oozie",
+  "description": "Workflow scheduler system for MR jobs using DAGs (Direct Acyclical Graphs). Oozie Coordinator can trigger jobs by time (frequency) and data availabilit",
+  "abstract": "workflow job scheduler",
+  "category": "Scheduling",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Oozie",
+      "url": "http://oozie.apache.org/"
+    }
+  ]
+}

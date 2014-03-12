@@ -1,0 +1,19 @@
+{
+  "name": "Pydoop",
+  "description": "Pydoop is a Python MapReduce and HDFS API for Hadoop, built upon the C++\nPipes and the C libhdfs APIs, that allows to write full-fledged  MapReduce applications with HDFS access. Pydoop has several advantages over Hadoop’s built-in solutions for Python programming, i.e., Hadoop Streaming and Jython: being a CPython package, it allows you to access all standard library and third party modules, some of which may not be available.",
+  "abstract": "Python MapReduce and HDFS API for Hadoop",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "SF Pydoop site",
+      "url": "http://pydoop.sourceforge.net/docs/"
+    },
+    {
+      "text": "Pydoop GitHub Project",
+      "url": "https://github.com/crs4/pydoop"
+    }
+  ]
+}

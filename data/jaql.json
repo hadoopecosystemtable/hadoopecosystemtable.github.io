@@ -1,0 +1,19 @@
+{
+  "name": "JAQL",
+  "description": "JAQL is a functional, declarative programming language designed especially for working with large volumes of structured, semi-structured and unstructured data. As its name implies, a primary use of JAQL is to handle data stored as JSON documents, but JAQL can work on various types of data. For example, it can support XML, comma-separated values (CSV) data and flat files. A \"SQL within JAQL\" capability lets programmers work with structured SQL data while employing a JSON data model that's less restrictive than its Structured Query Language counterparts.",
+  "abstract": " declarative programming language for working with structured, semi-structured and unstructured data",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "JAQL in Google Code",
+      "url": "https://code.google.com/p/jaql/"
+    },
+    {
+      "text": "What is Jaql? by IBM",
+      "url": "http://www-01.ibm.com/software/data/infosphere/hadoop/jaql/"
+    }
+  ]
+}

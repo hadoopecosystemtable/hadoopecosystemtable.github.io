@@ -1,0 +1,23 @@
+{
+	"categories": [
+		"Distributed Filesystem",
+		"Distributed Programming",
+		"Column Data Model",
+		"Document Data Model",
+		"Key-value Data Model",
+		"Graph Data Model",
+		"NewSQL Databases",
+		"SQL-on-Hadoop",
+		"Data Ingestion",
+		"Service Programming",
+		"Scheduling",
+		"Machine Learning",
+		"Bechmarking",
+		"Security",
+		"System Deployment",
+		"Search engine and framework",
+		"Applications",
+		"Development Frameworks",
+		"Uncategorized"
+	]
+}

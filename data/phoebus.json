@@ -1,0 +1,15 @@
+{
+  "name": "Phoebus",
+  "description": "framework for large scale graph processing",
+  "abstract": "framework for large scale graph processing",
+  "category": "Graph Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Phoebus",
+      "url": "https://github.com/xslogic/phoebus"
+    }
+  ]
+}

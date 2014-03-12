@@ -1,0 +1,15 @@
+{
+  "name": "AMPLab SIMR",
+  "description": "Apache Spark was developed thinking in Apache YARN. However, up to now, it has been relatively hard to run Apache Spark on Hadoop MapReduce v1 clusters, i.e. clusters that do not have YARN installed. Typically, users would have to get permission to install Spark/Scala on some subset of the machines, a process that could be time consuming. SIMR allows anyone with access to a Hadoop MapReduce v1 cluster to run Spark out of the box. A user can run Spark directly on top of Hadoop MapReduce v1 without any administrative rights, and without having Spark or Scala installed on any of the nodes.",
+  "abstract": "run Spark on Hadoop MapReduce v1",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "SIMR on GitHub",
+      "url": "http://databricks.github.io/simr/"
+    }
+  ]
+}

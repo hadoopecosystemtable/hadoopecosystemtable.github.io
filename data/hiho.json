@@ -1,0 +1,12 @@
+{
+  "name": "HIHO",
+  "description": "This project is a framework for connecting disparate data sources with the Apache Hadoop system, making them interoperable. HIHO connects Hadoop with multiple RDBMS and file systems, so that data can be loaded to Hadoop and unloaded from Hadoop",
+  "abstract": "framework for connecting disparate data sources with Hadoop",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

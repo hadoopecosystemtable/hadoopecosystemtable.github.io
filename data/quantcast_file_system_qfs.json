@@ -1,0 +1,23 @@
+{
+  "name": "Quantcast File System QFS",
+  "description": " (QFS) is an open-source distributed file system software package for \nlarge-scale MapReduce or other batch-processing workloads. It was \ndesigned as an alternative to Apache Hadoop’s HDFS, intended to deliver \nbetter performance and cost-efficiency for large-scale processing clusters. \nIt is written in C++ and has fixed-footprint memory management. QFS uses \nReed-Solomon error correction as method for assuring reliable access to data. ",
+  "abstract": "open-source distributed file system",
+  "category": "Distributed Filesystem",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "QFS site",
+      "url": "https://www.quantcast.com/engineering/qfs/"
+    },
+    {
+      "text": "GitHub QFS",
+      "url": "https://github.com/quantcast/qfs"
+    },
+    {
+      "text": "HADOOP-8885",
+      "url": "https://issues.apache.org/jira/browse/HADOOP-8885"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "LinkedIn Databus",
+  "description": "stream of change capture events for a database",
+  "abstract": "stream of change capture events for a database",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "LinkedIn Databus",
+      "url": "http://data.linkedin.com/projects/databus"
+    }
+  ]
+}

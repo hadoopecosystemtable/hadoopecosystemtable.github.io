@@ -1,0 +1,12 @@
+{
+  "name": "Datasalt Splout SQL",
+  "description": "Splout allows serving an arbitrarily big dataset with high QPS rates and at the same time provides full SQL query syntax.",
+  "abstract": "full SQL query engine for big datasets",
+  "category": "SQL-on-Hadoop",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

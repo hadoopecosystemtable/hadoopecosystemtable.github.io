@@ -1,0 +1,15 @@
+{
+  "name": "BayesDB",
+  "description": "BayesDB, a Bayesian database table, lets users query the probable implications of their tabular data as easily as an SQL database lets them query the data itself. Using the built-in Bayesian Query Language (BQL), users with no statistics training can solve basic data science problems, such as detecting predictive relationships between variables, inferring missing values, simulating probable observations, and identifying statistically similar database entries.",
+  "abstract": "statistic oriented SQL database",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "BayesDB site",
+      "url": "http://probcomp.csail.mit.edu/bayesdb/index.html"
+    }
+  ]
+}

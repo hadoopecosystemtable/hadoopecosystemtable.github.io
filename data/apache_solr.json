@@ -1,0 +1,15 @@
+{
+  "name": "Apache Solr",
+  "description": "Search platform for Apache Lucene",
+  "abstract": "Search platform for Apache Lucene",
+  "category": "Search engine and framework",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Solr",
+      "url": "http://lucene.apache.org/solr/"
+    }
+  ]
+}

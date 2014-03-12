@@ -1,0 +1,15 @@
+{
+  "name": "Apache Lucene",
+  "description": "Search engine library",
+  "abstract": "Search engine library",
+  "category": "Search engine and framework",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Lucene",
+      "url": "http://lucene.apache.org/"
+    }
+  ]
+}

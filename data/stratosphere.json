@@ -1,0 +1,15 @@
+{
+  "name": "Stratosphere",
+  "description": "Stratosphere is a general purpose cluster computing framework. It is compatible to the Hadoop ecosystem: Stratosphere can access data stored in HDFS and runs with Hadoop's new cluster manager YARN. The common input formats of Hadoop are supported as well.\nStratosphere does not use Hadoop's MapReduce implementation: it is a completely new system that brings its own runtime. The new runtime allows to define more advanced operations that include more transformations than just map and reduce. Additionally, Stratosphere allows to express analysis jobs using advanced data flow graphs, which are able to resemble common data analysis task more naturally.",
+  "abstract": "general purpose cluster computing framework",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Stratosphere site",
+      "url": "http://stratosphere.eu/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Apache Falcon",
+  "description": "Apache™ Falcon is a data management framework for simplifying data lifecycle management and processing pipelines on Apache Hadoop®. It enables users to configure, manage and orchestrate data motion, pipeline processing, disaster recovery, and data retention workflows. Instead of hard-coding complex data lifecycle capabilities, Hadoop applications can now rely on the well-tested Apache Falcon framework for these functions. Falcon’s simplification of data management is quite useful to anyone building apps on Hadoop. Data Management on Hadoop encompasses data motion, process orchestration, lifecycle management, data discovery, etc. among other concerns that are beyond ETL. Falcon is a new data processing and management platform for Hadoop that solves this problem and creates additional opportunities by building on existing components within the Hadoop ecosystem (ex. Apache Oozie, Apache Hadoop DistCp etc.) without reinventing the wheel.",
+  "abstract": "data management framework",
+  "category": "Scheduling",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Falcon",
+      "url": "http://falcon.incubator.apache.org/"
+    }
+  ]
+}

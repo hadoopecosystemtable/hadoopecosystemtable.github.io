@@ -1,0 +1,15 @@
+{
+  "name": "SenseiDB",
+  "description": "Open-source, distributed, realtime, semi-structured database. Some Features: Full-text search, Fast realtime updates, Structured and faceted search, BQL: SQL-like query language, Fast key-value lookup, High performance under concurrent heavy update and query volumes, Hadoop integration",
+  "abstract": "distributed, realtime, semi-structured database",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "SenseiDB site",
+      "url": "http://senseidb.com/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Twitter Scalding",
+  "description": "Scala library for Map Reduce jobs, built on Cascading",
+  "abstract": "Scala library for Map Reduce jobs, built on Cascading",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Twitter Scalding",
+      "url": "https://github.com/twitter/scalding"
+    }
+  ]
+}

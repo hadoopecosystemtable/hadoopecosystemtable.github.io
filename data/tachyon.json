@@ -1,0 +1,15 @@
+{
+  "name": "Tachyon",
+  "description": "Tachyon is an memory distributed file system. By storing the file-system contents in the main memory of all cluster nodes, the system achieves higher throughput than traditional disk-based storage systems like HDFS.",
+  "abstract": "reliable file sharing at memory speed across cluster frameworks",
+  "category": "Distributed Filesystem",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Tachyon site",
+      "url": "http://tachyon-project.org/"
+    }
+  ]
+}

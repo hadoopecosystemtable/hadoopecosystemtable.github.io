@@ -1,0 +1,15 @@
+{
+  "name": "Twitter Elephant Bird",
+  "description": "Elephant Bird is a project that provides utilities (libraries) for working with LZOP-compressed data. It also provides a container format that supports working with Protocol Buffers, Thrift in MapReduce, Writables, Pig LoadFuncs, Hive SerDe, HBase miscellanea. This open source library is massively used in Twitter.",
+  "abstract": "libraries for working with LZOP-compressed data",
+  "category": "Service Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Elephant Bird GitHub",
+      "url": "https://github.com/kevinweil/elephant-bird"
+    }
+  ]
+}

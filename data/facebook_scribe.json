@@ -1,0 +1,15 @@
+{
+  "name": "Facebook Scribe",
+  "description": "Log agregator in real-time. It’s a Apache Thrift Service.",
+  "abstract": "streamed log data aggregator",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Facebook Scribe",
+      "url": "https://github.com/facebook/scribe"
+    }
+  ]
+}

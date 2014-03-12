@@ -1,0 +1,15 @@
+{
+  "name": "Storehaus",
+  "description": "library to work with asynchronous key value stores, by Twitter",
+  "abstract": "library to work with asynchronous key value stores, by Twitter",
+  "category": "Key-value Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Storehaus",
+      "url": "https://github.com/twitter/storehaus"
+    }
+  ]
+}

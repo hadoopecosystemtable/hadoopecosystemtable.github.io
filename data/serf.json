@@ -1,0 +1,15 @@
+{
+  "name": "Serf",
+  "description": "decentralized solution for service discovery and orchestration",
+  "abstract": "decentralized solution for service discovery and orchestration",
+  "category": "Service Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Serf",
+      "url": "http://www.serfdom.io/"
+    }
+  ]
+}

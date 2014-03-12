@@ -1,0 +1,12 @@
+{
+  "name": "HandlerSocket",
+  "description": "HandlerSocket is a NoSQL plugin for MySQL/MariaDB (the storage engine of MySQL). It works as a daemon inside the mysqld process, accepting TCP connections, and executing requests from clients. HandlerSocket does not support SQL queries. Instead, it supports simple CRUD operations on tables.\nHandlerSocket can be much faster than mysqld/libmysql in some cases because it has lower CPU, disk, and network overhead.",
+  "abstract": "NoSQL plugin for MySQL/MariaDB",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

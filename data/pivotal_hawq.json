@@ -1,0 +1,15 @@
+{
+  "name": "Pivotal HAWQ",
+  "description": "SQL-like data warehouse system for Hadoop",
+  "abstract": "SQL-like data warehouse system for Hadoop",
+  "category": "SQL-on-Hadoop",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Pivotal HAWQ",
+      "url": "http://www.gopivotal.com/pivotal-products/data/pivotal-hd"
+    }
+  ]
+}

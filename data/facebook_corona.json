@@ -1,0 +1,12 @@
+{
+  "name": "Facebook Corona",
+  "description": "“The next version of Map-Reduce\" from Facebook, based in own fork of Hadoop. The current Hadoop implementation of the MapReduce technique uses a single job tracker, which causes scaling issues for very large data sets. The Apache Hadoop developers have been creating their own next-generation MapReduce, called YARN, which Facebook engineers looked at but discounted because of the highly-customised nature of the company's deployment of Hadoop and HDFS.\nCorona, like YARN, spawns multiple job trackers (one for each job, in Corona's case). ",
+  "abstract": "Hadoop enhancement which removes single point of failure",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

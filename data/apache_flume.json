@@ -1,0 +1,15 @@
+{
+  "name": "Apache Flume",
+  "description": "Un-structured data agregator to HDFS.",
+  "abstract": "service to manage large amount of log data",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Flume",
+      "url": "http://flume.apache.org/"
+    }
+  ]
+}

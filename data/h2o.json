@@ -1,0 +1,15 @@
+{
+  "name": "H2O",
+  "description": "statistical, machine learning and math runtime for Hadoop",
+  "abstract": "statistical, machine learning and math runtime for Hadoop",
+  "category": "Machine Learning",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "H2O",
+      "url": "http://0xdata.github.io/h2o/"
+    }
+  ]
+}

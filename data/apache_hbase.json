@@ -1,0 +1,15 @@
+{
+  "name": "Apache HBase",
+  "description": "Google BigTable Inspired. Non-relational distributed database. Ramdom, real-time r/w operations in column-oriented very large tables (BDDB: Big Data Data Base). It’s the backing system for MR jobs outputs. It’s the Hadoop database.  It’s for backing Hadoop MapReduce jobs with Apache HBase tables",
+  "abstract": "column-oriented distribuited datastore, inspired by BigTable",
+  "category": "Column Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache HBase",
+      "url": "http://hbase.apache.org/"
+    }
+  ]
+}

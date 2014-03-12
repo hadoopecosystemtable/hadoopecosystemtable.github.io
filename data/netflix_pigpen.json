@@ -1,0 +1,15 @@
+{
+  "name": "Netflix PigPen",
+  "description": "PigPen is map-reduce for Clojure whiche compiles to Apache Pig. Clojure is dialect of the Lisp programming language created by Rich Hickey, so is a functional general-purpose language, and runs on the Java Virtual Machine, Common Language Runtime, and JavaScript engines. In PigPen there are no special user defined functions (UDFs). Define Clojure functions, anonymously or named, and use them like you would in any Clojure program. This tool is open sourced by Netflix, Inc. the American provider of on-demand Internet streaming media.",
+  "abstract": "map-reduce for Clojure whiche compiles to Apache Pig",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "PigPen on GitHub",
+      "url": "https://github.com/Netflix/PigPen"
+    }
+  ]
+}

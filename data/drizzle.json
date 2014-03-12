@@ -1,0 +1,12 @@
+{
+  "name": "Drizzle",
+  "description": "Drizzle is a re-designed version of the MySQL v6.0 codebase and is designed around a central concept of having a microkernel architecture. Features such as the query cache and authentication system are now plugins to the database, which follow the general theme of \"pluggable storage engines\" that were introduced in MySQL 5.1. It supports PAM, LDAP, and HTTP AUTH for authentication via plugins it ships. Via its plugin system it currently supports logging to files, syslog, and remote services such as RabbitMQ and Gearman. Drizzle is an ACID-compliant relational database that supports transactions via an MVCC design",
+  "abstract": "evolution of MySQL 6.0",
+  "category": "MySQL forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

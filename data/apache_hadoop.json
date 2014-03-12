@@ -1,0 +1,15 @@
+{
+  "name": "Apache Hadoop",
+  "description": "framework for distributed processing. Integrates MapReduce (parallel processing), YARN (job scheduling) and HDFS (distributed file system)",
+  "abstract": "framework for distributed processing. Integrates MapReduce (parallel processing), YARN (job scheduling) and HDFS (distributed file system)",
+  "category": "Framework",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Hadoop",
+      "url": "http://hadoop.apache.org/"
+    }
+  ]
+}

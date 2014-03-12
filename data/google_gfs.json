@@ -1,0 +1,12 @@
+{
+  "name": "Google GFS",
+  "description": "distributed filesystem",
+  "abstract": "distributed filesystem",
+  "category": "Distributed Filesystem",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

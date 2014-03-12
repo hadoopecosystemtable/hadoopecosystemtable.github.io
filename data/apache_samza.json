@@ -1,0 +1,15 @@
+{
+  "name": "Apache Samza",
+  "description": "Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance, processor isolation, security, and resource management. Developed by http://www.linkedin.com/in/jaykreps Linkedin.",
+  "abstract": "stream processing framework, based on Kafla and YARN",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Samza",
+      "url": "http://samza.incubator.apache.org/"
+    }
+  ]
+}

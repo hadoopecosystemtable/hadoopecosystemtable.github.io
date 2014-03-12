@@ -1,0 +1,15 @@
+{
+  "name": "Damballa Parkour",
+  "description": "Library for develop MapReduce programs using the LISP like language Clojure. Parkour aims to provide deep Clojure integration for Hadoop.  Programs using Parkour are normal Clojure programs, using standard Clojure functions instead of new framework abstractions.  Programs using Parkour are also full Hadoop programs, with complete access to absolutely everything possible in raw Java Hadoop MapReduce.",
+  "abstract": "MapReduce library for Clojure",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Parkour GitHub Project",
+      "url": "https://github.com/damballa/parkour"
+    }
+  ]
+}

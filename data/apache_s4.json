@@ -1,0 +1,15 @@
+{
+  "name": "Apache S4",
+  "description": "S4 is a general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.",
+  "abstract": "framework for stream processing, implementation of S4",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache S4",
+      "url": "http://incubator.apache.org/s4/"
+    }
+  ]
+}

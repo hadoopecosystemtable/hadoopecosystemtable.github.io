@@ -1,0 +1,15 @@
+{
+  "name": "Amazon DynamoDB",
+  "description": "distributed key/value store, implementation of Dynamo",
+  "abstract": "distributed key/value store, implementation of Dynamo paper",
+  "category": "Key-value Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Amazon DynamoDB",
+      "url": "http://aws.amazon.com/dynamodb/"
+    }
+  ]
+}

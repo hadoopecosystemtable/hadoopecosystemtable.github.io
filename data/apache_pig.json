@@ -1,0 +1,19 @@
+{
+  "name": "Apache Pig",
+  "description": "Pig provides an engine for executing data flows in parallel on Hadoop. It includes a language, Pig Latin, for expressing these data flows. Pig Latin includes operators for many of the traditional data operations (join, sort, filter, etc.), as well as the ability for users to develop their own functions for reading, processing, and writing data. Pig runs on Hadoop. It makes use of both the Hadoop Distributed File System, HDFS, and Hadoop’s processing system, MapReduce. ",
+  "abstract": "high level language to express data analysis programs for Hadoop",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "pig.apache.org/",
+      "url": "https://pig.apache.org/"
+    },
+    {
+      "text": "2.Pig examples by Alan Gates",
+      "url": "https://github.com/alanfgates/programmingpig"
+    }
+  ]
+}

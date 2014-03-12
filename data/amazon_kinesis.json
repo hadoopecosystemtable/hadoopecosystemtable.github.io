@@ -1,0 +1,15 @@
+{
+  "name": "Amazon Kinesis",
+  "description": "Real-time processing of streaming data at massive scale",
+  "abstract": "real-time processing of streaming data at massive scale",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Amazon Kinesis",
+      "url": "http://aws.amazon.com/kinesis/"
+    }
+  ]
+}

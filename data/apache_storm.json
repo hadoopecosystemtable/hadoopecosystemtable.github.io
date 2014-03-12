@@ -1,0 +1,19 @@
+{
+  "name": "Apache Storm",
+  "description": "Storm is a complex event processor and distributed computation framework written predominantly in the Clojure programming language. Is a distributed real-time computation system for processing fast, large streams of data. Storm is an architecture based on master-workers paradigma. So a Storm cluster mainly consists of a master and worker nodes, with coordination done by Zookeeper. ",
+  "abstract": "framework for stream processing by Twitter also on YARN",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Storm Project/",
+      "url": "http://storm-project.net/"
+    },
+    {
+      "text": "Storm-on-YARN",
+      "url": "github.com/yahoo/storm-yarn"
+    }
+  ]
+}

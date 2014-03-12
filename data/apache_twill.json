@@ -1,0 +1,15 @@
+{
+  "name": "Apache Twill",
+  "description": "Twill is an abstraction over Apache Hadoop® YARN that reduces the complexity of developing distributed applications, allowing developers to focus more on their business logic. Twill uses a simple thread-based model that Java programmers will find familiar. YARN can be viewed as a compute fabric of a cluster, which means YARN applications like Twill will run on any Hadoop 2 cluster.",
+  "abstract": "abstraction over YARN that reduces the complexity of developing distributed applications",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Twill Incubator",
+      "url": "https://incubator.apache.org/projects/twill.html"
+    }
+  ]
+}

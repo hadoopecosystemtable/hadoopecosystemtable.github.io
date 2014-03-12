@@ -1,0 +1,15 @@
+{
+  "name": "Apache Bigtop",
+  "description": "Bigtop was originally developed and released as an open source packaging infrastructure by Cloudera. BigTop is used for some vendors to build their own distributions based on Apache Hadoop (CDH, Pivotal HD, Intel's distribution), however Apache Bigtop does many more tasks, like continuous integration testing (with Jenkins, maven, ...) and is useful for packaging (RPM and DEB), deployment with Puppet, and so on. Apache Bigtop could be considered as a community effort with a main focus: put all bits of the Hadoop ecosystem as a whole, rather than individual projects.",
+  "abstract": "system deployment framework for the Hadoop ecosystem",
+  "category": "System Deployment",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Bigtop.",
+      "url": "http://bigtop.apache.org//"
+    }
+  ]
+}

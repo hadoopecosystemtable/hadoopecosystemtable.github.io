@@ -1,0 +1,12 @@
+{
+  "name": "Intel HiBench",
+  "description": "HiBench is a Hadoop benchmark suite.",
+  "abstract": "a Hadoop benchmark suite",
+  "category": "Bechmarking",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

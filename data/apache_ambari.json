@@ -1,0 +1,15 @@
+{
+  "name": "Apache Ambari",
+  "description": "Intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs. Apache Ambari was donated by Hortonworks team to the ASF. It's a powerful and nice interface for Hadoop and other typical applications from the Hadoop ecosystem. Apache Ambari is under a heavy development, and it will incorporate new features in a near future. For example Ambari is able to deploy a complete Hadoop system from scratch, however is not possible use this GUI in a Hadoop system that is already running. The ability to provisioning the operating system could be a good addition, however probably is not in the roadmap..",
+  "abstract": "operational framework for Hadoop mangement",
+  "category": "System Deployment",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Ambari",
+      "url": "http://ambari.apache.org/"
+    }
+  ]
+}

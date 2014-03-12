@@ -1,0 +1,15 @@
+{
+  "name": "Apache Mahout",
+  "description": "Machine learning library and math library, on top of MapReduce.",
+  "abstract": "machine learning library for Hadoop",
+  "category": "Machine Learning",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Mahout",
+      "url": "http://mahout.apache.org/"
+    }
+  ]
+}

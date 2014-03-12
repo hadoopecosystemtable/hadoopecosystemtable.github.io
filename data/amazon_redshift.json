@@ -1,0 +1,15 @@
+{
+  "name": "Amazon RedShift",
+  "description": "data warehouse service, based on PostgreSQL",
+  "abstract": "data warehouse service, based on PostgreSQL",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Amazon RedShift",
+      "url": "http://aws.amazon.com/redshift/"
+    }
+  ]
+}

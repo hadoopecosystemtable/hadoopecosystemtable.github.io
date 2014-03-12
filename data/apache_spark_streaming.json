@@ -1,0 +1,15 @@
+{
+  "name": "Apache Spark Streaming",
+  "description": "framework for stream processing, part of Spark",
+  "abstract": "framework for stream processing, part of Spark",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Spark Streaming",
+      "url": "http://spark.incubator.apache.org/docs/0.7.3/streaming-programming-guide.html"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Apache Tez",
+  "description": "Tez is a proposal to develop a generic application which can be used to process complex data-processing task DAGs and runs natively on Apache Hadoop YARN.",
+  "abstract": "application framework for executing a complex DAG (directed acyclic graph) of tasks, built onÂ YARN",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Tez",
+      "url": "http://tez.incubator.apache.org/"
+    }
+  ]
+}

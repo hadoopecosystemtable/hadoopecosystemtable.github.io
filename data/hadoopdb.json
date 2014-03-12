@@ -1,0 +1,15 @@
+{
+  "name": "HadoopDB",
+  "description": "hybrid of MapReduce and DBMS",
+  "abstract": "hybrid of MapReduce and DBMS",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "HadoopDB",
+      "url": "http://db.cs.yale.edu/hadoopdb/hadoopdb.html"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Cascalog",
+  "description": "data processing and querying library",
+  "abstract": "data processing and querying library",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Cascalog",
+      "url": "http://cascalog.org/"
+    }
+  ]
+}

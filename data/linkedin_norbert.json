@@ -1,0 +1,19 @@
+{
+  "name": "Linkedin Norbert",
+  "description": "Norbert is a library that provides easy cluster management and workload distribution. With Norbert, you can quickly distribute a simple client/server architecture to create a highly scalable architecture capable of handling heavy traffic. Implemented in Scala, Norbert wraps ZooKeeper, Netty and uses Protocol Buffers for transport to make it easy to build a cluster aware application. A Java API is provided and pluggable load balancing strategies are supported with round robin and consistent hash strategies provided out of the box.",
+  "abstract": "cluster manager",
+  "category": "Service Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Linedin Project",
+      "url": "http://data.linkedin.com/opensource/norbert"
+    },
+    {
+      "text": "GitHub source code",
+      "url": "https://github.com/rhavyn/norbert"
+    }
+  ]
+}

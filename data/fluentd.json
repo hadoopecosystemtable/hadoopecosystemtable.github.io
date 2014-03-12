@@ -1,0 +1,15 @@
+{
+  "name": "Fluentd",
+  "description": "tool to collect events and logs",
+  "abstract": "tool to collect events and logs",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Fluentd",
+      "url": "http://fluentd.org/"
+    }
+  ]
+}

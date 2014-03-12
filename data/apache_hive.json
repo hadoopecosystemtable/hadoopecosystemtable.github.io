@@ -1,0 +1,15 @@
+{
+  "name": "Apache Hive",
+  "description": "Data Warehouse infrastructure developed by Facebook. Data summarization, query, and analysis. It’s provides SQL-like language (not SQL92 compliant): HiveQL.",
+  "abstract": "SQL-like data warehouse system for Hadoop",
+  "category": "SQL-on-Hadoop",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Hive",
+      "url": "http://hive.apache.org/"
+    }
+  ]
+}

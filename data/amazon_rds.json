@@ -1,0 +1,15 @@
+{
+  "name": "Amazon RDS",
+  "description": "MySQL databases in Amazon's cloud",
+  "abstract": "MySQL databases in Amazon's cloud",
+  "category": "MySQL forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Amazon RDS",
+      "url": "http://aws.amazon.com/rds/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sky",
+  "description": "Sky is an open source database used for flexible, high performance analysis of behavioral data. For certain kinds of data such as clickstream data and log data, it can be several orders of magnitude faster than traditional approaches such as SQL databases or Hadoop.",
+  "abstract": "database used for flexible, high performance analysis of behavioral data",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "SkyDB site",
+      "url": "http://skydb.io/"
+    }
+  ]
+}

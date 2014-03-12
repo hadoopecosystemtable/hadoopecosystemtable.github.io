@@ -1,0 +1,15 @@
+{
+  "name": "Percona Server",
+  "description": "enhanced, drop-in replacement for MySQL",
+  "abstract": "enhanced, drop-in replacement for MySQL",
+  "category": "MySQL forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Percona Server",
+      "url": "http://www.percona.com/software/percona-server"
+    }
+  ]
+}

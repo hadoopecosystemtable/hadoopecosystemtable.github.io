@@ -1,0 +1,15 @@
+{
+  "name": "Facebook Peregrine",
+  "description": "Map Reduce framework",
+  "abstract": "Map Reduce framework",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Facebook Peregrine",
+      "url": "http://peregrine_mapreduce.bitbucket.org/"
+    }
+  ]
+}

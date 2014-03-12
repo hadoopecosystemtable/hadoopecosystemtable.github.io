@@ -1,0 +1,15 @@
+{
+  "name": "Apache Hama",
+  "description": "Apache Top-Level open source project, allowing you to do advanced analytics beyond MapReduce. Many data analysis techniques such as machine learning and graph algorithms require iterative computations, this is where Bulk Synchronous Parallel model can be more effective than \"plain\" MapReduce.",
+  "abstract": "BSP (Bulk Synchronous Parallel) computing framework",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Hama site",
+      "url": "http://hama.apache.org/"
+    }
+  ]
+}

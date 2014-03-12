@@ -1,0 +1,15 @@
+{
+  "name": "Concurrent Cascading",
+  "description": "Application framework for Java developers to simply develop robust Data Analytics and Data Management applications on Apache Hadoop.",
+  "abstract": "framework for data management/analytics on Hadoop",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Cascanding",
+      "url": "http://www.cascading.org/"
+    }
+  ]
+}

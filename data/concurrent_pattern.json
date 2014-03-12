@@ -1,0 +1,15 @@
+{
+  "name": "Concurrent Pattern",
+  "description": "Machine Learning for Cascading on Apache Hadoop through an API, and standards based PMML",
+  "abstract": "machine learning library for Cascading",
+  "category": "Machine Learning",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Cascading Pattern",
+      "url": "http://www.cascading.org/pattern/"
+    }
+  ]
+}

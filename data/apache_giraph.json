@@ -1,0 +1,15 @@
+{
+  "name": "Apache Giraph",
+  "description": "Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. Giraph originated as the open-source counterpart to Pregel, the graph processing architecture developed at Google",
+  "abstract": "implementation of Pregel, based on Hadoop",
+  "category": "Graph Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Giraph",
+      "url": "http://giraph.apache.org/"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Cloudera HUE",
+  "description": "Web application for interacting with Apache Hadoop.",
+  "abstract": "web application for interacting with Hadoop",
+  "category": "System Deployment",
+  "tags": [
+
+  ],
+  "links": [
+
+  ]
+}

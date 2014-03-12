@@ -1,0 +1,23 @@
+{
+  "name": "Apache MapReduce",
+  "description": "MapReduce is a programming model for processing large data sets with a parallel, distributed algorithm on a cluster. Apache MapReduce was derived from Google MapReduce: Simplified Data Processing on Large Clusters paper. The current Apache MapReduce version is built over Apache YARN Framework. YARN stands for “Yet-Another-Resource-Negotiator”. It is a new framework that facilitates writing arbitrary distributed processing frameworks and applications. YARN’s execution model is more generic than the earlier MapReduce implementation. YARN can run applications that do not follow the MapReduce model, unlike the original Apache Hadoop MapReduce (also called MR1). Hadoop YARN is an attempt to take Apache Hadoop beyond MapReduce for data-processing.",
+  "abstract": "programming model for processing large data sets with a parallel, distributed algorithm on a cluster",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache MapReduce",
+      "url": "http://wiki.apache.org/hadoop/MapReduce/"
+    },
+    {
+      "text": "Google MapReduce paper",
+      "url": "http://research.google.com/archive/mapreduce.html"
+    },
+    {
+      "text": "Writing YARN applications",
+      "url": "http://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/WritingYarnApplications.html"
+    }
+  ]
+}

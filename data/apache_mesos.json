@@ -1,0 +1,15 @@
+{
+  "name": "Apache Mesos",
+  "description": "Mesos is a cluster manager that provides resource sharing and isolation across cluster applications. Like HTCondor, SGE or Troque can do it. However Mesos is hadoop centred design",
+  "abstract": "cluster manager",
+  "category": "System Deployment",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Mesos",
+      "url": "http://mesos.apache.org/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sphnix Search Server",
+  "description": "Sphinx lets you either batch index and search data stored in an SQL database, NoSQL storage, or just files quickly and easily — or index and search data on the fly, working with Sphinx pretty much as with a database server.",
+  "abstract": "fulltext search engine",
+  "category": "Search engine and framework",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Sphinx",
+      "url": "http://sphinxsearch.com/"
+    }
+  ]
+}

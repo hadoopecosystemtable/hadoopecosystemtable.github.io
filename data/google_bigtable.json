@@ -1,0 +1,15 @@
+{
+  "name": "Google BigTable",
+  "description": "column-oriented distributed datastore",
+  "abstract": "column-oriented distributed datastore",
+  "category": "Column Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Google BigTable",
+      "url": "http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/bigtable-osdi06.pdf"
+    }
+  ]
+}

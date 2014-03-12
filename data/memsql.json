@@ -1,0 +1,15 @@
+{
+  "name": "MemSQL",
+  "description": "in memory SQL database witho optimized columnar storage on flash",
+  "abstract": "in memory SQL database witho optimized columnar storage on flash",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "MemSQL site",
+      "url": "http://www.memsql.com/"
+    }
+  ]
+}

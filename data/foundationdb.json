@@ -1,0 +1,19 @@
+{
+  "name": "FoundationDB",
+  "description": "distributed database, inspired by F1, aquired Akiban server",
+  "abstract": "distributed database, inspired by F1",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "FoundationDB",
+      "url": "https://foundationdb.com/"
+    },
+    {
+      "text": "Akiban Server", 
+      "content": "http://www.akiban.com"
+    }
+  ]
+}

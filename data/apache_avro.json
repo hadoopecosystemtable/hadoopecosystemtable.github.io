@@ -1,0 +1,15 @@
+{
+  "name": "Apache Avro",
+  "description": "Apache Avro is a framework for modeling, serializing and making Remote Procedure Calls (RPC). Avro data is described by a schema, and one interesting feature is that the schema is stored in the same file as the data it describes, so files are self-describing. Avro does not require code generation. This framework can compete with other similar tools like: Apache Thrift, Google Protocol Buffers, ZeroC ICE, and so on. ",
+  "abstract": "data serialization system",
+  "category": "Service Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Avro",
+      "url": "http://avro.apache.org/"
+    }
+  ]
+}

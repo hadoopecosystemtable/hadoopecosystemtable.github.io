@@ -1,0 +1,19 @@
+{
+  "name": "Apache Zookeeper",
+  "description": "It’s a coordination service that gives you the tools you need to write correct distributed applications. ZooKeeper was developed at Yahoo! Research. Several Hadoop projects are already using ZooKeeper to coordinate the cluster and provide highly-available distributed services. Perhaps most famous of those are Apache HBase, Storm, Kafka. ZooKeeper is an application library with two principal implementations of the APIs—Java and C—and a service component implemented in Java that runs on an ensemble of dedicated servers. Zookeeper is for building distributed systems, simplifies the development process, making it more agile and enabling more robust implementations. Back in 2006, Google published a paper on \"Chubby\", a distributed lock service which gained wide adoption within their data centers. Zookeeper, not surprisingly, is a close clone of Chubby designed to fulfill many of the same roles for HDFS and other Hadoop infrastructure.",
+  "abstract": "centralized service for process management",
+  "category": "Service Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Zookeeper",
+      "url": "http://zookeeper.apache.org/"
+    },
+    {
+      "text": "Google Chubby paper",
+      "url": "http://research.google.com/archive/chubby.html"
+    }
+  ]
+}

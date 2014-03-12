@@ -1,0 +1,15 @@
+{
+  "name": "Apache Thrift",
+  "description": "A cross-language RPC framework for service creations. It’s the service base for Facebook technologies (the original Thrift contributor). Thrift provides a framework for developing and accessing remote services. It allows developers to create services that can be consumed by any application that is written in a language that there are Thrift bindings for. Thrift manages serialization of data to and from a service, as well as the protocol that describes a method invocation, response, etc. Instead of writing all the RPC code -- you can just get straight to your service logic. Thrift uses TCP and so a given service is bound to a particular port.",
+  "abstract": "framework to build binary protocols",
+  "category": "Service Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Thrift",
+      "url": "http://thrift.apache.org//"
+    }
+  ]
+}

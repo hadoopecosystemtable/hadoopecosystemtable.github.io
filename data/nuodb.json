@@ -1,0 +1,15 @@
+{
+  "name": "NuoDB",
+  "description": "SQL/ACID compliant distributed database",
+  "abstract": "SQL/ACID compliant distributed database",
+  "category": "NewSQL Databases",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "NuoDB",
+      "url": "http://www.nuodb.com/"
+    }
+  ]
+}

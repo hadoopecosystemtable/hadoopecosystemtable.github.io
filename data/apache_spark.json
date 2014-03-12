@@ -1,0 +1,15 @@
+{
+  "name": "Apache Spark",
+  "description": "Data analytics cluster computing framework originally developed in the AMPLab at UC Berkeley. Spark fits into the Hadoop open-source community, building on top of the Hadoop Distributed File System (HDFS). However, Spark provides an easier to use alternative to Hadoop MapReduce and offers performance up to 10 times faster than previous generation systems like Hadoop MapReduce for certain applications.",
+  "abstract": "framework for in-memory cluster computing",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Incubator Spark",
+      "url": "http://spark.incubator.apache.org/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Twitter Summingbird",
+  "description": "a system that aims to mitigate the tradeoffs between batch processing and stream processing by combining them into a hybrid system. In the case of Twitter, Hadoop handles batch processing, Storm handles stream processing, and the hybrid system is called Summingbird.",
+  "abstract": "Streaming MapReduce with Scalding and Storm, by Twitter",
+  "category": "Distributed Programming",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Summingbird",
+      "url": "https://github.com/twitter/summingbird"
+    }
+  ]
+}

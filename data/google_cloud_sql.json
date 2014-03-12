@@ -1,0 +1,15 @@
+{
+  "name": "Google Cloud SQL",
+  "description": "MySQL databases in Google's cloud",
+  "abstract": "MySQL databases in Google's cloud",
+  "category": "MySQL forks and evolutions",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Google Cloud SQL",
+      "url": "https://developers.google.com/cloud-sql/"
+    }
+  ]
+}

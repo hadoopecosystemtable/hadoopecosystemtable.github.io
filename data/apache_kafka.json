@@ -1,0 +1,15 @@
+{
+  "name": "Apache Kafka",
+  "description": "Distributed publish-subscribe system for processing large amounts of streaming data. Kafka is a Message Queue developed by LinkedIn that persists messages to disk in a very performant manner. Because messages are persisted, it has the interesting ability for clients to rewind a stream and consume the messages again. Another upside of the disk persistence is that bulk importing the data into HDFS for offline analysis can be done very quickly and efficiently. Storm, developed by BackType (which was acquired by Twitter a year ago), is more about transforming a stream of messages into new streams.",
+  "abstract": "distributed publish-subscribe messaging system",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Kafka",
+      "url": "http://kafka.apache.org/"
+    }
+  ]
+}

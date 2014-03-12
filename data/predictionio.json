@@ -1,0 +1,15 @@
+{
+  "name": "PredictionIO",
+  "description": "machine learning server buit on Hadoop, Mahout and Cascading",
+  "abstract": "machine learning server buit on Hadoop, Mahout and Cascading",
+  "category": "Machine Learning",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "PredictionIO",
+      "url": "http://prediction.io/"
+    }
+  ]
+}

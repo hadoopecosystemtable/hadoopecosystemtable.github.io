@@ -1,0 +1,15 @@
+{
+  "name": "Apache Spark Bagel",
+  "description": "implementation of Pregel, part of Spark",
+  "abstract": "implementation of Pregel, part of Spark",
+  "category": "Graph Data Model",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Spark Bagel",
+      "url": "http://spark.incubator.apache.org/docs/0.7.3/bagel-programming-guide.html"
+    }
+  ]
+}

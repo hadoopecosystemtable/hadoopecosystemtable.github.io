@@ -1,0 +1,16 @@
+<% categories.each do |category| %>
+<strong><%= category["name"] %></strong>
+<ul>
+<% unless category["items"].nil? %>
+<% category["items"].each do |item| %>
+<% if item["links"].any? %>
+<li><a href="<%= item["links"][0]["url"] %>"><strong><%= item["name"] %></strong></a>: <%= item["abstract"] %></li>
+<% else %>
+<li><strong><%= item["name"] %></strong>: <%= item["abstract"] %></li>
+<% end %>
+<% end %>
+<% end %>
+</ul>
+<% end %>
+
+This page is built merging the <a href="http://hadoopecosystemtable.github.io/">Hadoop Ecosystem Table</a> (by <a href="http://es.linkedin.com/in/javiroman/">Javi Roman</a> and <a href="https://github.com/hadoopecosystemtable/hadoopecosystemtable.github.io/graphs/contributors">other contributors</a>) with previous version of this list. Look at the extended version here: <strong><a href="http://bigdata.andreamostosi.name">http://bigdata.andreamostosi.name</a></strong>

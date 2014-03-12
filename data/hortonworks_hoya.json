@@ -1,0 +1,15 @@
+{
+  "name": "Hortonworks HOYA",
+  "description": "HOYA is defined as “running HBase On YARN”. The Hoya tool is a Java tool, and is currently CLI driven. It takes in a cluster specification – in terms of the number of regionservers, the location of HBASE_HOME, the ZooKeeper quorum hosts, the configuration that the new HBase cluster instance should use and so on.",
+  "abstract": "application that can deploy HBase cluster on YARN",
+  "category": "System Deployment",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Hortonworks Blog",
+      "url": "http://hortonworks.com/blog/introducing-hoya-hbase-on-yarn/"
+    }
+  ]
+}

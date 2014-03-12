@@ -1,0 +1,15 @@
+{
+  "name": "MLbase",
+  "description": "distributed machine learning libraries for the BDAS stack",
+  "abstract": "distributed machine learning libraries for the BDAS stack",
+  "category": "Machine Learning",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "MLbase",
+      "url": "http://www.mlbase.org/"
+    }
+  ]
+}

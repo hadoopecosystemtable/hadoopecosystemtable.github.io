@@ -1,0 +1,15 @@
+{
+  "name": "Apache Chukwa",
+  "description": "Large scale log aggregator, and analytics.",
+  "abstract": "data collection system",
+  "category": "Data Ingestion",
+  "tags": [
+
+  ],
+  "links": [
+    {
+      "text": "Apache Chukwa",
+      "url": "http://incubator.apache.org/chukwa/"
+    }
+  ]
+}
