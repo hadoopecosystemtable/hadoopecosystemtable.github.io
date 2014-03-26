@@ -112,7 +112,29 @@ the parallel file system used by many of the world's fastest supercomputers</td>
 <td>Tachyon is an memory distributed file system. By storing the file-system contents in the main memory of all cluster nodes, the system achieves higher throughput than traditional disk-based storage systems like HDFS.</td>
 <td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
 </tr>
+
 <tr>
+<td width="30%">GridGain</td>
+<td>GridGain is open source project licensed under Apache 2.0. One of the main pieces of this platform is the 
+	In-Memory Apache Hadoop Accelerator which aims to accelerate HDFS and Map/Reduce by bringing both, data 
+	and computations into memory. This work is done with the GGFS - Hadoop compliant in-memory file system. 
+	For I/O intensive jobs GridGain GGFS offers performance close to 100x faster than standard HDFS.
+	Paraphrasing Dmitriy Setrakyan from GridGain Systems talking about GGFS regarding Tachyon:<br>
+	- GGFS allows read-through and write-through to/from underlying HDFS or any
+	other Hadoop compliant file system with zero code change. Essentially GGFS
+	entirely removes ETL step from integration.<br>
+	- GGFS has ability to pick and choose what folders stay in memory, what
+	folders stay on disc, and what folders get synchronized with underlying
+	(HD)FS either synchronously or asynchronously.<br>
+	- GridGain is working on adding native MapReduce component which will
+	provide native complete Hadoop integration without changes in API, like
+	Spark currently forces you to do. Essentially GridGain MR+GGFS will allow
+	to bring Hadoop completely or partially in-memory in Plug-n-Play fashion
+	without any API changes. </td>
+<td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
+</tr>
+<tr>
+
 <th colspan="3">Distributed Programming</th>
 </tr>
 <tr>
