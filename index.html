@@ -109,7 +109,9 @@ the parallel file system used by many of the world's fastest supercomputers</td>
 </tr>
 <tr>
 <td width="30%">Tachyon</td>
-<td>Tachyon is an memory distributed file system. By storing the file-system contents in the main memory of all cluster nodes, the system achieves higher throughput than traditional disk-based storage systems like HDFS.</td>
+<td>Tachyon is an memory distributed file system. By storing the file-system 
+    contents in the main memory of all cluster nodes, the system achieves higher
+    throughput than traditional disk-based storage systems like HDFS.</td>
 <td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
 </tr>
 
@@ -139,7 +141,16 @@ the parallel file system used by many of the world's fastest supercomputers</td>
 </tr>
 <tr>
 <td width="20%">Apache MapReduce</td>
-<td>MapReduce is a programming model for processing large data sets with a parallel, distributed algorithm on a cluster. Apache MapReduce was derived from Google MapReduce: Simplified Data Processing on Large Clusters paper. The current Apache MapReduce version is built over Apache YARN Framework. YARN stands for “Yet-Another-Resource-Negotiator”. It is a new framework that facilitates writing arbitrary distributed processing frameworks and applications. YARN’s execution model is more generic than the earlier MapReduce implementation. YARN can run applications that do not follow the MapReduce model, unlike the original Apache Hadoop MapReduce (also called MR1). Hadoop YARN is an attempt to take Apache Hadoop beyond MapReduce for data-processing.</td>
+<td>MapReduce is a programming model for processing large data sets with a parallel, 
+    distributed algorithm on a cluster. Apache MapReduce was derived from Google 
+    MapReduce: Simplified Data Processing on Large Clusters paper. The current 
+    Apache MapReduce version is built over Apache YARN Framework. YARN stands 
+    for “Yet-Another-Resource-Negotiator”. It is a new framework that facilitates 
+    writing arbitrary distributed processing frameworks and applications. YARN’s 
+    execution model is more generic than the earlier MapReduce implementation. 
+    YARN can run applications that do not follow the MapReduce model, unlike the 
+    original Apache Hadoop MapReduce (also called MR1). Hadoop YARN is an attempt 
+    to take Apache Hadoop beyond MapReduce for data-processing.</td>
 <td width="20%"><a href="http://wiki.apache.org/hadoop/MapReduce/">1. Apache MapReduce</a> 
 <br> <a href="http://research.google.com/archive/mapreduce.html">2. Google MapReduce paper</a> 
 <br> <a href="http://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/WritingYarnApplications.html">3. Writing YARN applications</a></td>
@@ -641,52 +652,88 @@ Twitter has recently released a Hadoop-Storm Hybrid called “Summingbird.” Su
 </tr>
 <tr>
 <td width="20%">Apache Ambari</td>
-<td>Intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs. Apache Ambari was donated by Hortonworks team to the ASF. It's a powerful and nice interface for Hadoop and other typical applications from the Hadoop ecosystem. Apache Ambari is under a heavy development, and it will incorporate new features in a near future. For example Ambari is able to deploy a complete Hadoop system from scratch, however is not possible use this GUI in a Hadoop system that is already running. The ability to provisioning the operating system could be a good addition, however probably is not in the roadmap..</td>
+<td>Intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs. 
+    Apache Ambari was donated by Hortonworks team to the ASF. It's a powerful and 
+    nice interface for Hadoop and other typical applications from the Hadoop 
+    ecosystem. Apache Ambari is under a heavy development, and it will incorporate 
+    new features in a near future. For example Ambari is able to deploy a complete 
+    Hadoop system from scratch, however is not possible use this GUI in a Hadoop 
+    system that is already running. The ability to provisioning the operating 
+    system could be a good addition, however probably is not in the roadmap..</td>
 <td width="20%"><a href="http://ambari.apache.org/">1. Apache Ambari</a></td>
 </tr>
 <tr>
 <td width="20%">Cloudera HUE</td>
-<td>Web application for interacting with Apache Hadoop.</td>
-<td width="20%">TODO</td>
+<td>Web application for interacting with Apache Hadoop. It's not a deploment tool,
+    is an open-source Web interface that supports Apache Hadoop and its ecosystem, 
+    licensed under the Apache v2 license. HUE is used for Hadoop and its ecosystem
+    user operations.</td>
+<td width="20%"><a href="http://gethue.com/">1. HUE home page</a></td>
 </tr>
 <tr>
 <td width="20%">Apache Whirr</td>
-<td>Apache Whirr is a set of libraries for running cloud services. It allows you to use simple commands to boot clusters of distributed systems for testing and experimentation. Apache Whirr makes booting clusters easy.</td>
+<td>Apache Whirr is a set of libraries for running cloud services. It allows you 
+    to use simple commands to boot clusters of distributed systems for testing and 
+    experimentation. Apache Whirr makes booting clusters easy.</td>
 <td width="20%">TODO</td>
 </tr>
 <tr>
 <td width="20%">Apache Mesos</td>
-<td>Mesos is a cluster manager that provides resource sharing and isolation across cluster applications. Like HTCondor, SGE or Troque can do it. However Mesos is hadoop centred design</td>
+<td>Mesos is a cluster manager that provides resource sharing and isolation across 
+    cluster applications. Like HTCondor, SGE or Troque can do it. However Mesos 
+    is hadoop centred design</td>
 <td width="20%">TODO</td>
 </tr>
 <tr>
 <td width="20%">Marathon</td>
-<td>Marathon is a Mesos framework for long-running services. Given that you have Mesos running as the kernel for your datacenter, Marathon is the init or upstart daemon.</td>
+<td>Marathon is a Mesos framework for long-running services. Given that you have 
+    Mesos running as the kernel for your datacenter, Marathon is the init or upstart daemon.</td>
 <td width="20%">TODO</td>
 </tr>
 <tr>
 <td width="20%">Brooklyn</td>
-<td>brooklyn is a library that simplifies application deployment and management.
-For deployment, it is designed to tie in with other tools, giving single-click deploy and adding the concepts of manageable clusters and fabrics:
+<td>Brooklyn is a library that simplifies application deployment and management.
+    For deployment, it is designed to tie in with other tools, giving single-click 
+    deploy and adding the concepts of manageable clusters and fabrics:
 Many common software entities available out-of-the-box.
-Integrates with Apache Whirr -- and thereby Chef and Puppet -- to deploy well-known services such as Hadoop and elasticsearch (or use POBS, plain-old-bash-scripts)
+Integrates with Apache Whirr -- and thereby Chef and Puppet -- to deploy well-known 
+services such as Hadoop and elasticsearch (or use POBS, plain-old-bash-scripts)
 Use PaaS's such as OpenShift, alongside self-built clusters, for maximum flexibility</td>
 <td width="20%">TODO</td>
 </tr>
 <tr>
 <td width="20%">Hortonworks HOYA</td>
-<td>HOYA is defined as “running HBase On YARN”. The Hoya tool is a Java tool, and is currently CLI driven. It takes in a cluster specification – in terms of the number of regionservers, the location of HBASE_HOME, the ZooKeeper quorum hosts, the configuration that the new HBase cluster instance should use and so on.<br>
-So HOYA is for HBase deployment using a tool developed on top of YARN. Once the cluster has been started, the cluster can be made to grow or shrink using the Hoya commands. The cluster can also be stopped and later resumed. Hoya implements the functionality through YARN APIs and HBase’s shell scripts. The goal of the prototype was to have minimal code changes and as of this writing, it has required zero code changes in HBase.</td>
+<td>HOYA is defined as “running HBase On YARN”. The Hoya tool is a Java tool, 
+    and is currently CLI driven. It takes in a cluster specification – in terms 
+    of the number of regionservers, the location of HBASE_HOME, the ZooKeeper 
+    quorum hosts, the configuration that the new HBase cluster instance should 
+    use and so on.<br>
+    So HOYA is for HBase deployment using a tool developed on top of YARN. Once the 
+    cluster has been started, the cluster can be made to grow or shrink using the 
+    Hoya commands. The cluster can also be stopped and later resumed. Hoya implements 
+    the functionality through YARN APIs and HBase’s shell scripts. The goal of 
+    the prototype was to have minimal code changes and as of this writing, it has 
+    required zero code changes in HBase.</td>
 <td width="20%"><a href="http://hortonworks.com/blog/introducing-hoya-hbase-on-yarn/">1. Hortonworks Blog</a></td>
 </tr>
 <tr>
 <td width="20%">Apache Helix</td>
-<td>Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Originally developed by Linkedin, now is in an incubator project at Apache. Helix is developed on top of Zookeeper for coordination tasks. .</td>
+<td>Apache Helix is a generic cluster management framework used for the automatic 
+    management of partitioned, replicated and distributed resources hosted on a 
+    cluster of nodes. Originally developed by Linkedin, now is in an incubator 
+    project at Apache. Helix is developed on top of Zookeeper for coordination tasks. .</td>
 <td width="20%"><a href="http://helix.apache.org/">1. Apache Helix</a></td>
 </tr>
 <tr>
 <td width="20%">Apache Bigtop</td>
-<td>Bigtop was originally developed and released as an open source packaging infrastructure by Cloudera. BigTop is used for some vendors to build their own distributions based on Apache Hadoop (CDH, Pivotal HD, Intel's distribution), however Apache Bigtop does many more tasks, like continuous integration testing (with Jenkins, maven, ...) and is useful for packaging (RPM and DEB), deployment with Puppet, and so on. Apache Bigtop could be considered as a community effort with a main focus: put all bits of the Hadoop ecosystem as a whole, rather than individual projects.</td>
+<td>Bigtop was originally developed and released as an open source packaging 
+    infrastructure by Cloudera. BigTop is used for some vendors to build their 
+    own distributions based on Apache Hadoop (CDH, Pivotal HD, Intel's distribution), 
+    however Apache Bigtop does many more tasks, like continuous integration testing 
+    (with Jenkins, maven, ...) and is useful for packaging (RPM and DEB), deployment 
+    with Puppet, and so on. Apache Bigtop could be considered as a community effort 
+    with a main focus: put all bits of the Hadoop ecosystem as a whole, rather 
+    than individual projects.</td>
 <td width="20%"><a href="http://bigtop.apache.org//">1. Apache Bigtop.</a></td>
 </tr>
 
@@ -699,6 +746,19 @@ So HOYA is for HBase deployment using a tool developed on top of YARN. Once the 
 	is easier to programming than BigTop, and the desing is focused in the basic ideas behind the buildroot
 	Yocto Project. The project is in early stages of development right now.</td>
 <td width="20%"><a href="http://buildoop.github.io/">1. Hadoop Ecosystem Builder.</a></td>
+</tr>
+
+
+<tr>
+<td width="20%">Deploop</td>
+<td>Deploop is a tool for provisioning, managing and monitoring Apache Hadoop 
+    clusters focused in the Lambda Architecture. LA is a generic design based on 
+    the concepts of Twitter engineer Nathan Marz. This generic architecture was 
+    designed addressing common requirements for big data. The Deploop system is 
+    in ongoing development, in alpha phases of maturity. The system is setup
+    on top of highly scalable techologies like Puppet and MCollective.
+	</td>
+<td width="20%"><a href="http://deploop.github.io/">1. The Hadoop Deploy System.</a></td>
 </tr>
 
 <tr>
