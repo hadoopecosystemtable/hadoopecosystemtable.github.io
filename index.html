@@ -180,13 +180,12 @@ To make programming faster, Spark provides clean, concise APIs in Scala, Java an
 <br>  <a href="https://github.com/apache/incubator-spark">2. Mirror of Spark on Github</a></td>
 </tr>
 <tr>
-<td width="20%">Stratosphere</td>
-<td>Stratosphere is a general purpose cluster computing framework. It is compatible to the Hadoop ecosystem: Stratosphere can access data stored in HDFS and runs with Hadoop's new cluster manager YARN. The common input formats of Hadoop are supported as well.
-Stratosphere does not use Hadoop's MapReduce implementation: it is a completely new system that brings its own runtime. The new runtime allows to define more advanced operations that include more transformations than just map and reduce. Additionally, Stratosphere allows to express analysis jobs using advanced data flow graphs, which are able to resemble common data analysis task more naturally.<br> 
-Users can program their analysis programs using a Scala and a Java programming interfaces. Graph processing can be done using its Giraph-inspired graph processing abstraction. Stratosphere is available under the Apache 2.0 License and is being developed actively by an open-source community. <br>
-Some of the more advanced features are its optimizer that chooses the optimal execution strategy behind the scenes. Tasks that need to go over the data multiple times can use a feature called "Iterations". It allows to express machine learning or graph processing algorithms more naturally within the system and achieve higher performance.
+<td width="20%">Apache Flink</td>
+<td>Apache Flink (formerly called Stratosphere) features powerful programming abstractions in Java and Scala, a high-performance runtime, and automatic program optimization. It has native support for iterations, incremental iterations, and programs consisting of large DAGs of operations.<br>
+Flink is a data processing system and an alternative to Hadoop's MapReduce component. It comes with its own runtime, rather than building on top of MapReduce. As such, it can work completely independently of the Hadoop ecosystem. However, Flink can also access Hadoop's distributed file system (HDFS) to read and write data, and Hadoop's next-generation resource manager (YARN) to provision cluster resources. Since most Flink users are using Hadoop HDFS to store their data, it ships already the required libraries to access HDFS.
 </td>
-<td width="20%"><a href="http://stratosphere.eu/">1. Stratosphere site</a></td>
+<td width="20%"><a href="http://flink.incubator.apache.org/"></a>1. Apache Flink incubator page
+<br><a href="http://stratosphere.eu/">2. Stratosphere site</a></td>
 </tr>
 <tr>
 <td width="20%">Netflix PigPen</td>
@@ -682,9 +681,9 @@ Twitter has recently released a Hadoop-Storm Hybrid called “Summingbird.” Su
 <td width="20%">TODO</td>
 </tr>
 <tr>
-  <td width="20%">Apache Argus</td>
-  <td> Apache Argus deliver comprehensive approach to central security policy administration across the core enterprise security requirements of authentication, authorization, accounting and data protection. It extends baseline features for coordinated enforcement across Hadoop workloads from batch, interactive SQL and real–time and leverages the extensible architecture to apply policies consistently against additional Hadoop ecosystem components (beyond HDFS, Hive, and HBase) including Storm, Solr, Spark, and more. </td>
-  <td width="20%"><a href="http://wiki.apache.org/incubator/ArgusProposal">1. Argus Apache incubator proposal</a>
+  <td width="20%">Apache Ranger</td>
+  <td> Apache Argus  Ranger (formerly called Apache Argus or HDP Advanced Security) delivers comprehensive approach to central security policy administration across the core enterprise security requirements of authentication, authorization, accounting and data protection. It extends baseline features for coordinated enforcement across Hadoop workloads from batch, interactive SQL and real–time and leverages the extensible architecture to apply policies consistently against additional Hadoop ecosystem components (beyond HDFS, Hive, and HBase) including Storm, Solr, Spark, and more. </td>
+  <td width="20%"><a href="http://hortonworks.com/hadoop/ranger/"></a>1. Apache Ranger Hortonworks web</a>
     <br><a href="http://hortonworks.com/blog/announcing-apache-argus-call-arms/">2. Hortonworks announcement of Apache Argus</a>
   </td>
 </tr>
