@@ -244,6 +244,13 @@ Pipes and the C libhdfs APIs, that allows to write full-fledged  MapReduce appli
 <td width="20%"><a href="http://pydoop.sourceforge.net/docs/">1. SF Pydoop site</a>
 <br> <a href="https://github.com/crs4/pydoop">2. Pydoop GitHub Project</a></td>
 </tr>
+<tr>
+<td width="20%">Kangaroo</td>
+<td>Open-source project from Conductor for writing MapReduce jobs consuming data from Kafka. 
+The introductory post explains Conductor’s use case—loading data from Kafka to HBase by way of a MapReduce job using the HFileOutputFormat. Unlike other solutions which are limited to a single InputSplit per Kafka partition, Kangaroo can launch multiple consumers at different offsets in the stream of a single partition for increased throughput and parallelism.
+<td width="20%"><a href="http://www.conductor.com/nightlight/data-stream-processing-bulk-kafka-hadoop/">1. Kangaroo Introduction</a>
+<br> <a href="https://github.com/Conductor/kangaroo">2. Kangaroo GitHub Project</a></td>
+</tr>
 
 <tr>
 <th colspan="3">NoSQL Databases</th>
