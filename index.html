@@ -649,12 +649,21 @@ Twitter has recently released a Hadoop-Storm Hybrid called “Summingbird.” Su
 
 <tr>
 <td width="20%">Sparkling Water</td>
-<td>Sparkling Water, is a new development to combine two open source technologies Apache Spark and H2O tool,
-    so enables use of H2O’s Deep Learning and Advanced Algorithms for Spark’s user community. MLlib library 
-    is the native ML algorithms directly built using Spark, with H2O integrated in Apache Spark, the user
-    has the choice to select the best tool for meeting their ML needs in the context of Spark. The data from
-    HDFS is gets parsed and exchanged between Spark and H2O via Tachyon, the in an memory distributed file system.</td>
-<td width="20%"><a href="https://github.com/0xdata/h2o-sparkling">1. Sparkling Water at GitHub</a></td>
+<td><p>Sparkling Water combines two open source technologies: Apache Spark and H2O - a machine learning engine. 
+    It makes H2O’s library of Advanced Algorithms including Deep Learning, GLM, GBM, KMeans, PCA, and Random Forest 
+    accessible from Spark workflows. 
+    Spark users are provided with the options to select the best features from either platforms to meet their Machine Learning needs. 
+    Users can combine Sparks’ RDD API and Spark MLLib with H2O’s machine learning algorithms, 
+    or use H2O independent of Spark in the model building process and post-process the results in Spark. 
+    </p>
+    <p>
+    Sparkling Water provides a transparent integration of H2O’s framework and data structures into Spark’s 
+    RDD-based environment by sharing the same execution space as well as providing a RDD-like API for H2O data structures.
+    </p>
+    </td>
+<td width="20%"><a href="https://github.com/h2oai/sparkling-water">1. Sparkling Water at GitHub</a>
+<br/><a href="https://github.com/h2oai/sparkling-water/tree/master/examples">2. Sparkling Water Examples</a>
+</td>
 </tr>
 
 <!------------------------>
