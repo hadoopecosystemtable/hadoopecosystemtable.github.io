@@ -635,26 +635,37 @@ Twitter has recently released a Hadoop-Storm Hybrid called “Summingbird.” Su
 
 <tr>
 <td width="20%">H2O</td>
-<td>H2O is a statistical, machine learning and math runtime tool for bigdata analysis. Developed by
-    the predictive analytics company 0xdata, H2O has established a leadership in the ML scene together
-    with R, Mahout and MLlib from Spark. According with 0xdata, H2O is the world’s fastest in-memory platform for 
-    machine learning and predictive analytics on big data, designed to help users scale machine learning, 
-    math, and statistics over large datasets. The tool can read and write from/to HDFS, S3, NoSQL, SQL,
-    load data from Excel CSV format from the local file system. It uses a JDBC driver for SQL and adapters
-    for NoSQL integration (in development righ now). The tool can be explotated with JSON and R-like language, and
-    is available a friendly user interface (GUI). The library is included as a regular tool in the Hortonworks and
-    Cloudera portfolio for in real-time better ML predictions.</td>
-<td width="20%"><a href="https://github.com/0xdata/h2o">1. H2O at GitHub</a></td>
+<td><p>H2O is a statistical, machine learning and math runtime tool for bigdata analysis.
+    Developed by the predictive analytics company H2O.ai, H2O has established a leadership
+    in the ML scene together with R and Databricks’ Spark. According to the team, 
+    H2O is the world’s fastest in-memory platform for machine learning and predictive analytics
+    on big data. It is designed to help users scale machine learning, math, and statistics over large datasets.</p>
+    <p>In addition to H2O’s point and click Web-UI, its REST API allows easy integration into various
+    clients. This means explorative analysis of data can be done in a typical fashion in R, Python, and Scala;
+    and entire workflows can be written up as automated scripts.</p>
+</td>
+<td width="20%"><a href="https://github.com/h2oai/h2o-dev">1. H2O at GitHub</a>
+<br/><a href="http://h2o.ai/blog">2. H2O Blog</a>
+</td>
 </tr>
 
 <tr>
 <td width="20%">Sparkling Water</td>
-<td>Sparkling Water, is a new development to combine two open source technologies Apache Spark and H2O tool,
-    so enables use of H2O’s Deep Learning and Advanced Algorithms for Spark’s user community. MLlib library 
-    is the native ML algorithms directly built using Spark, with H2O integrated in Apache Spark, the user
-    has the choice to select the best tool for meeting their ML needs in the context of Spark. The data from
-    HDFS is gets parsed and exchanged between Spark and H2O via Tachyon, the in an memory distributed file system.</td>
-<td width="20%"><a href="https://github.com/0xdata/h2o-sparkling">1. Sparkling Water at GitHub</a></td>
+<td><p>Sparkling Water combines two open source technologies: Apache Spark and H2O - a machine learning engine. 
+    It makes H2O’s library of Advanced Algorithms including Deep Learning, GLM, GBM, KMeans, PCA, and Random Forest 
+    accessible from Spark workflows. 
+    Spark users are provided with the options to select the best features from either platforms to meet their Machine Learning needs. 
+    Users can combine Sparks’ RDD API and Spark MLLib with H2O’s machine learning algorithms, 
+    or use H2O independent of Spark in the model building process and post-process the results in Spark. 
+    </p>
+    <p>
+    Sparkling Water provides a transparent integration of H2O’s framework and data structures into Spark’s 
+    RDD-based environment by sharing the same execution space as well as providing a RDD-like API for H2O data structures.
+    </p>
+    </td>
+<td width="20%"><a href="https://github.com/h2oai/sparkling-water">1. Sparkling Water at GitHub</a>
+<br/><a href="https://github.com/h2oai/sparkling-water/tree/master/examples">2. Sparkling Water Examples</a>
+</td>
 </tr>
 
 <!------------------------>
@@ -662,7 +673,7 @@ Twitter has recently released a Hadoop-Storm Hybrid called “Summingbird.” Su
 <!------------------------>
 
 <tr>
-<th colspan="3">Bechmarking</th>
+<th colspan="3">Benchmarking</th>
 </tr>
 <tr>
 <td width="20%">Apache Hadoop Benchmarking</td>
