@@ -30,6 +30,11 @@ t<!DOCTYPE html>
     
 <!-- THE TABLE -->
 <table class="example3">
+
+<!---------------------------->
+<!-- Distributed Filesystem -->
+<!---------------------------->
+
 <tr>
 <th colspan="3">Distributed Filesystem</th>
 </tr>
@@ -136,6 +141,10 @@ the parallel file system used by many of the world's fastest supercomputers</td>
 <td width="20%"><a href="http://www.gridgain.org/">1. GridGain site</a>
 </tr>
 <tr>
+
+<!---------------------------->
+<!-- Distributed Programming-->
+<!---------------------------->
 
 <th colspan="3">Distributed Programming</th>
 </tr>
@@ -253,6 +262,22 @@ The introductory post explains Conductor’s use case—loading data from Kafka 
 </tr>
 
 <tr>
+<td width="20%">TinkerPop</td>
+<td>Graph computing framework written in Java. Provides a core API that graph system vendors can implement. 
+There are various types of graph systems including in-memory graph libraries, OLTP graph databases, and OLAP graph processors.
+Once the core interfaces are implemented, the underlying graph system can be queried using the graph traversal 
+language Gremlin and processed with TinkerPop-enabled algorithms. For many, TinkerPop is seen as the JDBC 
+of the graph computing community.</td>
+<td width="20%"><a href="https://wiki.apache.org/incubator/TinkerPopProposal">1. Apache Tinkerpop Proposal</a>
+<br> <a href="http://www.tinkerpop.com/">2. TinkerPop site</a></td>
+</tr>
+
+
+<!---------------------------->
+<!-- NoSQL ecosystem        -->
+<!---------------------------->
+
+<tr>
 <th colspan="3">NoSQL Databases</th>
 </tr>
 <tr>
@@ -337,19 +362,39 @@ In its outer layer, the Redis data model is a dictionary which maps keys to valu
 <td>OpenTSDB is a distributed, scalable Time Series Database (TSDB) written on top of HBase. OpenTSDB was written to address a common need: store, index and serve metrics collected from computer systems (network gear, operating systems, applications) at a large scale, and make this data easily accessible and graphable.</td>
 <td width="20%"><a href="http://opentsdb.net/">1. OpenTSDB site</a></td>
 </tr>
+
+<!---------------------------->
+<!-- NoSQL: Graph Data Model -->
+<!---------------------------->
+
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Graph Data Model</th>
 </tr>
+
 <tr>
 <td width="20%">ArangoDB</td>
 <td>An open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient sql-like query language or JavaScript extensions.</td>
 <td width="20%"><a href="https://www.arangodb.org/">1. ArangoDB site</a></td>
 </tr>
+
 <tr>
 <td width="20%">Neo4j</td>
-<td>An open-source graph database writting entirely in Java. It is an embedded, disk-based, fully transactional Java persistence engine that stores data structured in graphs rather than in tables.</td>
+<td>An open-source graph database writting entirely in Java. It is an embedded, disk-based, fully 
+transactional Java persistence engine that stores data structured in graphs rather than in tables.</td>
 <td width="20%"><a href="http://www.neo4j.org/">1. Neo4j site</a></td>
 </tr>
+
+<tr>
+<td width="20%">Titan</td>
+<td>Titan is a highly scalable graph database optimized for storing and querying large graphs with 
+billions of vertices and edges distributed across a multi-machine cluster. Titan is a transactional 
+database that can support thousands of concurrent users.</td>
+<td width="20%"><a href="http://thinkaurelius.github.io/titan/">1. Titan site</a></td>
+</tr>
+
+<!---------------------------->
+<!-- NewSQL ecosystem       -->
+<!---------------------------->
 
 <tr>
 <th colspan="3">NewSQL Databases</th>
