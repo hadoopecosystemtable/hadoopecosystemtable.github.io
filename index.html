@@ -272,6 +272,26 @@ of the graph computing community.</td>
 <br> <a href="http://www.tinkerpop.com/">2. TinkerPop site</a></td>
 </tr>
 
+<tr>
+<td width="20%">Pachyderm MapReduce</td>
+<td>Pachyderm is a completely new MapReduce engine built on top Docker and CoreOS. 
+In Pachyderm MapReduce (PMR) a job is an HTTP server inside a Docker container 
+(a microservice). You give Pachyderm a Docker image and it will automatically 
+distribute it throughout the cluster next to your data. Data is POSTed to 
+the container over HTTP and the results are stored back in the file system. 
+You can implement the web server in any language you want and pull in any library.
+Pachyderm also creates a DAG for all the jobs in the system and their dependencies 
+and it automatically schedules the pipeline such that each job isn’t run until it’s 
+dependencies have completed. Everything in Pachyderm “speaks in diffs” so it knows 
+exactly which data has changed and which subsets of the pipeline need to be rerun.
+CoreOS is an open source lightweight operating system based on Chrome OS, actually
+CoreOS is a fork of Chrome OS. CoreOS provides only the minimal functionality 
+required for deploying applications inside software containers, together with 
+built-in mechanisms for service discovery and configuration sharing</td>
+<td width="20%"><a href="http://www.pachyderm.io/">1. Pachyderm site</a>
+<br> <a href="https://medium.com/pachyderm-data/lets-build-a-modern-hadoop-4fc160f8d74f">2. Pachyderm introduction article</a></td>
+</tr>
+
 
 <!---------------------------->
 <!-- NoSQL ecosystem        -->
