@@ -164,18 +164,20 @@
 		In-Memory Apache Hadoop Accelerator which aims to accelerate HDFS and Map/Reduce by bringing both, data 
 		and computations into memory. This work is done with the GGFS - Hadoop compliant in-memory file system. 
 		For I/O intensive jobs GridGain GGFS offers performance close to 100x faster than standard HDFS.
-		Paraphrasing Dmitriy Setrakyan from GridGain Systems talking about GGFS regarding Tachyon:<br>
-		- GGFS allows read-through and write-through to/from underlying HDFS or any
-		other Hadoop compliant file system with zero code change. Essentially GGFS
-		entirely removes ETL step from integration.<br>
-		- GGFS has ability to pick and choose what folders stay in memory, what
-		folders stay on disc, and what folders get synchronized with underlying
-		(HD)FS either synchronously or asynchronously.<br>
-		- GridGain is working on adding native MapReduce component which will
-		provide native complete Hadoop integration without changes in API, like
-		Spark currently forces you to do. Essentially GridGain MR+GGFS will allow
-		to bring Hadoop completely or partially in-memory in Plug-n-Play fashion
-		without any API changes. 
+		Paraphrasing Dmitriy Setrakyan from GridGain Systems talking about GGFS regarding Tachyon:
+		<ul>
+		 <li>GGFS allows read-through and write-through to/from underlying HDFS or any
+			other Hadoop compliant file system with zero code change. Essentially GGFS
+			entirely removes ETL step from integration.</li>
+		 <li>GGFS has ability to pick and choose what folders stay in memory, what
+			folders stay on disc, and what folders get synchronized with underlying
+			(HD)FS either synchronously or asynchronously.</li>
+		 <li>GridGain is working on adding native MapReduce component which will
+			provide native complete Hadoop integration without changes in API, like
+			Spark currently forces you to do. Essentially GridGain MR+GGFS will allow
+			to bring Hadoop completely or partially in-memory in Plug-n-Play fashion
+			without any API changes.</li>
+		</ul>
 	</td>
 	<td width="20%"><a href="http://www.gridgain.org/">1. GridGain site</a>
 	</td>
@@ -583,7 +585,7 @@
 	</td>
 	<td width="20%"><a href="http://getkudu.io/">1. Apache Kudu Home</a><br>
 		<a href="http://github.com/cloudera/kudu">2. Kudu on Github</a><br>
-		<a href="http://getkudu.io/kudu.pdf">3. Kudu technical whitepaper (pdf)<a>
+		<a href="http://getkudu.io/kudu.pdf">3. Kudu technical whitepaper (pdf)</a>
 	</td>
 	</tr>
 
@@ -602,86 +604,142 @@
 	</td>
 	</tr>
 
-<tr>
-<td width="20%">RethinkDB</td>
-<td>RethinkDB is built to store JSON documents, and scale to multiple machines with very little effort. It has a pleasant query language that supports really useful queries like table joins and group by, and is easy to setup and learn.</td>
-<td width="20%"><a href="http://www.rethinkdb.com/">1. RethinkDB site</a></td>
-</tr>
+	<tr>
+	<td width="20%">RethinkDB</td>
+	<td>
+		RethinkDB is built to store JSON documents, and scale to multiple 
+		machines with very little effort. It has a pleasant query language 
+		that supports really useful queries like table joins and group by, 
+		and is easy to setup and learn.
+	</td>
+	<td width="20%"><a href="http://www.rethinkdb.com/">1. RethinkDB site</a>
+	</td>
+	</tr>
 
-<tr>
-<td width="20%">ArangoDB</td>
-<td>An open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient sql-like query language or JavaScript extensions.</td>
-<td width="20%"><a href="https://www.arangodb.org/">1. ArangoDB site</a></td>
-</tr>
+	<tr>
+	<td width="20%">ArangoDB</td>
+	<td>
+		An open-source database with a flexible data model for documents, graphs, 
+		and key-values. Build high performance applications using a convenient 
+		sql-like query language or JavaScript extensions.
+	</td>
+	<td width="20%"><a href="https://www.arangodb.org/">1. ArangoDB site</a>
+	</td>
+	</tr>
 
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Stream Data Model</th>
 </tr>
-<tr>
-<td width="20%">EventStore</td>
-<td>An open-source, functional database with support for Complex Event Processing. 
-It provides a persistence engine for applications using event-sourcing, or for 
-storing time-series data. Event Store is written in C#, C++ for the server which 
-runs on Mono or the .NET CLR, on Linux or Windows. 
-Applications using Event Store can be written in JavaScript. Event sourcing (ES)
-is a way of persisting your application's state by storing the history that determines 
-the current state of your application.</td>
-<td width="20%"><a href="http://geteventstore.com/">1. EventStore site</a></td>
-</tr>
+
+	<tr>
+	<td width="20%">EventStore</td>
+	<td>
+		An open-source, functional database with support for Complex Event Processing. 
+		It provides a persistence engine for applications using event-sourcing, or for 
+		storing time-series data. Event Store is written in C#, C++ for the server which 
+		runs on Mono or the .NET CLR, on Linux or Windows. 
+		Applications using Event Store can be written in JavaScript. Event sourcing (ES)
+		is a way of persisting your application's state by storing the history that determines 
+		the current state of your application.
+	</td>
+	<td width="20%"><a href="http://geteventstore.com/">1. EventStore site</a>
+	</td>
+	</tr>
 
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Key-value Data Model</th>
 </tr>
-<tr>
-<td width="20%">Redis DataBase</td>
-<td>Redis is an open-source, networked, in-memory, data structures store with optional durability. It is written in ANSI C.
-In its outer layer, the Redis data model is a dictionary which maps keys to values. One of the main differences between Redis and other structured storage systems is that Redis supports not only strings, but also abstract data types. Sponsored by Redis Labs. It’s BSD licensed.</td>
-<td width="20%"><a href="http://redis.io/">1. Redis site</a><br /><a href="http://redislabs.com/">2. Redis Labs site</a><td>
-</tr>
-<tr>
-<td width="20%">Linkedin Voldemort</td>
-<td>Distributed data store that is designed as a key-value store used by LinkedIn for high-scalability storage.</td>
-<td width="20%"><a href="http://www.project-voldemort.com/voldemort/">1. Voldemort site</a></td>
-</tr>
-<tr>
-<td width="20%">RocksDB</td>
-<td>RocksDB is an embeddable persistent key-value store for fast storage. RocksDB can also be the foundation for a client-server database but our current focus is on embedded workloads.</td>
-<td width="20%"><a href="http://rocksdb.org/">1. RocksDB site</a></td>
-</tr>
-<tr>
-<td width="20%">OpenTSDB</td>
-<td>OpenTSDB is a distributed, scalable Time Series Database (TSDB) written on top of HBase. OpenTSDB was written to address a common need: store, index and serve metrics collected from computer systems (network gear, operating systems, applications) at a large scale, and make this data easily accessible and graphable.</td>
-<td width="20%"><a href="http://opentsdb.net/">1. OpenTSDB site</a></td>
-</tr>
+
+	<tr>
+	<td width="20%">Redis DataBase</td>
+	<td>
+		Redis is an open-source, networked, in-memory, data structures 
+		store with optional durability. It is written in ANSI C.
+		In its outer layer, the Redis data model is a dictionary which 
+		maps keys to values. One of the main differences between Redis 
+		and other structured storage systems is that Redis supports not 
+		only strings, but also abstract data types. Sponsored by Redis Labs. 
+		It’s BSD licensed.
+	</td>
+	<td width="20%"><a href="http://redis.io/">1. Redis site</a>
+		<br> <a href="http://redislabs.com/">2. Redis Labs site</a>
+	<td>
+	</tr>
+
+	<tr>
+	<td width="20%">Linkedin Voldemort</td>
+	<td>
+		Distributed data store that is designed as a key-value store used 
+		by LinkedIn for high-scalability storage.
+	</td>
+	<td width="20%"><a href="http://www.project-voldemort.com/voldemort/">1. Voldemort site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">RocksDB</td>
+	<td>
+		RocksDB is an embeddable persistent key-value store for fast storage. 
+		RocksDB can also be the foundation for a client-server database but our 
+		current focus is on embedded workloads.
+	</td>
+	<td width="20%"><a href="http://rocksdb.org/">1. RocksDB site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">OpenTSDB</td>
+	<td>
+		OpenTSDB is a distributed, scalable Time Series Database (TSDB) 
+		written on top of HBase. OpenTSDB was written to address a common 
+		need: store, index and serve metrics collected from computer systems 
+		(network gear, operating systems, applications) at a large scale, 
+		and make this data easily accessible and graphable.
+	</td>
+	<td width="20%"><a href="http://opentsdb.net/">1. OpenTSDB site</a>
+	</td>
+	</tr>
 
 <!---------------------------->
 <!-- NoSQL: Graph Data Model -->
 <!---------------------------->
-
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Graph Data Model</th>
 </tr>
 
-<tr>
-<td width="20%">ArangoDB</td>
-<td>An open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient sql-like query language or JavaScript extensions.</td>
-<td width="20%"><a href="https://www.arangodb.org/">1. ArangoDB site</a></td>
-</tr>
+	<tr>
+	<td width="20%">ArangoDB</td>
+	<td>
+		An open-source database with a flexible data model for documents, 
+		graphs, and key-values. Build high performance applications using 
+		a convenient sql-like query language or JavaScript extensions.
+	</td>
+	<td width="20%"><a href="https://www.arangodb.org/">1. ArangoDB site</a>
+	</td>
+	</tr>
 
-<tr>
-<td width="20%">Neo4j</td>
-<td>An open-source graph database writting entirely in Java. It is an embedded, disk-based, fully 
-transactional Java persistence engine that stores data structured in graphs rather than in tables.</td>
-<td width="20%"><a href="http://www.neo4j.org/">1. Neo4j site</a></td>
-</tr>
+	<tr>
+	<td width="20%">Neo4j</td>
+	<td>
+		An open-source graph database writting entirely in Java. It is an 
+		embedded, disk-based, fully transactional Java persistence engine 
+		that stores data structured in graphs rather than in tables.
+	</td>
+	<td width="20%"><a href="http://www.neo4j.org/">1. Neo4j site</a>
+	</td>
+	</tr>
 
-<tr>
-<td width="20%">TitanDB</td>
-<td>TitanDB is a highly scalable graph database optimized for storing and querying large graphs with 
-billions of vertices and edges distributed across a multi-machine cluster. Titan is a transactional 
-database that can support thousands of concurrent users.</td>
-<td width="20%"><a href="http://thinkaurelius.github.io/titan/">1. Titan site</a></td>
-</tr>
+	<tr>
+	<td width="20%">TitanDB</td>
+	<td>
+		TitanDB is a highly scalable graph database optimized for storing 
+		and querying large graphs with billions of vertices and edges 
+		distributed across a multi-machine cluster. Titan is a transactional 
+		database that can support thousands of concurrent users.
+	</td>
+	<td width="20%"><a href="http://thinkaurelius.github.io/titan/">1. Titan site</a>
+	</td>
+	</tr>
 
 <!---------------------------->
 <!-- NewSQL ecosystem       -->
@@ -690,116 +748,216 @@ database that can support thousands of concurrent users.</td>
 <tr>
 <th colspan="3">NewSQL Databases</th>
 </tr>
-<tr>
-<td width="20%">TokuDB</td>
-<td>TokuDB is a storage engine for MySQL and MariaDB that is specifically designed for high performance on write-intensive workloads. It achieves this via Fractal Tree indexing. TokuDB is a scalable, ACID and MVCC compliant storage engine. TokuDB is one of the technologies that enable Big Data in MySQL.</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">HandlerSocket</td>
-<td>HandlerSocket is a NoSQL plugin for MySQL/MariaDB (the storage engine of MySQL). It works as a daemon inside the mysqld process, accepting TCP connections, and executing requests from clients. HandlerSocket does not support SQL queries. Instead, it supports simple CRUD operations on tables.
-HandlerSocket can be much faster than mysqld/libmysql in some cases because it has lower CPU, disk, and network overhead.</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">Akiban Server</td>
-<td>Akiban Server is an open source database that brings document stores and relational databases together. Developers get powerful document access alongside surprisingly powerful SQL.</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">Drizzle</td>
-<td>Drizzle is a re-designed version of the MySQL v6.0 codebase and is designed around a central concept of having a microkernel architecture. Features such as the query cache and authentication system are now plugins to the database, which follow the general theme of "pluggable storage engines" that were introduced in MySQL 5.1. It supports PAM, LDAP, and HTTP AUTH for authentication via plugins it ships. Via its plugin system it currently supports logging to files, syslog, and remote services such as RabbitMQ and Gearman. Drizzle is an ACID-compliant relational database that supports transactions via an MVCC design</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">Haeinsa</td>
-<td>Haeinsa is linearly scalable multi-row, multi-table transaction library for HBase. Use Haeinsa if you need strong ACID semantics on your HBase cluster. Is based on Google Perlocator concept.</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">SenseiDB</td>
-<td>Open-source, distributed, realtime, semi-structured database. Some Features: Full-text search, Fast realtime updates, Structured and faceted search, BQL: SQL-like query language, Fast key-value lookup, High performance under concurrent heavy update and query volumes, Hadoop integration</td>
-<td width="20%"><a href="http://senseidb.com/">1. SenseiDB site</a></td>
-</tr>
-<tr>
-<td width="20%">Sky</td>
-<td>Sky is an open source database used for flexible, high performance analysis of behavioral data. For certain kinds of data such as clickstream data and log data, it can be several orders of magnitude faster than traditional approaches such as SQL databases or Hadoop.</td>
-<td width="20%"><a href="http://skydb.io/">1. SkyDB site</a></td>
-</tr>
-<tr>
-<td width="20%">BayesDB</td>
-<td>BayesDB, a Bayesian database table, lets users query the probable implications of their tabular data as easily as an SQL database lets them query the data itself. Using the built-in Bayesian Query Language (BQL), users with no statistics training can solve basic data science problems, such as detecting predictive relationships between variables, inferring missing values, simulating probable observations, and identifying statistically similar database entries.</td>
-<td width="20%"><a href="http://probcomp.csail.mit.edu/bayesdb/index.html">1. BayesDB site</a></td>
-</tr>
-<tr>
-<td width="20%">InfluxDB</td>
-<td>InfluxDB is an open source distributed time series database with no external dependencies. It's useful for recording metrics, events, and performing analytics.
-It has a built-in HTTP API so you don't have to write any server side code to get up and running. InfluxDB is designed to be scalable, simple to install and manage, and fast to get data in and out. It aims to answer queries in real-time. That means every data point is indexed as it comes in and is immediately available in queries that should return in < 100ms. </td>
-<td width="20%"><a href="http://influxdb.org/">1. InfluxDB site</a></td>
-</tr>
+
+	<tr>
+	<td width="20%">TokuDB</td>
+	<td>
+		TokuDB is a storage engine for MySQL and MariaDB that is specifically 
+		designed for high performance on write-intensive workloads. It achieves 
+		this via Fractal Tree indexing. TokuDB is a scalable, ACID and MVCC 
+		compliant storage engine. TokuDB is one of the technologies that enable 
+		Big Data in MySQL.
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">HandlerSocket</td>
+	<td>
+		HandlerSocket is a NoSQL plugin for MySQL/MariaDB (the storage engine 
+		of MySQL). It works as a daemon inside the mysqld process, accepting TCP 
+		connections, and executing requests from clients. HandlerSocket does not 
+		support SQL queries. Instead, it supports simple CRUD operations on tables.
+		HandlerSocket can be much faster than mysqld/libmysql in some cases because 
+		it has lower CPU, disk, and network overhead.
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Akiban Server</td>
+	<td>
+		Akiban Server is an open source database that brings document stores and 
+		relational databases together. Developers get powerful document access 
+		alongside surprisingly powerful SQL.
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Drizzle</td>
+	<td>
+		Drizzle is a re-designed version of the MySQL v6.0 codebase and 
+		is designed around a central concept of having a microkernel 
+		architecture. Features such as the query cache and authentication 
+		system are now plugins to the database, which follow the general 
+		theme of "pluggable storage engines" that were introduced in MySQL 5.1. 
+		It supports PAM, LDAP, and HTTP AUTH for authentication via plugins 
+		it ships. Via its plugin system it currently supports logging to files, 
+		syslog, and remote services such as RabbitMQ and Gearman. Drizzle 
+		is an ACID-compliant relational database that supports 
+		transactions via an MVCC design
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Haeinsa</td>
+	<td>
+		Haeinsa is linearly scalable multi-row, multi-table transaction 
+		library for HBase. Use Haeinsa if you need strong ACID semantics 
+		on your HBase cluster. Is based on Google Perlocator concept.
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">SenseiDB</td>
+	<td>
+		Open-source, distributed, realtime, semi-structured database. 
+		Some Features: Full-text search, Fast realtime updates, Structured 
+		and faceted search, BQL: SQL-like query language, Fast key-value 
+		lookup, High performance under concurrent heavy update and query 
+		volumes, Hadoop integration
+	</td>
+	<td width="20%"><a href="http://senseidb.com/">1. SenseiDB site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Sky</td>
+	<td>
+		Sky is an open source database used for flexible, high performance 
+		analysis of behavioral data. For certain kinds of data such as 
+		clickstream data and log data, it can be several orders of magnitude 
+		faster than traditional approaches such as SQL databases or Hadoop.
+	</td>
+	<td width="20%"><a href="http://skydb.io/">1. SkyDB site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">BayesDB</td>
+	<td>
+		BayesDB, a Bayesian database table, lets users query the probable 
+		implications of their tabular data as easily as an SQL database 
+		lets them query the data itself. Using the built-in Bayesian Query 
+		Language (BQL), users with no statistics training can solve basic 
+		data science problems, such as detecting predictive relationships 
+		between variables, inferring missing values, simulating probable 
+		observations, and identifying statistically similar database entries.
+	</td>
+	<td width="20%"><a href="http://probcomp.csail.mit.edu/bayesdb/index.html">1. BayesDB site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">InfluxDB</td>
+	<td>
+		InfluxDB is an open source distributed time series database with 
+		no external dependencies. It's useful for recording metrics, events, 
+		and performing analytics. It has a built-in HTTP API so you don't 
+		have to write any server side code to get up and running. InfluxDB 
+		is designed to be scalable, simple to install and manage, and fast 
+		to get data in and out. It aims to answer queries in real-time. 
+		That means every data point is indexed as it comes in and is immediately 
+		available in queries that should return under 100ms. 
+	</td>
+	<td width="20%"><a href="http://influxdb.org/">1. InfluxDB site</a>
+	</td>
+	</tr>
+
 <tr>
 <th colspan="3">SQL-on-Hadoop</th>
 </tr>
-<tr>
-<td width="20%">Apache Hive</td>
-<td>Data Warehouse infrastructure developed by Facebook. Data summarization, query, and analysis. It’s provides SQL-like language (not SQL92 compliant): HiveQL.</td>
-<td width="20%"><a href="http://hive.apache.org/">1. Apache HIVE site</a>
-<br> <a href="https://github.com/apache/hive">2. Apache HIVE GitHub Project</a></td>
-</tr>
-<tr>
-<td width="20%">Apache HCatalog</td>
-<td>HCatalog’s table abstraction presents users with a relational view of data in the Hadoop Distributed File System (HDFS) and ensures that users need not worry about where or in what format their data is stored. Right now HCatalog is part of Hive. Only old versions are separated for download.</td>
-<td width="20%">TODO</td>
-</tr>
+
+	<tr>
+	<td width="20%">Apache Hive</td>
+	<td>
+		Data Warehouse infrastructure developed by Facebook. Data 
+		summarization, query, and analysis. It’s provides SQL-like 
+		language (not SQL92 compliant): HiveQL.
+	</td>
+	<td width="20%"><a href="http://hive.apache.org/">1. Apache HIVE site</a>
+		<br> <a href="https://github.com/apache/hive">2. Apache HIVE GitHub Project</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache HCatalog</td>
+	<td>
+		HCatalog’s table abstraction presents users with a relational view 
+		of data in the Hadoop Distributed File System (HDFS) and ensures 
+		that users need not worry about where or in what format their data 
+		is stored. Right now HCatalog is part of Hive. Only old versions are separated for download.
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
 <tr>
 <td width="20%">Trafodion: Transactional SQL-on-HBase</td>
 <td>Trafodion is an open source project sponsored by HP, incubated at HP Labs and HP-IT, to develop an enterprise-class SQL-on-HBase solution targeting big data transactional or operational workloads. </td>
 <td width="20%"><a href="https://wiki.trafodion.org/wiki/index.php/Main_Page">1. Trafodion wiki</a></td>
 </tr>
+
 <tr>
 <td width="20%">Apache Drill</td>
 <td>Drill is the open source version of Google's Dremel system which is available as an infrastructure service called Google BigQuery. In recent years open source systems have emerged to address the need for scalable batch processing (Apache Hadoop) and stream processing (Storm, Apache S4). Apache Hadoop, originally inspired by Google's internal MapReduce system, is used by thousands of organizations processing large-scale datasets. Apache Hadoop is designed to achieve very high throughput, but is not designed to achieve the sub-second latency needed for interactive data analysis and exploration. Drill, inspired by Google's internal Dremel system, is intended to address this need</td>
 <td width="20%"><a href="http://incubator.apache.org/drill/">1. Apache Incubator Drill</a></td>
 </tr>
+
 <tr>
 <td width="20%">Cloudera Impala</td>
 <td>The Apache-licensed Impala project brings scalable parallel database technology to Hadoop, enabling users to issue low-latency SQL queries to data stored in HDFS and Apache HBase without requiring data movement or transformation. It's a Google Dremel clone (Big Query google).</td>
 <td width="20%"><a href="http://www.cloudera.com/content/cloudera/en/products-and-services/cdh/impala.html">1. Cloudera Impala site</a>
 <br> <a href="https://github.com/cloudera/impala">2. Impala GitHub Project</a></td>
 </tr>
+
 <tr>
 <td width="20%">Facebook Presto</td>
 <td>Facebook has open sourced Presto, a SQL engine it says is on average 10 times faster than Hive for running queries across large data sets stored in Hadoop and elsewhere.</td>
 <td width="20%"><a href="http://prestodb.io/">1. Presto site</a></td>
 </tr>
+
 <tr>
 <td width="20%">Datasalt Splout SQL</td>
 <td>Splout allows serving an arbitrarily big dataset with high QPS rates and at the same time provides full SQL query syntax.</td>
 <td width="20%">TODO</td>
 </tr>
+
 <tr>
 <td width="20%">Apache Tajo</td>
 <td>Apache Tajo is a robust big data relational and distributed data warehouse system for Apache Hadoop. Tajo is designed for low-latency and scalable ad-hoc queries, online aggregation, and ETL (extract-transform-load process) on large-data sets stored on HDFS (Hadoop Distributed File System) and other data sources. By supporting SQL standards and leveraging advanced database techniques, Tajo allows direct control of distributed execution and data flow across a variety of query evaluation strategies and optimization opportunities. For reference, the Apache Software Foundation announced Tajo as a Top-Level Project in April 2014.</td>
 <td width="20%"><a href="http://tajo.apache.org/">1. Apache Tajo site</a></td>
 </tr>
+
 <tr>
 <td width="20%">Apache Phoenix</td>
 <td>Apache Phoenix is a SQL skin over HBase delivered as a client-embedded JDBC driver targeting low latency queries over HBase data. Apache Phoenix takes your SQL query, compiles it into a series of HBase scans, and orchestrates the running of those scans to produce regular JDBC result sets. The table metadata is stored in an HBase table and versioned, such that snapshot queries over prior versions will automatically use the correct schema. Direct use of the HBase API, along with coprocessors and custom filters, results in performance on the order of milliseconds for small queries, or seconds for tens of millions of rows.</td>
 <td width="20%"><a href="http://phoenix.incubator.apache.org/index.html">1. Apache Phoenix site</a></td>
 </tr>
-<tr>
-<td width="20%">Apache MRQL</td>
-<td>MRQL is a query processing and optimization system for large-scale, distributed data analysis, built on top of Apache Hadoop, Hama, and Spark.<br> 
-MRQL (pronounced miracle) is a query processing and optimization system for large-scale, distributed data analysis. MRQL (the MapReduce Query Language) is an SQL-like query language for large-scale data analysis on a cluster of computers. The MRQL query processing system can evaluate MRQL queries in three modes:
-<ul>
-<li>in Map-Reduce mode using Apache Hadoop,</li>
-<li>in BSP mode (Bulk Synchronous Parallel mode) using Apache Hama, and</li>
-<li>in Spark mode using Apache Spark.</li>
-<li>in Flink mode using Apache Flink.</li>
-</ul>
-</td>
-<td width="20%"><a href="http://mrql.incubator.apache.org/">1. Apache Incubator MRQL site</a></td>
-</tr>
+
+	<tr>
+	<td width="20%">Apache MRQL</td>
+	<td>
+		MRQL is a query processing and optimization system for large-scale, 
+		distributed data analysis, built on top of Apache Hadoop, Hama, and Spark.<br> 
+		MRQL (pronounced miracle) is a query processing and optimization 
+		system for large-scale, distributed data analysis. MRQL (the MapReduce 
+		Query Language) is an SQL-like query language for large-scale data analysis 
+		on a cluster of computers. The MRQL query processing system can evaluate MRQL 
+		queries in three modes:
+		<ul>
+		 <li>in Map-Reduce mode using Apache Hadoop,</li>
+		 <li>in BSP mode (Bulk Synchronous Parallel mode) using Apache Hama, and</li>
+		 <li>in Spark mode using Apache Spark.</li>
+		 <li>in Flink mode using Apache Flink.</li>
+		</ul>
+	</td>
+	<td width="20%"><a href="http://mrql.incubator.apache.org/">1. Apache Incubator MRQL site</a>
+	</td>
+	</tr>
+
 <tr>
 <td width="20%">Kylin</td>
 <td>Kylin is an open source Distributed Analytics Engine from eBay Inc. that provides SQL interface and multi-dimensional analysis (OLAP) on Hadoop supporting extremely large datasets</td>
@@ -813,26 +971,31 @@ MRQL (pronounced miracle) is a query processing and optimization system for larg
 <tr>
 <th colspan="3">Data Ingestion</th>
 </tr>
+
 <tr>
 <td width="20%">Apache Flume</td>
 <td>Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application.</td>
 <td width="20%"><a href="http://flume.apache.org/">1. Apache Flume project site</a></td>
 </tr>
+
 <tr>
 <td width="20%">Apache Sqoop</td>
 <td>System for bulk data transfer between HDFS and structured datastores as RDBMS. Like Flume but from HDFS to RDBMS.</td>
 <td width="20%"><a href="http://sqoop.apache.org/">1. Apache Sqoop project site</a></td>
 </tr>
+
 <tr>
 <td width="20%">Facebook Scribe</td>
 <td>Log agregator in real-time. It’s a Apache Thrift Service.</td>
 <td width="20%">TODO</td>
 </tr>
+
 <tr>
 <td width="20%">Apache Chukwa</td>
 <td>Large scale log aggregator, and analytics.</td>
 <td width="20%">TODO</td>
 </tr>
+
 <tr>
 <td width="20%">Apache Storm</td>
 <td>Storm is a complex event processor and distributed computation framework written predominantly in the Clojure programming language. Is a distributed real-time computation system for processing fast, large streams of data. Storm is an architecture based on master-workers paradigma. So a Storm cluster mainly consists of a master and worker nodes, with coordination done by Zookeeper. <br>
@@ -844,58 +1007,67 @@ Twitter has recently released a Hadoop-Storm Hybrid called “Summingbird.” Su
 <td width="20%"><a href="http://storm-project.net/">1. Storm Project/</a> 
 <br> <a href="github.com/yahoo/storm-yarn">2. Storm-on-YARN</a></td>
 </tr>
+
 <tr>
 <td width="20%">Apache Kafka</td>
 <td>Distributed publish-subscribe system for processing large amounts of streaming data. Kafka is a Message Queue developed by LinkedIn that persists messages to disk in a very performant manner. Because messages are persisted, it has the interesting ability for clients to rewind a stream and consume the messages again. Another upside of the disk persistence is that bulk importing the data into HDFS for offline analysis can be done very quickly and efficiently. Storm, developed by BackType (which was acquired by Twitter a year ago), is more about transforming a stream of messages into new streams.</td>
 <td width="20%"><a href="http://kafka.apache.org/">1. Apache Kafka</a>
 <br/><a href="https://github.com/apache/kafka/">2. GitHub source code</a></td>
 </tr>
+
 <tr>
 <td width="20%">Netflix Suro</td>
 <td>Suro has its roots in Apache Chukwa, which was initially adopted by Netflix. Is a log agregattor like Storm, Samza.</td>
 <td width="20%">TODO</td>
 </tr>
+
 <tr>
 <td width="20%">Apache Samza</td>
 <td>Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance, processor isolation, security, and resource management. Developed by http://www.linkedin.com/in/jaykreps Linkedin.</td>
 <td width="20%">TODO</td>
 </tr>
+
 <tr>
 <td width="20%">Cloudera Morphline</td>
 <td>Cloudera Morphlines is a new open source framework that reduces the time and skills necessary to integrate, build, and change Hadoop processing applications that extract, transform, and load data into Apache Solr, Apache HBase, HDFS, enterprise data warehouses, or analytic online dashboards. </td>
 <td width="20%">TODO</td>
 </tr>
+
 <tr>
 <td width="20%">HIHO</td>
 <td>This project is a framework for connecting disparate data sources with the Apache Hadoop system, making them interoperable. HIHO connects Hadoop with multiple RDBMS and file systems, so that data can be loaded to Hadoop and unloaded from Hadoop</td>
 <td width="20%">TODO</td>
 </tr>
+
 <tr>
 <td width="20%">Apache NiFi</td>
 <td>Apache NiFi is a dataflow system that is currently under incubation at the Apache Software Foundation. NiFi is based on the concepts of flow-based programming and is highly configurable. NiFi uses a component based extension model to rapidly add capabilities to complex dataflows. Out of the box NiFi has several extensions for dealing with file-based dataflows such as FTP, SFTP, and HTTP integration as well as integration with HDFS. One of NiFi’s unique features is a rich, web-based interface for designing, controlling, and monitoring a dataflow.</td>
 <td width="20%"><a href="http://nifi.apache.org/index.html">1. Apache NiFi</a></td>
 </tr>
  
-
 <tr>
 <th colspan="3">Service Programming</th>
 </tr>
+
 <tr>
 <td width="20%">Apache Thrift</td>
 <td>A cross-language RPC framework for service creations. It’s the service base for Facebook technologies (the original Thrift contributor). Thrift provides a framework for developing and accessing remote services. It allows developers to create services that can be consumed by any application that is written in a language that there are Thrift bindings for. Thrift manages serialization of data to and from a service, as well as the protocol that describes a method invocation, response, etc. Instead of writing all the RPC code -- you can just get straight to your service logic. Thrift uses TCP and so a given service is bound to a particular port.</td>
 <td width="20%"><a href="http://thrift.apache.org//">1. Apache Thrift</a></td>
 </tr>
+
 <tr>
 <td width="20%">Apache Zookeeper</td>
 <td>It’s a coordination service that gives you the tools you need to write correct distributed applications. ZooKeeper was developed at Yahoo! Research. Several Hadoop projects are already using ZooKeeper to coordinate the cluster and provide highly-available distributed services. Perhaps most famous of those are Apache HBase, Storm, Kafka. ZooKeeper is an application library with two principal implementations of the APIs—Java and C—and a service component implemented in Java that runs on an ensemble of dedicated servers. Zookeeper is for building distributed systems, simplifies the development process, making it more agile and enabling more robust implementations. Back in 2006, Google published a paper on "Chubby", a distributed lock service which gained wide adoption within their data centers. Zookeeper, not surprisingly, is a close clone of Chubby designed to fulfill many of the same roles for HDFS and other Hadoop infrastructure.</td>
 <td width="20%"><a href="http://zookeeper.apache.org/">1. Apache Zookeeper</a>
 <br><a href="http://research.google.com/archive/chubby.html">2. Google Chubby paper</a></td>
 </tr>
+
 <tr>
 <td width="20%">Apache Avro</td>
 <td>Apache Avro is a framework for modeling, serializing and making Remote Procedure Calls (RPC). Avro data is described by a schema, and one interesting feature is that the schema is stored in the same file as the data it describes, so files are self-describing. Avro does not require code generation. This framework can compete with other similar tools like: Apache Thrift, Google Protocol Buffers, ZeroC ICE, and so on. </td>
 <td width="20%"><a href="http://avro.apache.org/">1. Apache Avro</a></td>
 </tr>
+
 <tr>
 <td width="20%">Apache Curator</td>
 <td>Curator is a set of Java libraries that make using Apache ZooKeeper much easier.</td>
