@@ -34,186 +34,213 @@
 <!---------------------------->
 <!-- Distributed Filesystem -->
 <!---------------------------->
-
 <tr>
 <th colspan="3">Distributed Filesystem</th>
 </tr>
-<tr>
-<td width="30%">Apache HDFS</td>
-<td>The Hadoop Distributed File System (HDFS) offers a way to store large files across 
-multiple machines. Hadoop and HDFS was derived from Google File System (GFS) paper. 
-Prior to Hadoop 2.0.0, the NameNode was a single point of failure (SPOF) in an HDFS cluster. 
-With Zookeeper the HDFS High Availability feature addresses this problem by providing 
-the option of running two redundant NameNodes in the same cluster in an Active/Passive 
-configuration with a hot standby. </td>
-<td width="20%"><a href="http://hadoop.apache.org/">1. hadoop.apache.org</a> 
-<br> <a href="http://research.google.com/archive/gfs.html">2. Google FileSystem - GFS Paper</a> 
-<br> <a href="http://blog.cloudera.com/blog/2012/07/why-we-build-our-platform-on-hdfs/">3. Cloudera Why HDFS</a>
-<br> <a href="http://hortonworks.com/blog/thinking-about-the-hdfs-vs-other-storage-technologies/">4. Hortonworks Why HDFS</a></td>
-</tr>
-<tr>
-<td width="20%">Red Hat GlusterFS</td>
-<td>GlusterFS is a scale-out network-attached storage file system. GlusterFS was 
-developed originally by Gluster, Inc., then by Red Hat, Inc., after their 
-purchase of Gluster in 2011. In June 2012, Red Hat Storage Server was 
-announced as a commercially-supported integration of GlusterFS with 
-Red Hat Enterprise Linux. Gluster File System, known now as Red Hat Storage Server. </td>
-<td width="20%"><a href="http://www.gluster.org/">1. www.gluster.org</a>
-<br><a href="http://www.redhat.com/about/news/archive/2013/10/red-hat-contributes-apache-hadoop-plug-in-to-the-gluster-community">2. Red Hat Hadoop Plugin</a></td>
-</tr>
-<tr>
-<td width="20%">Quantcast File System QFS</td>
-<td> (QFS) is an open-source distributed file system software package for 
-large-scale MapReduce or other batch-processing workloads. It was 
-designed as an alternative to Apache Hadoop’s HDFS, intended to deliver 
-better performance and cost-efficiency for large-scale processing clusters. 
-It is written in C++ and has fixed-footprint memory management. QFS uses 
-Reed-Solomon error correction as method for assuring reliable access to data. <br>
-Reed–Solomon coding is very widely used in mass storage systems to correct the burst 
-errors associated with media defects. Rather than storing three full versions of 
-each file like HDFS, resulting in the need for three times more storage, QFS 
-only needs 1.5x the raw capacity because it stripes data across nine different disk drives. </td>
-<td width="20%"><a href="https://www.quantcast.com/engineering/qfs/">1. QFS site</a>
-<br><a href="https://github.com/quantcast/qfs">2. GitHub QFS</a>
-<br><a href="https://issues.apache.org/jira/browse/HADOOP-8885">3. HADOOP-8885</a></td>
-</tr>
-<tr>
-<td width="30%">Ceph Filesystem</td>
-<td>Ceph is a free software storage platform designed to present object, block, 
-and file storage from a single distributed computer cluster. Ceph's main 
-goals are to be completely distributed without a single point of failure, 
-scalable to the exabyte level, and freely-available. The data is replicated, 
-making it fault tolerant. The problem right now is Ceph currently requires Hadoop 1.1.X stable series.</td>
-<td width="20%"><a href="http://ceph.com/ceph-storage/file-system/">1. Ceph Filesystem site</a>
-<br><a href="http://ceph.com/docs/next/cephfs/hadoop/">2. Ceph and Hadoop</a>
-<br><a href="https://issues.apache.org/jira/browse/HADOOP-6253">3. HADOOP-6253</a></td>
-</tr>
-<tr>
-<td width="30%">Lustre file system</td>
-<td>The Lustre filesystem is a high-performance distributed filesystem 
-intended for larger network and high-availability environments. 
-Traditionally, Lustre is configured to manage remote data storage 
-disk devices within a Storage Area Network (SAN), which is two or 
-more remotely attached disk devices communicating via a Small Computer 
-System Interface (SCSI) protocol. This includes Fibre Channel, Fibre 
-Channel over Ethernet (FCoE), Serial Attached SCSI (SAS) and even iSCSI. <br>
-With Hadoop HDFS  the software needs a dedicated cluster of computers 
-on which to run.  But folks who run high performance computing clusters 
-for other purposes often don't run HDFS, which leaves them with a bunch 
-of computing power, tasks that could almost certainly benefit from a bit 
-of map reduce and no way to put that power to work running Hadoop. Intel's 
-noticed this and, in version 2.5 of its Hadoop distribution that it quietly 
-released last week, has added support for Lustre: the Intel® HPC Distribution 
-for Apache Hadoop* Software, a new product that combines Intel Distribution 
-for Apache Hadoop software with Intel® Enterprise Edition for Lustre software. 
-This is the only distribution of Apache Hadoop that is integrated with Lustre, 
-the parallel file system used by many of the world's fastest supercomputers</td>
-<td width="20%"><a href="http://wiki.lustre.org/">1. wiki.lustre.org/</a>
-<br><a href="http://wiki.lustre.org/index.php/Running_Hadoop_with_Lustre">2. Hadoop with Lustre</a>
-<br><a href="http://hadoop.intel.com/products/distribution">3. Intel HPC Hadoop</a></td>
-</tr>
-<tr>
-<td width="30%">Tachyon</td>
-<td>Tachyon is an open source memory-centric distributed storage system enabling reliable data 
-sharing at memory-speed across cluster jobs, possibly written in different computation 
-frameworks, such as Apache Spark and Apache MapReduce. In the big data ecosystem, Tachyon lies 
-between computation frameworks or jobs, such as Apache Spark, Apache MapReduce, or Apache Flink, 
-and various kinds of storage systems, such as Amazon S3, OpenStack Swift, GlusterFS, HDFS, or 
-Ceph. Tachyon brings significant performance improvement to the stack; for example, Baidu uses 
-Tachyon to improve their data analytics performance by 30 times. Beyond performance, Tachyon 
-bridges new workloads with data stored in traditional storage systems. Users can run Tachyon 
-using its standalone cluster mode, for example on Amazon EC2, or launch Tachyon with Apache Mesos 
-or Apache Yarn. <br> 
-Tachyon is Hadoop compatible. This means that existing Spark and MapReduce programs can run on 
-top of Tachyon without any code changes. The project is open source (Apache License 2.0) and is 
-deployed at multiple companies. It is one of the fastest growing open source projects. With less 
-than three years open source history, Tachyon has attracted more than 150 contributors from over 
-50 institutions, including Alibaba, Baidu, CMU, IBM, Intel, Red Hat, Tachyon Nexus, UC Berkeley, 
-and Yahoo. The project is the storage layer of the Berkeley Data Analytics Stack (BDAS) and also 
-part of the Fedora distribution.</td>
-<td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
-</tr>
 
-<tr>
-<td width="30%">GridGain</td>
-<td>GridGain is open source project licensed under Apache 2.0. One of the main pieces of this platform is the 
-	In-Memory Apache Hadoop Accelerator which aims to accelerate HDFS and Map/Reduce by bringing both, data 
-	and computations into memory. This work is done with the GGFS - Hadoop compliant in-memory file system. 
-	For I/O intensive jobs GridGain GGFS offers performance close to 100x faster than standard HDFS.
-	Paraphrasing Dmitriy Setrakyan from GridGain Systems talking about GGFS regarding Tachyon:<br>
-	- GGFS allows read-through and write-through to/from underlying HDFS or any
-	other Hadoop compliant file system with zero code change. Essentially GGFS
-	entirely removes ETL step from integration.<br>
-	- GGFS has ability to pick and choose what folders stay in memory, what
-	folders stay on disc, and what folders get synchronized with underlying
-	(HD)FS either synchronously or asynchronously.<br>
-	- GridGain is working on adding native MapReduce component which will
-	provide native complete Hadoop integration without changes in API, like
-	Spark currently forces you to do. Essentially GridGain MR+GGFS will allow
-	to bring Hadoop completely or partially in-memory in Plug-n-Play fashion
-	without any API changes. </td>
-<td width="20%"><a href="http://www.gridgain.org/">1. GridGain site</a>
-</tr>
+	<tr>
+	<td width="30%">Apache HDFS</td>
+	<td>The Hadoop Distributed File System (HDFS) offers a way to store large files across 
+	multiple machines. Hadoop and HDFS was derived from Google File System (GFS) paper. 
+	Prior to Hadoop 2.0.0, the NameNode was a single point of failure (SPOF) in an HDFS cluster. 
+	With Zookeeper the HDFS High Availability feature addresses this problem by providing 
+	the option of running two redundant NameNodes in the same cluster in an Active/Passive 
+	configuration with a hot standby. </td>
+	<td width="20%"><a href="http://hadoop.apache.org/">1. hadoop.apache.org</a> 
+	<br> <a href="http://research.google.com/archive/gfs.html">2. Google FileSystem - GFS Paper</a> 
+	<br> <a href="http://blog.cloudera.com/blog/2012/07/why-we-build-our-platform-on-hdfs/">3. Cloudera Why HDFS</a>
+	<br> <a href="http://hortonworks.com/blog/thinking-about-the-hdfs-vs-other-storage-technologies/">4. Hortonworks Why HDFS</a></td>
+	</tr>
 
-<tr>
-<td width="30%">XtreemFS</td>
-<td>
-	XtreemFS is a general purpose storage system and covers most storage needs in a single deployment.
-	It is open-source, requires no special hardware or kernel modules, and can be mounted on Linux,
-	Windows and OS X.
-	XtreemFS runs distributed and offers resilience through replication. XtreemFS Volumes can be accessed
-	through a FUSE component, that offers normal file interaction with POSIX like semantics. Furthermore an
-	implementation of Hadoops FileSystem interface is included which makes XtreemFS available for use with
-	Hadoop, Flink and Spark out of the box.
-	XtreemFS is licensed under the New BSD license. The XtreemFS project is developed by Zuse Institute Berlin.
-	The development of the project is funded by the European Commission since 2006 under
-	Grant Agreements No. FP6-033576, FP7-ICT-257438, and FP7-318521, as well as the German projects MoSGrid,
-	"First We Take Berlin", FFMK, GeoMultiSens, and BBDC.
-</td>
-<td width="20%"><a href="http://www.xtreemfs.org/">1. XtreemFS site</a>
-		<a href="https://github.com/xtreemfs/xtreemfs/wiki/Apache-Flink-with-XtreemFS">2. Flink on XtreemFS</a>
-		<a href="https://github.com/xtreemfs/xtreemfs/wiki/Apache-Spark-with-XtreemFS">. Spark XtreemFS</a>
-</tr>
-<tr>
+	<tr>
+	<td width="20%">Red Hat GlusterFS</td>
+	<td>GlusterFS is a scale-out network-attached storage file system. GlusterFS was 
+	developed originally by Gluster, Inc., then by Red Hat, Inc., after their 
+	purchase of Gluster in 2011. In June 2012, Red Hat Storage Server was 
+	announced as a commercially-supported integration of GlusterFS with 
+	Red Hat Enterprise Linux. Gluster File System, known now as Red Hat Storage Server. </td>
+	<td width="20%"><a href="http://www.gluster.org/">1. www.gluster.org</a>
+	<br><a href="http://www.redhat.com/about/news/archive/2013/10/red-hat-contributes-apache-hadoop-plug-in-to-the-gluster-community">2. Red Hat Hadoop Plugin</a></td>
+	</tr>
+
+	<tr>
+	<td width="20%">Quantcast File System QFS</td>
+	<td> (QFS) is an open-source distributed file system software package for 
+	large-scale MapReduce or other batch-processing workloads. It was 
+	designed as an alternative to Apache Hadoop’s HDFS, intended to deliver 
+	better performance and cost-efficiency for large-scale processing clusters. 
+	It is written in C++ and has fixed-footprint memory management. QFS uses 
+	Reed-Solomon error correction as method for assuring reliable access to data.<br>
+	Reed–Solomon coding is very widely used in mass storage systems to correct the burst 
+	errors associated with media defects. Rather than storing three full versions of 
+	each file like HDFS, resulting in the need for three times more storage, QFS 
+	only needs 1.5x the raw capacity because it stripes data across nine different disk drives. </td>
+	<td width="20%"><a href="https://www.quantcast.com/engineering/qfs/">1. QFS site</a>
+	<br><a href="https://github.com/quantcast/qfs">2. GitHub QFS</a>
+	<br><a href="https://issues.apache.org/jira/browse/HADOOP-8885">3. HADOOP-8885</a></td>
+	</tr>
+
+	<tr>
+	<td width="30%">Ceph Filesystem</td>
+	<td>Ceph is a free software storage platform designed to present object, block, 
+	and file storage from a single distributed computer cluster. Ceph's main 
+	goals are to be completely distributed without a single point of failure, 
+	scalable to the exabyte level, and freely-available. The data is replicated, 
+	making it fault tolerant. The problem right now is Ceph currently requires Hadoop 1.1.X stable series.</td>
+	<td width="20%"><a href="http://ceph.com/ceph-storage/file-system/">1. Ceph Filesystem site</a>
+	<br><a href="http://ceph.com/docs/next/cephfs/hadoop/">2. Ceph and Hadoop</a>
+	<br><a href="https://issues.apache.org/jira/browse/HADOOP-6253">3. HADOOP-6253</a></td>
+	</tr>
+
+	<tr>
+	<td width="30%">Lustre file system</td>
+	<td>The Lustre filesystem is a high-performance distributed filesystem 
+	intended for larger network and high-availability environments. 
+	Traditionally, Lustre is configured to manage remote data storage 
+	disk devices within a Storage Area Network (SAN), which is two or 
+	more remotely attached disk devices communicating via a Small Computer 
+	System Interface (SCSI) protocol. This includes Fibre Channel, Fibre 
+	Channel over Ethernet (FCoE), Serial Attached SCSI (SAS) and even iSCSI.<br>
+	With Hadoop HDFS  the software needs a dedicated cluster of computers 
+	on which to run.  But folks who run high performance computing clusters 
+	for other purposes often don't run HDFS, which leaves them with a bunch 
+	of computing power, tasks that could almost certainly benefit from a bit 
+	of map reduce and no way to put that power to work running Hadoop. Intel's 
+	noticed this and, in version 2.5 of its Hadoop distribution that it quietly 
+	released last week, has added support for Lustre: the Intel® HPC Distribution 
+	for Apache Hadoop* Software, a new product that combines Intel Distribution 
+	for Apache Hadoop software with Intel® Enterprise Edition for Lustre software. 
+	This is the only distribution of Apache Hadoop that is integrated with Lustre, 
+	the parallel file system used by many of the world's fastest supercomputers</td>
+	<td width="20%"><a href="http://wiki.lustre.org/">1. wiki.lustre.org/</a>
+	<br><a href="http://wiki.lustre.org/index.php/Running_Hadoop_with_Lustre">2. Hadoop with Lustre</a>
+	<br><a href="http://hadoop.intel.com/products/distribution">3. Intel HPC Hadoop</a></td>
+	</tr>
+
+	<tr>
+	<td width="30%">Tachyon</td>
+	<td>Tachyon is an open source memory-centric distributed storage system enabling reliable data 
+	sharing at memory-speed across cluster jobs, possibly written in different computation 
+	frameworks, such as Apache Spark and Apache MapReduce. In the big data ecosystem, Tachyon lies 
+	between computation frameworks or jobs, such as Apache Spark, Apache MapReduce, or Apache Flink, 
+	and various kinds of storage systems, such as Amazon S3, OpenStack Swift, GlusterFS, HDFS, or 
+	Ceph. Tachyon brings significant performance improvement to the stack; for example, Baidu uses 
+	Tachyon to improve their data analytics performance by 30 times. Beyond performance, Tachyon 
+	bridges new workloads with data stored in traditional storage systems. Users can run Tachyon 
+	using its standalone cluster mode, for example on Amazon EC2, or launch Tachyon with Apache Mesos 
+	or Apache Yarn. <br> 
+	Tachyon is Hadoop compatible. This means that existing Spark and MapReduce programs can run on 
+	top of Tachyon without any code changes. The project is open source (Apache License 2.0) and is 
+	deployed at multiple companies. It is one of the fastest growing open source projects. With less 
+	than three years open source history, Tachyon has attracted more than 150 contributors from over 
+	50 institutions, including Alibaba, Baidu, CMU, IBM, Intel, Red Hat, Tachyon Nexus, UC Berkeley, 
+	and Yahoo. The project is the storage layer of the Berkeley Data Analytics Stack (BDAS) and also 
+	part of the Fedora distribution.</td>
+	<td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
+	</tr>
+
+	<tr>
+	<td width="30%">GridGain</td>
+	<td>GridGain is open source project licensed under Apache 2.0. One of the main pieces of this platform is the 
+		In-Memory Apache Hadoop Accelerator which aims to accelerate HDFS and Map/Reduce by bringing both, data 
+		and computations into memory. This work is done with the GGFS - Hadoop compliant in-memory file system. 
+		For I/O intensive jobs GridGain GGFS offers performance close to 100x faster than standard HDFS.
+		Paraphrasing Dmitriy Setrakyan from GridGain Systems talking about GGFS regarding Tachyon:<br>
+		- GGFS allows read-through and write-through to/from underlying HDFS or any
+		other Hadoop compliant file system with zero code change. Essentially GGFS
+		entirely removes ETL step from integration.<br>
+		- GGFS has ability to pick and choose what folders stay in memory, what
+		folders stay on disc, and what folders get synchronized with underlying
+		(HD)FS either synchronously or asynchronously.<br>
+		- GridGain is working on adding native MapReduce component which will
+		provide native complete Hadoop integration without changes in API, like
+		Spark currently forces you to do. Essentially GridGain MR+GGFS will allow
+		to bring Hadoop completely or partially in-memory in Plug-n-Play fashion
+		without any API changes. </td>
+	<td width="20%"><a href="http://www.gridgain.org/">1. GridGain site</a>
+	</tr>
+
+	<tr>
+	<td width="30%">XtreemFS</td>
+	<td>
+		XtreemFS is a general purpose storage system and covers most storage needs in a single deployment.
+		It is open-source, requires no special hardware or kernel modules, and can be mounted on Linux,
+		Windows and OS X.
+		XtreemFS runs distributed and offers resilience through replication. XtreemFS Volumes can be accessed
+		through a FUSE component, that offers normal file interaction with POSIX like semantics. Furthermore an
+		implementation of Hadoops FileSystem interface is included which makes XtreemFS available for use with
+		Hadoop, Flink and Spark out of the box.
+		XtreemFS is licensed under the New BSD license. The XtreemFS project is developed by Zuse Institute Berlin.
+		The development of the project is funded by the European Commission since 2006 under
+		Grant Agreements No. FP6-033576, FP7-ICT-257438, and FP7-318521, as well as the German projects MoSGrid,
+		"First We Take Berlin", FFMK, GeoMultiSens, and BBDC.
+	</td>
+	<td width="20%"><a href="http://www.xtreemfs.org/">1. XtreemFS site</a>
+			<a href="https://github.com/xtreemfs/xtreemfs/wiki/Apache-Flink-with-XtreemFS">2. Flink on XtreemFS</a>
+			<a href="https://github.com/xtreemfs/xtreemfs/wiki/Apache-Spark-with-XtreemFS">. Spark XtreemFS</a>
+	</tr>
 
 <!---------------------------->
 <!-- Distributed Programming-->
 <!---------------------------->
-
+<tr>
 <th colspan="3">Distributed Programming</th>
 </tr>
-<tr>
-<td width="20%">Apache MapReduce</td>
-<td>MapReduce is a programming model for processing large data sets with a parallel, 
-    distributed algorithm on a cluster. Apache MapReduce was derived from Google 
-    MapReduce: Simplified Data Processing on Large Clusters paper. The current 
-    Apache MapReduce version is built over Apache YARN Framework. YARN stands 
-    for “Yet-Another-Resource-Negotiator”. It is a new framework that facilitates 
-    writing arbitrary distributed processing frameworks and applications. YARN’s 
-    execution model is more generic than the earlier MapReduce implementation. 
-    YARN can run applications that do not follow the MapReduce model, unlike the 
-    original Apache Hadoop MapReduce (also called MR1). Hadoop YARN is an attempt 
-    to take Apache Hadoop beyond MapReduce for data-processing.</td>
-<td width="20%"><a href="http://wiki.apache.org/hadoop/MapReduce/">1. Apache MapReduce</a> 
-<br> <a href="http://research.google.com/archive/mapreduce.html">2. Google MapReduce paper</a> 
-<br> <a href="http://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/WritingYarnApplications.html">3. Writing YARN applications</a></td>
-</tr>
-<tr>
-<td width="20%">Apache Pig</td>
-<td>Pig provides an engine for executing data flows in parallel on Hadoop. It includes a language, Pig Latin, for expressing these data flows. Pig Latin includes operators for many of the traditional data operations (join, sort, filter, etc.), as well as the ability for users to develop their own functions for reading, processing, and writing data. Pig runs on Hadoop. It makes use of both the Hadoop Distributed File System, HDFS, and Hadoop’s processing system, MapReduce. <br>
-Pig uses MapReduce to execute all of its data processing. It compiles the Pig Latin scripts
-that users write into a series of one or more MapReduce jobs that it then executes. Pig Latin looks different from many of the programming languages you have seen. There are no if statements or for loops in Pig Latin. This is because traditional procedural and object-oriented programming languages describe control flow, and data flow is a side effect of the program. Pig Latin instead focuses on data flow.</td>
-<td width="20%"><a href="https://pig.apache.org/">1. pig.apache.org/</a> 
-<br> <a href="https://github.com/alanfgates/programmingpig">2.Pig examples by Alan Gates</a></td>
-</tr>
-<tr>
-<td width="20%">JAQL</td>
-<td>JAQL is a functional, declarative programming language designed especially for working with large volumes of structured, semi-structured and unstructured data. As its name implies, a primary use of JAQL is to handle data stored as JSON documents, but JAQL can work on various types of data. For example, it can support XML, comma-separated values (CSV) data and flat files. A "SQL within JAQL" capability lets programmers work with structured SQL data while employing a JSON data model that's less restrictive than its Structured Query Language counterparts.<br>
-Specifically, Jaql allows you to select, join, group, and filter data that is stored in HDFS, much like a blend of Pig and Hive. Jaql’s query language was inspired by many programming and query languages, including Lisp, SQL, XQuery, and Pig. <br>
-JAQL was created by workers at IBM Research Labs in 2008 and released to open source. While it continues to be hosted as a project on Google Code, where a downloadable version is available under an Apache 2.0 license, the major development activity around JAQL has remained centered at IBM. The company offers the query language as part of the tools suite associated with InfoSphere BigInsights, its Hadoop platform. Working together with a workflow orchestrator, JAQL is used in BigInsights to exchange data between storage, processing and analytics jobs. It also provides links to external data and services, including relational databases and machine learning data. </td>
-<td width="20%"><a href="https://code.google.com/p/jaql/">1. JAQL in Google Code</a> 
-<br> <a href="http://www-01.ibm.com/software/data/infosphere/hadoop/jaql/">2. What is Jaql? by IBM</a></td>
-</tr>
+
+	<tr>
+	<td width="20%">Apache MapReduce</td>
+	<td>MapReduce is a programming model for processing large data sets with a parallel, 
+	    distributed algorithm on a cluster. Apache MapReduce was derived from Google 
+	    MapReduce: Simplified Data Processing on Large Clusters paper. The current 
+	    Apache MapReduce version is built over Apache YARN Framework. YARN stands 
+	    for “Yet-Another-Resource-Negotiator”. It is a new framework that facilitates 
+	    writing arbitrary distributed processing frameworks and applications. YARN’s 
+	    execution model is more generic than the earlier MapReduce implementation. 
+	    YARN can run applications that do not follow the MapReduce model, unlike the 
+	    original Apache Hadoop MapReduce (also called MR1). Hadoop YARN is an attempt 
+	    to take Apache Hadoop beyond MapReduce for data-processing.</td>
+	<td width="20%"><a href="http://wiki.apache.org/hadoop/MapReduce/">1. Apache MapReduce</a> 
+	<br> <a href="http://research.google.com/archive/mapreduce.html">2. Google MapReduce paper</a> 
+	<br> <a href="http://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/WritingYarnApplications.html">3. Writing YARN applications</a></td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Pig</td>
+	<td>Pig provides an engine for executing data flows in parallel on Hadoop. It includes a language, 
+		Pig Latin, for expressing these data flows. Pig Latin includes operators for many of the 
+		traditional data operations (join, sort, filter, etc.), as well as the ability for users 
+		to develop their own functions for reading, processing, and writing data. Pig runs on Hadoop. 
+		It makes use of both the Hadoop Distributed File System, HDFS, and Hadoop’s processing system, MapReduce.<br>
+		Pig uses MapReduce to execute all of its data processing. It compiles the Pig Latin scripts
+		that users write into a series of one or more MapReduce jobs that it then executes. Pig Latin looks 
+		different from many of the programming languages you have seen. There are no if statements or for 
+		loops in Pig Latin. This is because traditional procedural and object-oriented programming languages 
+		describe control flow, and data flow is a side effect of the program. Pig Latin instead focuses on data flow.</td>
+	<td width="20%"><a href="https://pig.apache.org/">1. pig.apache.org/</a> 
+	<br> <a href="https://github.com/alanfgates/programmingpig">2.Pig examples by Alan Gates</a></td>
+	</tr>
+
+	<tr>
+	<td width="20%">JAQL</td>
+	<td>JAQL is a functional, declarative programming language designed especially for working with large 
+		volumes of structured, semi-structured and unstructured data. As its name implies, a primary 
+		use of JAQL is to handle data stored as JSON documents, but JAQL can work on various types of data. 
+		For example, it can support XML, comma-separated values (CSV) data and flat files. A "SQL within JAQL" 
+		capability lets programmers work with structured SQL data while employing a JSON data model that's less 
+		restrictive than its Structured Query Language counterparts.<br>
+		Specifically, Jaql allows you to select, join, group, and filter data that is stored in HDFS, much 
+		like a blend of Pig and Hive. Jaql’s query language was inspired by many programming and query languages, 
+		including Lisp, SQL, XQuery, and Pig. <br>
+		JAQL was created by workers at IBM Research Labs in 2008 and released to open source. While it continues 
+		to be hosted as a project on Google Code, where a downloadable version is available under an Apache 2.0 license, 
+		the major development activity around JAQL has remained centered at IBM. The company offers the query language 
+		as part of the tools suite associated with InfoSphere BigInsights, its Hadoop platform. Working together with a 
+		workflow orchestrator, JAQL is used in BigInsights to exchange data between storage, processing and analytics jobs. 
+		It also provides links to external data and services, including relational databases and machine learning data. </td>
+	<td width="20%"><a href="https://code.google.com/p/jaql/">1. JAQL in Google Code</a> 
+	<br> <a href="http://www-01.ibm.com/software/data/infosphere/hadoop/jaql/">2. What is Jaql? by IBM</a></td>
+	</tr>
+
 <tr>
 <td width="20%">Apache Spark</td>
 <td>Data analytics cluster computing framework originally developed in the AMPLab at UC Berkeley. Spark fits into the Hadoop open-source community, building on top of the Hadoop Distributed File System (HDFS). However, Spark provides an easier to use alternative to Hadoop MapReduce and offers performance up to 10 times faster than previous generation systems like Hadoop MapReduce for certain applications.<br>
