@@ -40,12 +40,14 @@
 
 	<tr>
 	<td width="30%">Apache HDFS</td>
-	<td>The Hadoop Distributed File System (HDFS) offers a way to store large files across 
-	multiple machines. Hadoop and HDFS was derived from Google File System (GFS) paper. 
-	Prior to Hadoop 2.0.0, the NameNode was a single point of failure (SPOF) in an HDFS cluster. 
-	With Zookeeper the HDFS High Availability feature addresses this problem by providing 
-	the option of running two redundant NameNodes in the same cluster in an Active/Passive 
-	configuration with a hot standby.</td>
+	<td>
+		The Hadoop Distributed File System (HDFS) offers a way to store large files across 
+		multiple machines. Hadoop and HDFS was derived from Google File System (GFS) paper. 
+		Prior to Hadoop 2.0.0, the NameNode was a single point of failure (SPOF) in an HDFS cluster. 
+		With Zookeeper the HDFS High Availability feature addresses this problem by providing 
+		the option of running two redundant NameNodes in the same cluster in an Active/Passive 
+		configuration with a hot standby.
+	</td>
 	<td width="20%"><a href="http://hadoop.apache.org/">1. hadoop.apache.org</a> 
 		<br> <a href="http://research.google.com/archive/gfs.html">2. Google FileSystem - GFS Paper</a> 
 		<br> <a href="http://blog.cloudera.com/blog/2012/07/why-we-build-our-platform-on-hdfs/">3. Cloudera Why HDFS</a>
@@ -55,11 +57,13 @@
 
 	<tr>
 	<td width="20%">Red Hat GlusterFS</td>
-	<td>GlusterFS is a scale-out network-attached storage file system. GlusterFS was 
-	developed originally by Gluster, Inc., then by Red Hat, Inc., after their 
-	purchase of Gluster in 2011. In June 2012, Red Hat Storage Server was 
-	announced as a commercially-supported integration of GlusterFS with 
-	Red Hat Enterprise Linux. Gluster File System, known now as Red Hat Storage Server. </td>
+	<td>
+		GlusterFS is a scale-out network-attached storage file system. GlusterFS was 
+		developed originally by Gluster, Inc., then by Red Hat, Inc., after their 
+		purchase of Gluster in 2011. In June 2012, Red Hat Storage Server was 
+		announced as a commercially-supported integration of GlusterFS with 
+		Red Hat Enterprise Linux. Gluster File System, known now as Red Hat Storage Server. 
+	</td>
 	<td width="20%"><a href="http://www.gluster.org/">1. www.gluster.org</a>
 		<br><a href="http://www.redhat.com/about/news/archive/2013/10/red-hat-contributes-apache-hadoop-plug-in-to-the-gluster-community">2. Red Hat Hadoop Plugin</a>
 	</td>
@@ -67,16 +71,18 @@
 
 	<tr>
 	<td width="20%">Quantcast File System QFS</td>
-	<td> (QFS) is an open-source distributed file system software package for 
-	large-scale MapReduce or other batch-processing workloads. It was 
-	designed as an alternative to Apache Hadoop’s HDFS, intended to deliver 
-	better performance and cost-efficiency for large-scale processing clusters. 
-	It is written in C++ and has fixed-footprint memory management. QFS uses 
-	Reed-Solomon error correction as method for assuring reliable access to data.<br>
-	Reed–Solomon coding is very widely used in mass storage systems to correct the burst 
-	errors associated with media defects. Rather than storing three full versions of 
-	each file like HDFS, resulting in the need for three times more storage, QFS 
-	only needs 1.5x the raw capacity because it stripes data across nine different disk drives. </td>
+	<td>
+		QFS is an open-source distributed file system software package for 
+		large-scale MapReduce or other batch-processing workloads. It was 
+		designed as an alternative to Apache Hadoop’s HDFS, intended to deliver 
+		better performance and cost-efficiency for large-scale processing clusters. 
+		It is written in C++ and has fixed-footprint memory management. QFS uses 
+		Reed-Solomon error correction as method for assuring reliable access to data.<br>
+		Reed–Solomon coding is very widely used in mass storage systems to correct the burst 
+		errors associated with media defects. Rather than storing three full versions of 
+		each file like HDFS, resulting in the need for three times more storage, QFS 
+		only needs 1.5x the raw capacity because it stripes data across nine different disk drives. 
+	</td>
 	<td width="20%"><a href="https://www.quantcast.com/engineering/qfs/">1. QFS site</a>
 		<br><a href="https://github.com/quantcast/qfs">2. GitHub QFS</a>
 		<br><a href="https://issues.apache.org/jira/browse/HADOOP-8885">3. HADOOP-8885</a>
@@ -85,11 +91,13 @@
 
 	<tr>
 	<td width="30%">Ceph Filesystem</td>
-	<td>Ceph is a free software storage platform designed to present object, block, 
-	and file storage from a single distributed computer cluster. Ceph's main 
-	goals are to be completely distributed without a single point of failure, 
-	scalable to the exabyte level, and freely-available. The data is replicated, 
-	making it fault tolerant. The problem right now is Ceph currently requires Hadoop 1.1.X stable series.</td>
+	<td>
+		Ceph is a free software storage platform designed to present object, block, 
+		and file storage from a single distributed computer cluster. Ceph's main 
+		goals are to be completely distributed without a single point of failure, 
+		scalable to the exabyte level, and freely-available. The data is replicated, 
+		making it fault tolerant. The problem right now is Ceph currently requires Hadoop 1.1.X stable series.
+	</td>
 	<td width="20%"><a href="http://ceph.com/ceph-storage/file-system/">1. Ceph Filesystem site</a>
 		<br><a href="http://ceph.com/docs/next/cephfs/hadoop/">2. Ceph and Hadoop</a>
 		<br><a href="https://issues.apache.org/jira/browse/HADOOP-6253">3. HADOOP-6253</a>
@@ -98,24 +106,26 @@
 
 	<tr>
 	<td width="30%">Lustre file system</td>
-	<td>The Lustre filesystem is a high-performance distributed filesystem 
-	intended for larger network and high-availability environments. 
-	Traditionally, Lustre is configured to manage remote data storage 
-	disk devices within a Storage Area Network (SAN), which is two or 
-	more remotely attached disk devices communicating via a Small Computer 
-	System Interface (SCSI) protocol. This includes Fibre Channel, Fibre 
-	Channel over Ethernet (FCoE), Serial Attached SCSI (SAS) and even iSCSI.<br>
-	With Hadoop HDFS  the software needs a dedicated cluster of computers 
-	on which to run.  But folks who run high performance computing clusters 
-	for other purposes often don't run HDFS, which leaves them with a bunch 
-	of computing power, tasks that could almost certainly benefit from a bit 
-	of map reduce and no way to put that power to work running Hadoop. Intel's 
-	noticed this and, in version 2.5 of its Hadoop distribution that it quietly 
-	released last week, has added support for Lustre: the Intel® HPC Distribution 
-	for Apache Hadoop* Software, a new product that combines Intel Distribution 
-	for Apache Hadoop software with Intel® Enterprise Edition for Lustre software. 
-	This is the only distribution of Apache Hadoop that is integrated with Lustre, 
-	the parallel file system used by many of the world's fastest supercomputers</td>
+	<td>
+		The Lustre filesystem is a high-performance distributed filesystem 
+		intended for larger network and high-availability environments. 
+		Traditionally, Lustre is configured to manage remote data storage 
+		disk devices within a Storage Area Network (SAN), which is two or 
+		more remotely attached disk devices communicating via a Small Computer 
+		System Interface (SCSI) protocol. This includes Fibre Channel, Fibre 
+		Channel over Ethernet (FCoE), Serial Attached SCSI (SAS) and even iSCSI.<br>
+		With Hadoop HDFS  the software needs a dedicated cluster of computers 
+		on which to run.  But folks who run high performance computing clusters 
+		for other purposes often don't run HDFS, which leaves them with a bunch 
+		of computing power, tasks that could almost certainly benefit from a bit 
+		of map reduce and no way to put that power to work running Hadoop. Intel's 
+		noticed this and, in version 2.5 of its Hadoop distribution that it quietly 
+		released last week, has added support for Lustre: the Intel® HPC Distribution 
+		for Apache Hadoop* Software, a new product that combines Intel Distribution 
+		for Apache Hadoop software with Intel® Enterprise Edition for Lustre software. 
+		This is the only distribution of Apache Hadoop that is integrated with Lustre, 
+		the parallel file system used by many of the world's fastest supercomputers
+	</td>
 	<td width="20%"><a href="http://wiki.lustre.org/">1. wiki.lustre.org/</a>
 		<br><a href="http://wiki.lustre.org/index.php/Running_Hadoop_with_Lustre">2. Hadoop with Lustre</a>
 		<br><a href="http://hadoop.intel.com/products/distribution">3. Intel HPC Hadoop</a>
@@ -124,30 +134,33 @@
 
 	<tr>
 	<td width="30%">Tachyon</td>
-	<td>Tachyon is an open source memory-centric distributed storage system enabling reliable data 
-	sharing at memory-speed across cluster jobs, possibly written in different computation 
-	frameworks, such as Apache Spark and Apache MapReduce. In the big data ecosystem, Tachyon lies 
-	between computation frameworks or jobs, such as Apache Spark, Apache MapReduce, or Apache Flink, 
-	and various kinds of storage systems, such as Amazon S3, OpenStack Swift, GlusterFS, HDFS, or 
-	Ceph. Tachyon brings significant performance improvement to the stack; for example, Baidu uses 
-	Tachyon to improve their data analytics performance by 30 times. Beyond performance, Tachyon 
-	bridges new workloads with data stored in traditional storage systems. Users can run Tachyon 
-	using its standalone cluster mode, for example on Amazon EC2, or launch Tachyon with Apache Mesos 
-	or Apache Yarn. <br> 
-	Tachyon is Hadoop compatible. This means that existing Spark and MapReduce programs can run on 
-	top of Tachyon without any code changes. The project is open source (Apache License 2.0) and is 
-	deployed at multiple companies. It is one of the fastest growing open source projects. With less 
-	than three years open source history, Tachyon has attracted more than 150 contributors from over 
-	50 institutions, including Alibaba, Baidu, CMU, IBM, Intel, Red Hat, Tachyon Nexus, UC Berkeley, 
-	and Yahoo. The project is the storage layer of the Berkeley Data Analytics Stack (BDAS) and also 
-	part of the Fedora distribution.</td>
+	<td>
+		Tachyon is an open source memory-centric distributed storage system enabling reliable data 
+		sharing at memory-speed across cluster jobs, possibly written in different computation 
+		frameworks, such as Apache Spark and Apache MapReduce. In the big data ecosystem, Tachyon lies 
+		between computation frameworks or jobs, such as Apache Spark, Apache MapReduce, or Apache Flink, 
+		and various kinds of storage systems, such as Amazon S3, OpenStack Swift, GlusterFS, HDFS, or 
+		Ceph. Tachyon brings significant performance improvement to the stack; for example, Baidu uses 
+		Tachyon to improve their data analytics performance by 30 times. Beyond performance, Tachyon 
+		bridges new workloads with data stored in traditional storage systems. Users can run Tachyon 
+		using its standalone cluster mode, for example on Amazon EC2, or launch Tachyon with Apache Mesos 
+		or Apache Yarn. <br> 
+		Tachyon is Hadoop compatible. This means that existing Spark and MapReduce programs can run on 
+		top of Tachyon without any code changes. The project is open source (Apache License 2.0) and is 
+		deployed at multiple companies. It is one of the fastest growing open source projects. With less 
+		than three years open source history, Tachyon has attracted more than 150 contributors from over 
+		50 institutions, including Alibaba, Baidu, CMU, IBM, Intel, Red Hat, Tachyon Nexus, UC Berkeley, 
+		and Yahoo. The project is the storage layer of the Berkeley Data Analytics Stack (BDAS) and also 
+		part of the Fedora distribution.
+	</td>
 	<td width="20%"><a href="http://tachyon-project.org/">1. Tachyon site</a>
 	</td>
 	</tr>
 
 	<tr>
 	<td width="30%">GridGain</td>
-	<td>GridGain is open source project licensed under Apache 2.0. One of the main pieces of this platform is the 
+	<td>
+		GridGain is open source project licensed under Apache 2.0. One of the main pieces of this platform is the 
 		In-Memory Apache Hadoop Accelerator which aims to accelerate HDFS and Map/Reduce by bringing both, data 
 		and computations into memory. This work is done with the GGFS - Hadoop compliant in-memory file system. 
 		For I/O intensive jobs GridGain GGFS offers performance close to 100x faster than standard HDFS.
@@ -162,7 +175,8 @@
 		provide native complete Hadoop integration without changes in API, like
 		Spark currently forces you to do. Essentially GridGain MR+GGFS will allow
 		to bring Hadoop completely or partially in-memory in Plug-n-Play fashion
-		without any API changes. </td>
+		without any API changes. 
+	</td>
 	<td width="20%"><a href="http://www.gridgain.org/">1. GridGain site</a>
 	</td>
 	</tr>
@@ -197,16 +211,18 @@
 
 	<tr>
 	<td width="20%">Apache MapReduce</td>
-	<td>MapReduce is a programming model for processing large data sets with a parallel, 
-	    distributed algorithm on a cluster. Apache MapReduce was derived from Google 
-	    MapReduce: Simplified Data Processing on Large Clusters paper. The current 
-	    Apache MapReduce version is built over Apache YARN Framework. YARN stands 
-	    for “Yet-Another-Resource-Negotiator”. It is a new framework that facilitates 
-	    writing arbitrary distributed processing frameworks and applications. YARN’s 
-	    execution model is more generic than the earlier MapReduce implementation. 
-	    YARN can run applications that do not follow the MapReduce model, unlike the 
-	    original Apache Hadoop MapReduce (also called MR1). Hadoop YARN is an attempt 
-	    to take Apache Hadoop beyond MapReduce for data-processing.</td>
+	<td>
+		MapReduce is a programming model for processing large data sets with a parallel, 
+		distributed algorithm on a cluster. Apache MapReduce was derived from Google 
+		MapReduce: Simplified Data Processing on Large Clusters paper. The current 
+		Apache MapReduce version is built over Apache YARN Framework. YARN stands 
+		for “Yet-Another-Resource-Negotiator”. It is a new framework that facilitates 
+		writing arbitrary distributed processing frameworks and applications. YARN’s 
+		execution model is more generic than the earlier MapReduce implementation. 
+		YARN can run applications that do not follow the MapReduce model, unlike the 
+		original Apache Hadoop MapReduce (also called MR1). Hadoop YARN is an attempt 
+		to take Apache Hadoop beyond MapReduce for data-processing.
+	</td>
 	<td width="20%"><a href="http://wiki.apache.org/hadoop/MapReduce/">1. Apache MapReduce</a> 
 		<br> <a href="http://research.google.com/archive/mapreduce.html">2. Google MapReduce paper</a> 
 		<br> <a href="http://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/WritingYarnApplications.html">3. Writing YARN applications</a>
@@ -215,7 +231,8 @@
 
 	<tr>
 	<td width="20%">Apache Pig</td>
-	<td>Pig provides an engine for executing data flows in parallel on Hadoop. It includes a language, 
+	<td>
+		Pig provides an engine for executing data flows in parallel on Hadoop. It includes a language, 
 		Pig Latin, for expressing these data flows. Pig Latin includes operators for many of the 
 		traditional data operations (join, sort, filter, etc.), as well as the ability for users 
 		to develop their own functions for reading, processing, and writing data. Pig runs on Hadoop. 
@@ -224,7 +241,8 @@
 		that users write into a series of one or more MapReduce jobs that it then executes. Pig Latin looks 
 		different from many of the programming languages you have seen. There are no if statements or for 
 		loops in Pig Latin. This is because traditional procedural and object-oriented programming languages 
-		describe control flow, and data flow is a side effect of the program. Pig Latin instead focuses on data flow.</td>
+		describe control flow, and data flow is a side effect of the program. Pig Latin instead focuses on data flow.
+	</td>
 	<td width="20%"><a href="https://pig.apache.org/">1. pig.apache.org/</a> 
 		<br> <a href="https://github.com/alanfgates/programmingpig">2.Pig examples by Alan Gates</a>
 	</td>
@@ -232,7 +250,8 @@
 
 	<tr>
 	<td width="20%">JAQL</td>
-	<td>JAQL is a functional, declarative programming language designed especially for working with large 
+	<td>
+		JAQL is a functional, declarative programming language designed especially for working with large 
 		volumes of structured, semi-structured and unstructured data. As its name implies, a primary 
 		use of JAQL is to handle data stored as JSON documents, but JAQL can work on various types of data. 
 		For example, it can support XML, comma-separated values (CSV) data and flat files. A "SQL within JAQL" 
@@ -246,14 +265,17 @@
 		the major development activity around JAQL has remained centered at IBM. The company offers the query language 
 		as part of the tools suite associated with InfoSphere BigInsights, its Hadoop platform. Working together with a 
 		workflow orchestrator, JAQL is used in BigInsights to exchange data between storage, processing and analytics jobs. 
-		It also provides links to external data and services, including relational databases and machine learning data. </td>
+		It also provides links to external data and services, including relational databases and machine learning data. 
+	</td>
 	<td width="20%"><a href="https://code.google.com/p/jaql/">1. JAQL in Google Code</a> 
-	<br> <a href="http://www-01.ibm.com/software/data/infosphere/hadoop/jaql/">2. What is Jaql? by IBM</a></td>
+		<br> <a href="http://www-01.ibm.com/software/data/infosphere/hadoop/jaql/">2. What is Jaql? by IBM</a>
+	</td>
 	</tr>
 
 	<tr>
 	<td width="20%">Apache Spark</td>
-	<td>Data analytics cluster computing framework originally developed in the AMPLab at UC Berkeley. 
+	<td>
+		Data analytics cluster computing framework originally developed in the AMPLab at UC Berkeley. 
 		Spark fits into the Hadoop open-source community, building on top of the Hadoop Distributed File System (HDFS). 
 		However, Spark provides an easier to use alternative to Hadoop MapReduce and offers performance up to 10 times 
 		faster than previous generation systems like Hadoop MapReduce for certain applications.<br>
@@ -263,178 +285,329 @@
 		and real-time analysis (Spark Streaming), it can be interactively used to quickly process and query big data sets.<br>
 		To make programming faster, Spark provides clean, concise APIs in Scala, Java and Python. You can also use Spark 
 		interactively from the Scala and Python shells to rapidly query big datasets. Spark is also the engine behind Shark, 
-		a fully Apache Hive-compatible data warehousing system that can run 100x faster than Hive.</td>
+		a fully Apache Hive-compatible data warehousing system that can run 100x faster than Hive.
+	</td>
 	<td width="20%"><a href="http://spark.apache.org/">1. Apache Spark</a>
-	<br>  <a href="https://github.com/apache/incubator-spark">2. Mirror of Spark on Github</a>
-	<br>  <a href="http://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf">RDDs - Paper</a>
-	<br> <a href="https://people.csail.mit.edu/matei/papers/2010/hotcloud_spark.pdf">Spark: Cluster Computing... - Paper</a>
-	<br>  <a herf="http://spark.apache.org/research.html">Spark Research</a></td>
+		<br>  <a href="https://github.com/apache/incubator-spark">2. Mirror of Spark on Github</a>
+		<br>  <a href="http://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf">RDDs - Paper</a>
+		<br> <a href="https://people.csail.mit.edu/matei/papers/2010/hotcloud_spark.pdf">Spark: Cluster Computing... - Paper</a>
+		<br>  <a herf="http://spark.apache.org/research.html">Spark Research</a>
+	</td>
 	</tr>
 	
-<tr>
-<td width="20%">Apache Flink</td>
-<td>Apache Flink (formerly called Stratosphere) features powerful programming abstractions in Java and Scala, a high-performance runtime, and automatic program optimization. It has native support for iterations, incremental iterations, and programs consisting of large DAGs of operations.<br>
-Flink is a data processing system and an alternative to Hadoop's MapReduce component. It comes with its own runtime, rather than building on top of MapReduce. As such, it can work completely independently of the Hadoop ecosystem. However, Flink can also access Hadoop's distributed file system (HDFS) to read and write data, and Hadoop's next-generation resource manager (YARN) to provision cluster resources. Since most Flink users are using Hadoop HDFS to store their data, it ships already the required libraries to access HDFS.
-</td>
-<td width="20%"><a href="http://flink.incubator.apache.org/">1. Apache Flink incubator page</a>
-<br><a href="http://stratosphere.eu/">2. Stratosphere site</a></td>
-</tr>
-<tr>
-<td width="20%">Netflix PigPen</td>
-<td>PigPen is map-reduce for Clojure which compiles to Apache Pig. Clojure is dialect of the Lisp programming language created by Rich Hickey, so is a functional general-purpose language, and runs on the Java Virtual Machine, Common Language Runtime, and JavaScript engines. In PigPen there are no special user defined functions (UDFs). Define Clojure functions, anonymously or named, and use them like you would in any Clojure program. This tool is open sourced by Netflix, Inc. the American provider of on-demand Internet streaming media.</td>
-<td width="20%"><a href="https://github.com/Netflix/PigPen">1. PigPen on GitHub</a></td>
-</tr>
-<tr>
-<td width="20%">AMPLab SIMR</td>
-<td>Apache Spark was developed thinking in Apache YARN. However, up to now, it has been relatively hard to run Apache Spark on Hadoop MapReduce v1 clusters, i.e. clusters that do not have YARN installed. Typically, users would have to get permission to install Spark/Scala on some subset of the machines, a process that could be time consuming. SIMR allows anyone with access to a Hadoop MapReduce v1 cluster to run Spark out of the box. A user can run Spark directly on top of Hadoop MapReduce v1 without any administrative rights, and without having Spark or Scala installed on any of the nodes.</td>
-<td width="20%"><a href="http://databricks.github.io/simr/">1. SIMR on GitHub</a></td>
-</tr>
-<tr>
-<td width="20%">Facebook Corona</td>
-<td>“The next version of Map-Reduce" from Facebook, based in own fork of Hadoop. The current Hadoop implementation of the MapReduce technique uses a single job tracker, which causes scaling issues for very large data sets. The Apache Hadoop developers have been creating their own next-generation MapReduce, called YARN, which Facebook engineers looked at but discounted because of the highly-customised nature of the company's deployment of Hadoop and HDFS.
-Corona, like YARN, spawns multiple job trackers (one for each job, in Corona's case). </td>
-<td width="20%"><a href="https://github.com/facebookarchive/hadoop-20/tree/master/src/contrib/corona">1. Corona on Github</a></td>
-</tr>
-<tr>
-<td width="20%">Apache Twill</td>
-<td>Twill is an abstraction over Apache Hadoop® YARN that reduces the complexity of developing distributed applications, allowing developers to focus more on their business logic. Twill uses a simple thread-based model that Java programmers will find familiar. YARN can be viewed as a compute fabric of a cluster, which means YARN applications like Twill will run on any Hadoop 2 cluster.<br>
-YARN is an open source application that allows the Hadoop cluster to turn into a collection of virtual machines. Weave, developed by Continuuity and initially housed on Github, is a complementary open source application that uses a programming model similar to Java threads, making it easy to write distributed applications. In order to remove a conflict with a similarly named project on Apache, called "Weaver," Weave's name changed to Twill when it moved to Apache incubation.<br>
-Twill functions as a scaled-out proxy. Twill is a middleware layer in between YARN and any application on YARN. When you develop a Twill app, Twill handles APIs in YARN that resemble a multi-threaded application familiar to Java. It is very easy to build multi-processed distributed applications in Twill.</td>
-<td width="20%"><a href="https://incubator.apache.org/projects/twill.html">1. Apache Twill Incubator</a></td>
-</tr>
-<tr>
-<td width="20%">Damballa Parkour</td>
-<td>Library for develop MapReduce programs using the LISP like language Clojure. Parkour aims to provide deep Clojure integration for Hadoop.  Programs using Parkour are normal Clojure programs, using standard Clojure functions instead of new framework abstractions.  Programs using Parkour are also full Hadoop programs, with complete access to absolutely everything possible in raw Java Hadoop MapReduce.</td>
-<td width="20%"><a href="https://github.com/damballa/parkour">1. Parkour GitHub Project</a></td>
-</tr>
-<tr>
-<td width="20%">Apache Hama</td>
-<td>Apache Top-Level open source project, allowing you to do advanced analytics beyond MapReduce. Many data analysis techniques such as machine learning and graph algorithms require iterative computations, this is where Bulk Synchronous Parallel model can be more effective than "plain" MapReduce.</td>
-<td width="20%"><a href="http://hama.apache.org/">1. Hama site</a></td>
-</tr>
-<tr>
-<td width="20%">Datasalt Pangool</td>
-<td>A new MapReduce paradigm. A new API for MR jobs, in higher level than Java.</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">Apache Tez</td>
-<td>Tez is a proposal to develop a generic application which can be used to process complex data-processing 
-	task DAGs and runs natively on Apache Hadoop YARN. Tez generalizes the MapReduce paradigm to a more powerful framework based on expressing computations as a dataflow graph. Tez is not meant directly for end-users – in fact it enables developers to build end-user applications with much better performance and flexibility. Hadoop has traditionally been a batch-processing platform for large amounts of data. However, there are a lot of use cases for near-real-time performance of query processing. There are also several workloads, such as Machine Learning, which do not fit will into the MapReduce paradigm. Tez helps Hadoop address these use cases. Tez framework constitutes part of Stinger initiative (a low latency based SQL type query interface for Hadoop based on Hive).</td>
-<td width="20%"><a href="http://incubator.apache.org/projects/tez.html">1. Apache Tez Incubator</a>
-<br> <a href="http://hortonworks.com/hadoop/tez/">2. Hortonworks Apache Tez page</a></td>
-</tr>
-<tr>
-<td width="20%">Apache DataFu</td>
-<td>DataFu provides a collection of Hadoop MapReduce jobs and functions in higher level languages based on it to perform data analysis. It provides functions for common statistics tasks (e.g. quantiles, sampling), PageRank, stream sessionization, and set and bag operations. DataFu also provides Hadoop jobs for incremental data processing in MapReduce. DataFu is a collection of Pig UDFs (including PageRank, sessionization, set operations, sampling, and much more) that were originally developed at LinkedIn.</td>
-<td width="20%"><a href="http://incubator.apache.org/projects/datafu.html">1. DataFu Apache Incubator</a></td>
-</tr>
-<tr>
-<td width="20%">Pydoop</td>
-<td>Pydoop is a Python MapReduce and HDFS API for Hadoop, built upon the C++
-Pipes and the C libhdfs APIs, that allows to write full-fledged  MapReduce applications with HDFS access. Pydoop has several advantages over Hadoop’s built-in solutions for Python programming, i.e., Hadoop Streaming and Jython: being a CPython package, it allows you to access all standard library and third party modules, some of which may not be available.</td>
-<td width="20%"><a href="http://pydoop.sourceforge.net/docs/">1. SF Pydoop site</a>
-<br> <a href="https://github.com/crs4/pydoop">2. Pydoop GitHub Project</a></td>
-</tr>
-<tr>
-<td width="20%">Kangaroo</td>
-<td>Open-source project from Conductor for writing MapReduce jobs consuming data from Kafka. 
-The introductory post explains Conductor’s use case—loading data from Kafka to HBase by way of a MapReduce job using the HFileOutputFormat. Unlike other solutions which are limited to a single InputSplit per Kafka partition, Kangaroo can launch multiple consumers at different offsets in the stream of a single partition for increased throughput and parallelism.
-<td width="20%"><a href="http://www.conductor.com/nightlight/data-stream-processing-bulk-kafka-hadoop/">1. Kangaroo Introduction</a>
-<br> <a href="https://github.com/Conductor/kangaroo">2. Kangaroo GitHub Project</a></td>
-</tr>
+	<tr>
+	<td width="20%">Apache Flink</td>
+	<td>
+		Apache Flink (formerly called Stratosphere) features powerful programming abstractions in Java and Scala, 
+		a high-performance runtime, and automatic program optimization. It has native support for iterations, 
+		incremental iterations, and programs consisting of large DAGs of operations.<br>
+		Flink is a data processing system and an alternative to Hadoop's MapReduce component. It comes with 
+		its own runtime, rather than building on top of MapReduce. As such, it can work completely independently 
+		of the Hadoop ecosystem. However, Flink can also access Hadoop's distributed file system (HDFS) to read 
+		and write data, and Hadoop's next-generation resource manager (YARN) to provision cluster resources. 
+		Since most Flink users are using Hadoop HDFS to store their data, it ships already the required libraries to access HDFS.
+	</td>
+	<td width="20%"><a href="http://flink.incubator.apache.org/">1. Apache Flink incubator page</a>
+		<br><a href="http://stratosphere.eu/">2. Stratosphere site</a>
+	</td>
+	</tr>
 
-<tr>
-<td width="20%">TinkerPop</td>
-<td>Graph computing framework written in Java. Provides a core API that graph system vendors can implement. 
-There are various types of graph systems including in-memory graph libraries, OLTP graph databases, and OLAP graph processors.
-Once the core interfaces are implemented, the underlying graph system can be queried using the graph traversal 
-language Gremlin and processed with TinkerPop-enabled algorithms. For many, TinkerPop is seen as the JDBC 
-of the graph computing community.</td>
-<td width="20%"><a href="https://wiki.apache.org/incubator/TinkerPopProposal">1. Apache Tinkerpop Proposal</a>
-<br> <a href="http://www.tinkerpop.com/">2. TinkerPop site</a></td>
-</tr>
+	<tr>
+	<td width="20%">Netflix PigPen</td>
+	<td>
+		PigPen is map-reduce for Clojure which compiles to Apache Pig. Clojure is dialect of the Lisp programming 
+		language created by Rich Hickey, so is a functional general-purpose language, and runs on the Java Virtual Machine, 
+		Common Language Runtime, and JavaScript engines. In PigPen there are no special user defined functions (UDFs). 
+		Define Clojure functions, anonymously or named, and use them like you would in any Clojure program. This tool 
+		is open sourced by Netflix, Inc. the American provider of on-demand Internet streaming media.
+	</td>
+	<td width="20%"><a href="https://github.com/Netflix/PigPen">1. PigPen on GitHub</a>
+	</td>
+	</tr>
 
-<tr>
-<td width="20%">Pachyderm MapReduce</td>
-<td>Pachyderm is a completely new MapReduce engine built on top Docker and CoreOS. 
-In Pachyderm MapReduce (PMR) a job is an HTTP server inside a Docker container 
-(a microservice). You give Pachyderm a Docker image and it will automatically 
-distribute it throughout the cluster next to your data. Data is POSTed to 
-the container over HTTP and the results are stored back in the file system. 
-You can implement the web server in any language you want and pull in any library.
-Pachyderm also creates a DAG for all the jobs in the system and their dependencies 
-and it automatically schedules the pipeline such that each job isn’t run until it’s 
-dependencies have completed. Everything in Pachyderm “speaks in diffs” so it knows 
-exactly which data has changed and which subsets of the pipeline need to be rerun.
-CoreOS is an open source lightweight operating system based on Chrome OS, actually
-CoreOS is a fork of Chrome OS. CoreOS provides only the minimal functionality 
-required for deploying applications inside software containers, together with 
-built-in mechanisms for service discovery and configuration sharing</td>
-<td width="20%"><a href="http://www.pachyderm.io/">1. Pachyderm site</a>
-<br> <a href="https://medium.com/pachyderm-data/lets-build-a-modern-hadoop-4fc160f8d74f">2. Pachyderm introduction article</a></td>
-</tr>
+	<tr>
+	<td width="20%">AMPLab SIMR</td>
+	<td>
+		Apache Spark was developed thinking in Apache YARN. However, up to now, it has been relatively hard to run 
+		Apache Spark on Hadoop MapReduce v1 clusters, i.e. clusters that do not have YARN installed. Typically, 
+		users would have to get permission to install Spark/Scala on some subset of the machines, a process that 
+		could be time consuming. SIMR allows anyone with access to a Hadoop MapReduce v1 cluster to run Spark out 
+		of the box. A user can run Spark directly on top of Hadoop MapReduce v1 without any administrative rights, 
+		and without having Spark or Scala installed on any of the nodes.
+	</td>
+	<td width="20%"><a href="http://databricks.github.io/simr/">1. SIMR on GitHub</a>
+	</td>
+	</tr>
 
+	<tr>
+	<td width="20%">Facebook Corona</td>
+	<td>
+		“The next version of Map-Reduce" from Facebook, based in own fork of Hadoop. The current Hadoop implementation 
+		of the MapReduce technique uses a single job tracker, which causes scaling issues for very large data sets. 
+		The Apache Hadoop developers have been creating their own next-generation MapReduce, called YARN, which Facebook 
+		engineers looked at but discounted because of the highly-customised nature of the company's deployment of Hadoop and HDFS.
+		Corona, like YARN, spawns multiple job trackers (one for each job, in Corona's case). 
+	</td>
+	<td width="20%"><a href="https://github.com/facebookarchive/hadoop-20/tree/master/src/contrib/corona">1. Corona on Github</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Twill</td>
+	<td>
+		Twill is an abstraction over Apache Hadoop® YARN that reduces the complexity of developing distributed applications, 
+		allowing developers to focus more on their business logic. Twill uses a simple thread-based model that Java 
+		programmers will find familiar. YARN can be viewed as a compute fabric of a cluster, which means YARN applications 
+		like Twill will run on any Hadoop 2 cluster.<br>
+		YARN is an open source application that allows the Hadoop cluster to turn into a collection of virtual machines. 
+		Weave, developed by Continuuity and initially housed on Github, is a complementary open source application that uses 
+		a programming model similar to Java threads, making it easy to write distributed applications. In order to remove 
+		a conflict with a similarly named project on Apache, called "Weaver," Weave's name changed to Twill when it moved to Apache incubation.<br>
+		Twill functions as a scaled-out proxy. Twill is a middleware layer in between YARN and any application on YARN. 
+		When you develop a Twill app, Twill handles APIs in YARN that resemble a multi-threaded application familiar to Java. 
+		It is very easy to build multi-processed distributed applications in Twill.
+	</td>
+	<td width="20%"><a href="https://incubator.apache.org/projects/twill.html">1. Apache Twill Incubator</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Damballa Parkour</td>
+	<td>
+		Library for develop MapReduce programs using the LISP like language Clojure. Parkour aims to provide deep Clojure 
+		integration for Hadoop.  Programs using Parkour are normal Clojure programs, using standard Clojure functions 
+		instead of new framework abstractions.  Programs using Parkour are also full Hadoop programs, with complete 
+		access to absolutely everything possible in raw Java Hadoop MapReduce.
+	</td>
+	<td width="20%"><a href="https://github.com/damballa/parkour">1. Parkour GitHub Project</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Hama</td>
+	<td>
+		Apache Top-Level open source project, allowing you to do advanced analytics beyond MapReduce. Many data 
+		analysis techniques such as machine learning and graph algorithms require iterative computations, 
+		this is where Bulk Synchronous Parallel model can be more effective than "plain" MapReduce.
+	</td>
+	<td width="20%"><a href="http://hama.apache.org/">1. Hama site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Datasalt Pangool</td>
+	<td>
+		A new MapReduce paradigm. A new API for MR jobs, in higher level than Java.
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Tez</td>
+	<td>
+		Tez is a proposal to develop a generic application which can be used to process complex data-processing 
+		task DAGs and runs natively on Apache Hadoop YARN. Tez generalizes the MapReduce paradigm to a more 
+		powerful framework based on expressing computations as a dataflow graph. Tez is not meant directly for 
+		end-users – in fact it enables developers to build end-user applications with much better performance 
+		and flexibility. Hadoop has traditionally been a batch-processing platform for large amounts of data. 
+		However, there are a lot of use cases for near-real-time performance of query processing. There are also 
+		several workloads, such as Machine Learning, which do not fit will into the MapReduce paradigm. Tez helps 
+		Hadoop address these use cases. Tez framework constitutes part of Stinger initiative (a low latency 
+		based SQL type query interface for Hadoop based on Hive).
+	</td>
+	<td width="20%"><a href="http://incubator.apache.org/projects/tez.html">1. Apache Tez Incubator</a>
+		<br> <a href="http://hortonworks.com/hadoop/tez/">2. Hortonworks Apache Tez page</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache DataFu</td>
+	<td>
+		DataFu provides a collection of Hadoop MapReduce jobs and functions in higher level languages based 
+		on it to perform data analysis. It provides functions for common statistics tasks (e.g. quantiles, 
+		sampling), PageRank, stream sessionization, and set and bag operations. DataFu also provides Hadoop 
+		jobs for incremental data processing in MapReduce. DataFu is a collection of Pig UDFs (including PageRank, 
+		sessionization, set operations, sampling, and much more) that were originally developed at LinkedIn.
+	</td>
+	<td width="20%"><a href="http://incubator.apache.org/projects/datafu.html">1. DataFu Apache Incubator</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Pydoop</td>
+	<td>
+		Pydoop is a Python MapReduce and HDFS API for Hadoop, built upon the C++
+		Pipes and the C libhdfs APIs, that allows to write full-fledged  MapReduce 
+		applications with HDFS access. Pydoop has several advantages over Hadoop’s built-in 
+		solutions for Python programming, i.e., Hadoop Streaming and Jython: being a CPython 
+		package, it allows you to access all standard library and third party modules, 
+		some of which may not be available.
+	</td>
+	<td width="20%"><a href="http://pydoop.sourceforge.net/docs/">1. SF Pydoop site</a>
+		<br> <a href="https://github.com/crs4/pydoop">2. Pydoop GitHub Project</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Kangaroo</td>
+	<td>
+		Open-source project from Conductor for writing MapReduce jobs consuming data from Kafka. 
+		The introductory post explains Conductor’s use case—loading data from Kafka to HBase 
+		by way of a MapReduce job using the HFileOutputFormat. Unlike other solutions 
+		which are limited to a single InputSplit per Kafka partition, Kangaroo can launch 
+		multiple consumers at different offsets in the stream of a single partition for 
+		increased throughput and parallelism.
+	</td>
+	<td width="20%"><a href="http://www.conductor.com/nightlight/data-stream-processing-bulk-kafka-hadoop/">1. Kangaroo Introduction</a>
+		<br> <a href="https://github.com/Conductor/kangaroo">2. Kangaroo GitHub Project</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">TinkerPop</td>
+	<td>
+		Graph computing framework written in Java. Provides a core API that graph system vendors can implement. 
+		There are various types of graph systems including in-memory graph libraries, OLTP graph databases, 
+		and OLAP graph processors. Once the core interfaces are implemented, the underlying graph system 
+		can be queried using the graph traversal language Gremlin and processed with TinkerPop-enabled 
+		algorithms. For many, TinkerPop is seen as the JDBC of the graph computing community.
+	</td>
+	<td width="20%"><a href="https://wiki.apache.org/incubator/TinkerPopProposal">1. Apache Tinkerpop Proposal</a>
+		<br> <a href="http://www.tinkerpop.com/">2. TinkerPop site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Pachyderm MapReduce</td>
+	<td>
+		Pachyderm is a completely new MapReduce engine built on top Docker and CoreOS. 
+		In Pachyderm MapReduce (PMR) a job is an HTTP server inside a Docker container 
+		(a microservice). You give Pachyderm a Docker image and it will automatically 
+		distribute it throughout the cluster next to your data. Data is POSTed to 
+		the container over HTTP and the results are stored back in the file system. 
+		You can implement the web server in any language you want and pull in any library.
+		Pachyderm also creates a DAG for all the jobs in the system and their dependencies 
+		and it automatically schedules the pipeline such that each job isn’t run until it’s 
+		dependencies have completed. Everything in Pachyderm “speaks in diffs” so it knows 
+		exactly which data has changed and which subsets of the pipeline need to be rerun.
+		CoreOS is an open source lightweight operating system based on Chrome OS, actually
+		CoreOS is a fork of Chrome OS. CoreOS provides only the minimal functionality 
+		required for deploying applications inside software containers, together with 
+		built-in mechanisms for service discovery and configuration sharing
+	</td>
+	<td width="20%"><a href="http://www.pachyderm.io/">1. Pachyderm site</a>
+		<br> <a href="https://medium.com/pachyderm-data/lets-build-a-modern-hadoop-4fc160f8d74f">2. Pachyderm introduction article</a>
+	</td>
+	</tr>
 
 <!---------------------------->
 <!-- NoSQL ecosystem        -->
 <!---------------------------->
-
 <tr>
 <th colspan="3">NoSQL Databases</th>
 </tr>
+
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Column Data Model</th>
 </tr>
-<tr>
-<td width="20%">Apache HBase</td>
-<td>Google BigTable Inspired. Non-relational distributed database. Ramdom, real-time r/w operations in column-oriented very large tables (BDDB: Big Data Data Base). It’s the backing system for MR jobs outputs. It’s the Hadoop database.  It’s for backing Hadoop MapReduce jobs with Apache HBase tables</td>
-<td width="20%"><a href="https://hbase.apache.org/">1. Apache HBase Home</a>
-<br> <a href="https://github.com/apache/hbase">2. Mirror of HBase on Github</a></td>
-</tr>
-<tr>
-<td width="20%">Apache Cassandra</td>
-<td>Distributed Non-SQL DBMS, it’s a BDDB. MR can retrieve data from Cassandra. This BDDB can run without HDFS, or on-top of HDFS (DataStax fork of Cassandra).  HBase and its required supporting systems are derived from what is known of the original Google BigTable and Google File System designs (as known from the Google File System paper Google published in 2003, and the BigTable paper published in 2006). Cassandra on the other hand is a recent open source fork of a standalone database system initially coded by Facebook, which while implementing the BigTable data model, uses a system inspired by Amazon’s Dynamo for storing data (in fact much of the initial development work on Cassandra was performed by two Dynamo engineers recruited to Facebook from Amazon).</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">Hypertable</td>
-<td>Database system inspired by publications on the design of Google's BigTable. The project is based on experience of engineers who were solving large-scale data-intensive tasks for many years. Hypertable runs on top of a distributed file system such as the Apache Hadoop DFS, GlusterFS, or the Kosmos File System (KFS). It is written almost entirely in C++. Sposored by Baidu the Chinese search engine.</td>
-<td width="20%">TODO</td>
-</tr>
-<tr>
-<td width="20%">Apache Accumulo</td>
-<td>Distributed key/value store is a robust, scalable, high performance data storage and retrieval system. Apache Accumulo is based on Google's BigTable design and is built on top of Apache Hadoop, Zookeeper, and Thrift.  Accumulo is software created by the NSA with security features.</td>
-<td width="20%"><a href="https://accumulo.apache.org/">1. Apache Accumulo Home</a></td>
-</tr>
-<tr>
-<td width="20%">Apache Kudu</td>
-<td>Distributed, columnar, relational data store optimized for analytical use cases requiring very fast reads with competitive write speeds.
-  <ul>
-    <li>Relational data model (tables) with strongly-typed columns and a fast, online alter table operation.</li>
-    <li>Scale-out and sharded with support for partitioning based on key ranges and/or hashing.</li>
-    <li>Fault-tolerant and consistent due to its implementation of Raft consensus.</li>
-    <li>Supported by Apache Impala and Apache Drill, enabling fast SQL reads and writes through those systems.</li>
-    <li>Integrates with MapReduce and Spark.</li>
-    <li>Additionally provides "NoSQL" APIs in Java, Python, and C++.</li>
-  </ul>
-<td width="20%"><a href="http://getkudu.io/">1. Apache Kudu Home</a><br>
-  <a href="http://github.com/cloudera/kudu">2. Kudu on Github</a><br>
-  <a href="http://getkudu.io/kudu.pdf">3. Kudu technical whitepaper (pdf)<a></td>
-</tr>
+
+	<tr>
+	<td width="20%">Apache HBase</td>
+	<td>
+		Google BigTable Inspired. Non-relational distributed database. 
+		Ramdom, real-time r/w operations in column-oriented very large 
+		tables (BDDB: Big Data Data Base). It’s the backing system for 
+		MR jobs outputs. It’s the Hadoop database.  It’s for backing 
+		Hadoop MapReduce jobs with Apache HBase tables
+	</td>
+	<td width="20%"><a href="https://hbase.apache.org/">1. Apache HBase Home</a>
+		<br> <a href="https://github.com/apache/hbase">2. Mirror of HBase on Github</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Cassandra</td>
+	<td>
+		Distributed Non-SQL DBMS, it’s a BDDB. MR can retrieve data from Cassandra. 
+		This BDDB can run without HDFS, or on-top of HDFS (DataStax fork of Cassandra).  
+		HBase and its required supporting systems are derived from what is known of 
+		the original Google BigTable and Google File System designs (as known from the 
+		Google File System paper Google published in 2003, and the BigTable paper published 
+		in 2006). Cassandra on the other hand is a recent open source fork of a standalone 
+		database system initially coded by Facebook, which while implementing the BigTable 
+		data model, uses a system inspired by Amazon’s Dynamo for storing data (in fact 
+		much of the initial development work on Cassandra was performed by two Dynamo 
+		engineers recruited to Facebook from Amazon).
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Hypertable</td>
+	<td>
+		Database system inspired by publications on the design of Google's 
+		BigTable. The project is based on experience of engineers who were 
+		solving large-scale data-intensive tasks for many years. Hypertable 
+		runs on top of a distributed file system such as the Apache Hadoop DFS, 
+		GlusterFS, or the Kosmos File System (KFS). It is written almost entirely 
+		in C++. Sposored by Baidu the Chinese search engine.
+	</td>
+	<td width="20%">TODO</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Accumulo</td>
+	<td>
+		Distributed key/value store is a robust, scalable, high performance 
+		data storage and retrieval system. Apache Accumulo is based on Google's 
+		BigTable design and is built on top of Apache Hadoop, Zookeeper, and Thrift. 
+		Accumulo is software created by the NSA with security features.
+	</td>
+	<td width="20%"><a href="https://accumulo.apache.org/">1. Apache Accumulo Home</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Kudu</td>
+	<td>
+		Distributed, columnar, relational data store optimized for analytical use cases requiring 
+		very fast reads with competitive write speeds.
+	  	<ul>
+	  	  <li>Relational data model (tables) with strongly-typed columns and a fast, online alter table operation.</li>
+	  	  <li>Scale-out and sharded with support for partitioning based on key ranges and/or hashing.</li>
+	  	  <li>Fault-tolerant and consistent due to its implementation of Raft consensus.</li>
+	  	  <li>Supported by Apache Impala and Apache Drill, enabling fast SQL reads and writes through those systems.</li>
+	  	  <li>Integrates with MapReduce and Spark.</li>
+	  	  <li>Additionally provides "NoSQL" APIs in Java, Python, and C++.</li>
+	  	</ul>
+	</td>
+	<td width="20%"><a href="http://getkudu.io/">1. Apache Kudu Home</a><br>
+		<a href="http://github.com/cloudera/kudu">2. Kudu on Github</a><br>
+		<a href="http://getkudu.io/kudu.pdf">3. Kudu technical whitepaper (pdf)<a>
+	</td>
+	</tr>
+
 <tr>
 <th colspan="3" style="background-color:#0099FF;">Document Data Model</th>
 </tr>
-<tr>
-<td width="20%">MongoDB</td>
-<td>Document-oriented database system. It is part of the NoSQL family of database systems. Instead of storing data in tables as is done in a "classical" relational database, MongoDB stores structured data as JSON-like documents</td>
-<td width="20%"><a href="http://www.mongodb.org/">1. Mongodb site</a></td>
-</tr>
+
+	<tr>
+	<td width="20%">MongoDB</td>
+	<td>
+		Document-oriented database system. It is part of the NoSQL family of 
+		database systems. Instead of storing data in tables as is done in a "classical" 
+		relational database, MongoDB stores structured data as JSON-like documents
+	</td>
+	<td width="20%"><a href="http://www.mongodb.org/">1. Mongodb site</a>
+	</td>
+	</tr>
+
 <tr>
 <td width="20%">RethinkDB</td>
 <td>RethinkDB is built to store JSON documents, and scale to multiple machines with very little effort. It has a pleasant query language that supports really useful queries like table joins and group by, and is easy to setup and learn.</td>
 <td width="20%"><a href="http://www.rethinkdb.com/">1. RethinkDB site</a></td>
 </tr>
+
 <tr>
 <td width="20%">ArangoDB</td>
 <td>An open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient sql-like query language or JavaScript extensions.</td>
