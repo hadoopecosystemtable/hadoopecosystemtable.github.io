@@ -298,6 +298,42 @@
 	</tr>
 	
 	<tr>
+	<td width="20%">Apache Storm</td>
+	<td>
+		Storm is a complex event processor (CEP) and distributed computation 
+		framework written predominantly in the Clojure programming language. 
+		Is a distributed real-time computation system for processing fast, 
+		large streams of data. Storm is an architecture based on master-workers 
+		paradigma. So a Storm cluster mainly consists of a master and worker 
+		nodes, with coordination done by Zookeeper. <br>
+		Storm makes use of zeromq (0mq, zeromq), an advanced, embeddable 
+		networking library.  It provides a message queue, but unlike 
+		message-oriented middleware (MOM), a 0MQ system can run without 
+		a dedicated message broker. The library is designed to have a 
+		familiar socket-style API.<br>
+		Originally created by Nathan Marz and team at BackType, the 
+		project was open sourced after being acquired by Twitter. Storm 
+		was initially developed and deployed at BackType in 2011. After 
+		7 months of development BackType was acquired by Twitter in July 
+		2011. Storm was open sourced in September 2011. <br>
+		Hortonworks is developing a Storm-on-YARN version and plans 
+		finish the base-level integration in 2013 Q4. This is the plan 
+		from Hortonworks. Yahoo/Hortonworks  also plans to move Storm-on-YARN 
+		code from github.com/yahoo/storm-yarn to be a subproject of 
+		Apache Storm project in the near future.<br>
+		Twitter has recently released a Hadoop-Storm Hybrid called 
+		“Summingbird.” Summingbird fuses the two frameworks into one, 
+		allowing for developers to use Storm for short-term processing 
+		and Hadoop for deep data dives,. a system that aims to mitigate 
+		the tradeoffs between batch processing and stream processing by 
+		combining them into a hybrid system.
+	</td>
+	<td width="20%"><a href="http://storm-project.net/">1. Storm Project/</a> 
+		<br> <a href="github.com/yahoo/storm-yarn">2. Storm-on-YARN</a>
+	</td>
+	</tr>
+
+	<tr>
 	<td width="20%">Apache Flink</td>
 	<td>
 		Apache Flink (formerly called Stratosphere) features powerful programming abstractions in Java and Scala, 
@@ -311,6 +347,35 @@
 	</td>
 	<td width="20%"><a href="http://flink.incubator.apache.org/">1. Apache Flink incubator page</a>
 		<br><a href="http://stratosphere.eu/">2. Stratosphere site</a>
+	</td>
+	</tr>
+
+	<tr>
+	<td width="20%">Apache Apex</td>
+	<td>
+		Apache Apex is an enterprise grade Apache YARN based big data-in-motion platform that 
+		unifies stream processing as well as batch processing. It processes big data 
+		in-motion in a highly scalable, highly performant, fault tolerant, stateful, 
+		secure, distributed, and an easily operable way. It provides a simple API that 
+		enables users to write or re-use generic Java code, thereby lowering the expertise 
+		needed to write big data applications. <p>
+		The Apache Apex platform is supplemented by Apache Apex-Malhar, 
+		which is a library of operators that implement common business logic 
+		functions needed by customers who want to quickly develop applications. 
+		These operators provide access to HDFS, S3, NFS, FTP, and other file systems; 
+		Kafka, ActiveMQ, RabbitMQ, JMS, and other message systems; MySql, Cassandra, 
+		MongoDB, Redis, HBase, CouchDB and other databases along with JDBC connectors. 
+		The library also includes a host of other common business logic patterns that 
+		help users to significantly reduce the time it takes to go into production. 
+		Ease of integration with all other big data technologies is one of the primary 
+		missions of Apache Apex-Malhar.<p>
+		Apex, available on GitHub, is the core technology upon which DataTorrent's 
+		commercial offering, DataTorrent RTS 3, along with other technology such as 
+		a data ingestion tool called dtIngest, are based.
+	</td>
+	<td width="20%"><a href="https://www.datatorrent.com/apex/">1. Apache Apex from DataTorrent</a>
+		<br><a href="http://apex.incubator.apache.org/">3. Apache Apex main page</a>
+		<br><a href="https://wiki.apache.org/incubator/ApexProposal">2. Apache Apex Proposal</a>
 	</td>
 	</tr>
 
@@ -1094,42 +1159,6 @@
 		Large scale log aggregator, and analytics.
 	</td>
 	<td width="20%">TODO</td>
-	</tr>
-
-	<tr>
-	<td width="20%">Apache Storm</td>
-	<td>
-		Storm is a complex event processor (CEP) and distributed computation 
-		framework written predominantly in the Clojure programming language. 
-		Is a distributed real-time computation system for processing fast, 
-		large streams of data. Storm is an architecture based on master-workers 
-		paradigma. So a Storm cluster mainly consists of a master and worker 
-		nodes, with coordination done by Zookeeper. <br>
-		Storm makes use of zeromq (0mq, zeromq), an advanced, embeddable 
-		networking library.  It provides a message queue, but unlike 
-		message-oriented middleware (MOM), a 0MQ system can run without 
-		a dedicated message broker. The library is designed to have a 
-		familiar socket-style API.<br>
-		Originally created by Nathan Marz and team at BackType, the 
-		project was open sourced after being acquired by Twitter. Storm 
-		was initially developed and deployed at BackType in 2011. After 
-		7 months of development BackType was acquired by Twitter in July 
-		2011. Storm was open sourced in September 2011. <br>
-		Hortonworks is developing a Storm-on-YARN version and plans 
-		finish the base-level integration in 2013 Q4. This is the plan 
-		from Hortonworks. Yahoo/Hortonworks  also plans to move Storm-on-YARN 
-		code from github.com/yahoo/storm-yarn to be a subproject of 
-		Apache Storm project in the near future.<br>
-		Twitter has recently released a Hadoop-Storm Hybrid called 
-		“Summingbird.” Summingbird fuses the two frameworks into one, 
-		allowing for developers to use Storm for short-term processing 
-		and Hadoop for deep data dives,. a system that aims to mitigate 
-		the tradeoffs between batch processing and stream processing by 
-		combining them into a hybrid system.
-	</td>
-	<td width="20%"><a href="http://storm-project.net/">1. Storm Project/</a> 
-		<br> <a href="github.com/yahoo/storm-yarn">2. Storm-on-YARN</a>
-	</td>
 	</tr>
 
 	<tr>
