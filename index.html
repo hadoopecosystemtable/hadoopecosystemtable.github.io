@@ -1505,7 +1505,7 @@
 	</tr>
 
 <!--                        -->
-<!-- Benchmarking tools     -->
+<!-- Benchmarking and QA tools     -->
 <!--                        -->
 <tr>
 <th colspan="3">Benchmarking</th>
@@ -1577,6 +1577,28 @@
 	</td>
 	<td width="20%">TODO</td>
 	</tr>
+
+	<tr>
+	<td width="20%">Apache Yetus</td>
+	<td>
+		To help maintain consistency over a large and disconnected set 
+		of committers, automated patch testing was added to Hadoop’s development process.
+		This automated patch testing (now included as part of Apache Yetus) 
+		works as follows: when a patch is uploaded to the bug tracking 
+		system an automated process downloads the patch, performs some 
+		static analysis, and runs the unit tests. These results are posted 
+		back to the bug tracker and alerts notify interested parties about 
+		the state of the patch.<p>
+		However The Apache Yetus project addresses much more than the traditional
+	       	patch testing, it's a better approach including a massive rewrite of 
+		the patch testing facility used in Hadoop.
+	</td>
+	<td width="20%"><a href="https://www.altiscale.com/blog/apache-yetus-faster-more-reliable-software-development/">1. Altiscale Blog Entry</a> 
+		<br> <a href="https://wiki.apache.org/incubator/YetusProposal">2. Apache Yetus Proposal</a>
+		<br> <a href="https://yetus.apache.org/">3. Apache Yetus Project site</a>
+	</td>
+	</tr>
+
 
 <tr>
 <th colspan="3">Security</th>
