@@ -437,6 +437,44 @@
 	</td>
 	</tr>
 
+    <tr>
+	<td width="20%">Apache REEF</td>
+	<td>
+		Apache REEF&trade; (Retainable Evaluator Execution Framework) is a  library for developing portable
+		applications for cluster resource managers such as Apache Hadoop&trade; YARN or Apache Mesos&trade;.
+		Apache REEF drastically simplifies development of those resource managers through the following features:
+
+		<ul>
+			<li>
+				Centralized Control Flow: Apache REEF turns the chaos of a distributed application into events in a 
+				single machine, the Job Driver. Events include container allocation, Task launch, completion and 
+				failure. For failures, Apache REEF makes every effort of making the actual `Exception` thrown by the 
+				Task available to the Driver.
+			</li>
+			<li>
+				Task runtime: Apache REEF provides a Task runtime called Evaluator. Evaluators are instantiated in 
+				every container of a REEF application. Evaluators can keep data in memory in between Tasks, which 
+				enables efficient pipelines on REEF.
+			</li>
+			<li>
+				Support for multiple resource managers: Apache REEF applications are portable to any supported resource 
+				manager with minimal effort. Further, new resource managers are easy to support in REEF.
+			</li> 
+         	<li>
+				 .NET and Java API: Apache REEF is the only API to write YARN or Mesos applications in .NET. Further, a 
+				 single REEF application is free to mix and match Tasks written for .NET or Java.
+			</li>
+        	<li>
+				Plugins: Apache REEF allows for plugins (called "Services") to augment its feature set without adding  
+				bloat to the core. REEF includes many Services, such as a name-based communications between Tasks 
+				MPI-inspired group communications (Broadcast, Reduce, Gather, ...) and data ingress.
+			</li>
+		</ul>
+	</td>
+	<td width="20%"><a href="https://reef.apache.org">1. Apache REEF Website</a>
+	</td>
+	</tr>
+
 	<tr>
 	<td width="20%">Apache Twill</td>
 	<td>
