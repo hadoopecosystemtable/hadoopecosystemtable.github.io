@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px;
 }
 
+
 h1 {
   font-size: 36px;
   font-weight: 700;
@@ -102,6 +103,11 @@ p {
 
 footer p {
   color: #f2f2f2;
+}
+
+::selection {
+  color: #0a043c;
+	background: #d3e0ea;
 }
 
 a {
@@ -279,6 +285,8 @@ Full-Width Styles
   top:0;
   right: 10px;
   z-index: 10;
+  font-family: Arial;
+  font-size: 15px;
   padding: 10px 50px 10px 10px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
@@ -286,6 +294,12 @@ Full-Width Styles
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+}
+
+#forkme_banner:hover {
+  -webkit-box-shadow: 0px 1px 3px #1a73e8;
+  -moz-box-shadow: 0px 1px 3px #1a73e8;
+  box-shadow: 0px 1px 3px #1a73e8;
 }
 
 #header_wrap {
@@ -304,6 +318,7 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
+  font-family: Arial;
   font-size: 32px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
@@ -314,6 +329,7 @@ Full-Width Styles
   font-size: 18px;
   font-weight: 300;
   background: none;
+  font-family: Arial;
   text-shadow: #111 0px 0px 10px;
 }
 
@@ -377,6 +393,7 @@ Small Device Styles
 *******************************************************************************/
 
 @media screen and (max-width: 480px) {
+  
   body {
     font-size:14px;
   }
